@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: 5e99d6be417d6694989803a166d9f3ab
+timeCreated: 1459861076
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Powerups_0
+    21300002: Powerups_1
+    21300004: Powerups_2
+    21300006: Powerups_3
+    21300008: Powerups_4
+    21300010: Powerups_5
+    21300012: Powerups_6
+    21300014: Powerups_7
+    21300016: Powerups_8
+    21300018: Powerups_9
+    21300020: Powerups_10
+    21300022: Powerups_11
+    21300024: Powerups_12
+    21300026: Powerups_13
+    21300028: Powerups_14
+    21300030: Powerups_15
+    21300032: Powerups_16
+    21300034: Powerups_17
+    21300036: Powerups_18
+    21300038: Powerups_19
+    21300040: Powerups_20
+    21300042: Powerups_21
+    21300044: Powerups_22
+    21300046: Powerups_23
+    21300048: Powerups_24
+    21300050: Powerups_25
+    21300052: Powerups_26
+    21300054: Powerups_27
+    21300056: Powerups_28
+    21300058: Powerups_29
+    21300060: Powerups_30
+    21300062: Powerups_31
+    21300064: Powerups_32
+    21300066: Powerups_33
+    21300068: Powerups_34
+    21300070: Powerups_35
+    21300072: Powerups_36
+    21300074: Powerups_37
+    21300076: Powerups_38
+    21300078: Powerups_39
+    21300080: Powerups_40
+    21300082: Powerups_41
+    21300084: Powerups_42
+    21300086: Powerups_43
+    21300088: Powerups_44
+    21300090: Powerups_45
+    21300092: Powerups_46
+    21300094: Powerups_47
+    21300096: Powerups_48
+    21300098: Powerups_49
+    21300100: Powerups_50
+    21300102: Powerups_51
+    21300104: Powerups_52
+    21300106: Powerups_53
+    21300108: Powerups_54
+    21300110: Powerups_55
+    21300112: Powerups_56
+    21300114: Powerups_57
+    21300116: Powerups_58
+    21300118: Powerups_59
+    21300120: Powerups_60
+    21300122: Powerups_61
+    21300124: Powerups_62
+    21300126: Powerups_63
+    21300128: Powerups_64
+    21300130: Powerups_65
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Powerups_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 161
+        width: 62
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 161
+        width: 63
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 161
+        width: 54
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 161
+        width: 54
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 161
+        width: 62
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 161
+        width: 54
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 161
+        width: 61
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 36}
+        - {x: -30.5, y: 36}
+        - {x: -30.5, y: 5}
+        - {x: -24.5, y: 0}
+        - {x: 30.5, y: 0}
+        - {x: 30.5, y: 21}
+        - {x: 22.5, y: 30}
+    - name: Powerups_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 125
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 125
+        width: 12
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 125
+        width: 54
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 125
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 125
+        width: 28
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 125
+        width: 32
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 125
+        width: 17
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 125
+        width: 32
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_15
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 125
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 125
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 125
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 125
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 125
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_20
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 125
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 125
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 125
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 125
+        width: 28
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 97
+        width: 28
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 97
+        width: 31
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_27
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 97
+        width: 31
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_28
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 97
+        width: 31
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_29
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 97
+        width: 31
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_30
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 97
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_31
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 97
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 97
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 97
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_34
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 97
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_35
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 97
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_36
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 97
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_37
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 97
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 43
+        width: 24
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_39
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 62
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 62
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 62
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 62
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_43
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 62
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_44
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 62
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_45
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 43
+        width: 28
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_46
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 43
+        width: 28
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_47
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 43
+        width: 28
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_48
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 43
+        width: 28
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_49
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 43
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_50
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 43
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_51
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 43
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_52
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 43
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_53
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 43
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_54
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 43
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 43
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 43
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_57
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 43
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_58
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 43
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_59
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 43
+        width: 28
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_60
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 43
+        width: 28
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_61
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 15
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 15
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_63
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 15
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_64
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 15
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Powerups_65
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 125
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

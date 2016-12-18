@@ -1,0 +1,628 @@
+fileFormatVersion: 2
+guid: 97f41f40a214c1a488a884ef5a864e39
+timeCreated: 1460224916
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bossk_Front_Walking_0
+    21300002: Bossk_Front_Walking_1
+    21300004: Bossk_Front_Walking_2
+    21300006: Bossk_Front_Walking_3
+    21300008: Bossk_FrontSide_Walking_0
+    21300010: Bossk_FrontSide_Walking_1
+    21300012: Bossk_FrontSide_Walking_2
+    21300014: Bossk_FrontSide_Walking_3
+    21300016: Bossk_Side_Walking_0
+    21300018: Bossk_Side_Walking_1
+    21300020: Bossk_Side_Walking_2
+    21300022: Bossk_Side_Walking_3
+    21300024: Bossk_BackSide_Walking_0
+    21300026: Bossk_BackSide_Walking_1
+    21300028: Bossk_BackSide_Walking_2
+    21300030: Bossk_BackSide_Walking_3
+    21300032: Bossk_Back_Walking_0
+    21300034: Bossk_Back_Walking_1
+    21300036: Bossk_Back_Walking_2
+    21300038: Bossk_Back_Walking_3
+    21300040: Bossk_Fire_0
+    21300042: Bossk_Death_0
+    21300044: Bossk_Death_1
+    21300046: Bossk_Death_2
+    21300048: Bossk_Death_3
+    21300050: Bossk_Death_4
+    21300052: Bossk_Death_5
+    21300054: Bossk_Death_6
+    21300056: Bossk_Death_7
+    21300058: Bossk_Front_Idle_0
+    21300060: Bossk_FrontSide_Idle_0
+    21300062: Bossk_Side_Idle_0
+    21300064: Bossk_BackSide_Idle_0
+    21300066: Bossk_Back_Idle_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bossk_Front_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 31
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Front_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 30
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Front_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 95
+        width: 30
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Front_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 95
+        width: 30
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_FrontSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 95
+        width: 42
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 97}
+        - {x: -21, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 79}
+        - {x: -8, y: 97}
+    - name: Bossk_FrontSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 95
+        width: 44
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 96}
+        - {x: -22, y: 55}
+        - {x: 0, y: 0}
+        - {x: 22, y: 0}
+        - {x: 22, y: 89}
+        - {x: 7, y: 96}
+    - name: Bossk_FrontSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 95
+        width: 53
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 0}
+        - {x: 26.5, y: 31}
+        - {x: 14.5, y: 78}
+        - {x: -5.5, y: 93}
+        - {x: -26.5, y: 93}
+        - {x: -26.5, y: 19}
+        - {x: -23.5, y: 0}
+        - {x: -4.5, y: 0}
+        - {x: -1.5, y: 1}
+        - {x: 1.5, y: 14}
+        - {x: 10.5, y: 0}
+    - name: Bossk_FrontSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 95
+        width: 46
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 94}
+        - {x: -23, y: 36}
+        - {x: -17, y: 0}
+        - {x: 14, y: 0}
+        - {x: 23, y: 4}
+        - {x: 23, y: 80}
+        - {x: -10, y: 94}
+    - name: Bossk_Side_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 95
+        width: 57
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 92}
+        - {x: -26.5, y: 92}
+        - {x: -28.5, y: 91}
+        - {x: -28.5, y: 30}
+        - {x: -26.5, y: 0}
+        - {x: 28.5, y: 0}
+        - {x: 28.5, y: 33}
+        - {x: 11.5, y: 82}
+    - name: Bossk_Side_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 95
+        width: 51
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 87}
+        - {x: -3.5, y: 94}
+        - {x: -25.5, y: 94}
+        - {x: -25.5, y: 10}
+        - {x: -23.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 25.5, y: 4}
+        - {x: 25.5, y: 48}
+        - {x: 21.5, y: 75}
+    - name: Bossk_Side_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 95
+        width: 55
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 89}
+        - {x: -27.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 27.5, y: 65}
+        - {x: -5.5, y: 89}
+    - name: Bossk_Side_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 95
+        width: 48
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 92}
+        - {x: -24, y: 39}
+        - {x: -16, y: 0}
+        - {x: 24, y: 0}
+        - {x: 24, y: 74}
+        - {x: 19, y: 92}
+    - name: Bossk_BackSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 94
+        width: 46
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 91}
+        - {x: -23, y: 0}
+        - {x: -9, y: 0}
+        - {x: -6, y: 3}
+        - {x: 3, y: 0}
+        - {x: 23, y: 0}
+        - {x: 23, y: 56}
+        - {x: -3, y: 91}
+    - name: Bossk_BackSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 94
+        width: 39
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 92}
+        - {x: -19.5, y: 0}
+        - {x: 8.5, y: 0}
+        - {x: 19.5, y: 5}
+        - {x: 19.5, y: 83}
+        - {x: 3.5, y: 92}
+    - name: Bossk_BackSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 94
+        width: 40
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 90}
+        - {x: -20, y: 0}
+        - {x: 20, y: 0}
+        - {x: 20, y: 60}
+        - {x: 6, y: 90}
+    - name: Bossk_BackSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 93
+        width: 39
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 90}
+        - {x: -19.5, y: 12}
+        - {x: -6.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 19.5, y: 18}
+        - {x: 19.5, y: 69}
+        - {x: 7.5, y: 90}
+    - name: Bossk_Back_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 93
+        width: 31
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Back_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 93
+        width: 30
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Back_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 93
+        width: 30
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Back_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 93
+        width: 30
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 43
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 71}
+        - {x: -21.5, y: 50}
+        - {x: -21.5, y: 4}
+        - {x: 3.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 21.5, y: 16}
+        - {x: 20.5, y: 22}
+        - {x: 21.5, y: 57}
+        - {x: 8.5, y: 71}
+    - name: Bossk_Death_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 42
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 76}
+        - {x: -21, y: 61}
+        - {x: -21, y: 4}
+        - {x: -5, y: 6}
+        - {x: -2, y: 12}
+        - {x: 4, y: 3}
+        - {x: 9, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 56}
+        - {x: 14, y: 76}
+    - name: Bossk_Death_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3
+        width: 42
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 70}
+        - {x: -21, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 70}
+    - name: Bossk_Death_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3
+        width: 43
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 72}
+        - {x: -21.5, y: 72}
+        - {x: -21.5, y: 4}
+        - {x: -5.5, y: 5}
+        - {x: -4.5, y: 8}
+        - {x: 2.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 21.5, y: 62}
+        - {x: 20.5, y: 68}
+    - name: Bossk_Death_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 42
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 61}
+        - {x: -21, y: 0}
+        - {x: 16, y: 0}
+        - {x: 21, y: 2}
+        - {x: 21, y: 61}
+    - name: Bossk_Death_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2
+        width: 63
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 43}
+        - {x: -31.5, y: 1}
+        - {x: -30.5, y: 0}
+        - {x: 12.5, y: 0}
+        - {x: 22.5, y: 3}
+        - {x: 31.5, y: 18}
+        - {x: 31.5, y: 35}
+        - {x: 26.5, y: 43}
+    - name: Bossk_Death_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2
+        width: 73
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 34}
+        - {x: -36.5, y: 24}
+        - {x: -36.5, y: 15}
+        - {x: -26.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 28.5, y: 1}
+        - {x: 36.5, y: 15}
+        - {x: 36.5, y: 34}
+    - name: Bossk_Death_6
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2
+        width: 68
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Death_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 2
+        width: 65
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_Front_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2
+        width: 30
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bossk_FrontSide_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2
+        width: 39
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 89}
+        - {x: -19.5, y: 32}
+        - {x: -14.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 19.5, y: 7}
+        - {x: 19.5, y: 82}
+        - {x: 2.5, y: 89}
+    - name: Bossk_Side_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2
+        width: 45
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 86}
+        - {x: -22.5, y: 86}
+        - {x: -22.5, y: 18}
+        - {x: -20.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 22.5, y: 1}
+        - {x: 22.5, y: 77}
+    - name: Bossk_BackSide_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2
+        width: 42
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 18}
+        - {x: 2, y: 12}
+        - {x: -2, y: 3}
+        - {x: -2, y: 1}
+        - {x: -1, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 68}
+        - {x: 5, y: 84}
+        - {x: -21, y: 84}
+        - {x: -21, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 8}
+        - {x: 0, y: 14}
+    - name: Bossk_Back_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2
+        width: 31
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Probe Droid
+  m_Controller: {fileID: 9100000, guid: 29ff05d1a9eb4684f92755fd02dbced9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ce0149f3b996d4b4ab18b09c6a4c91a7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6036dd10ea2a2ea43bf330931669e0ee, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a87e7cc844c6fdc4bbd93992ee5c033c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fcf142664cb5ef444af1ea0edda2410a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: aeb33a374583d1643904095a7452e667, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1a08565d70697d4499f67817f53d2b49, type: 2}

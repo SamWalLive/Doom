@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: caaea4dd107fdf249883e88d3e9c8117
+timeCreated: 1459861277
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spider Mastermind_0
+    21300002: Spider Mastermind_1
+    21300004: Spider Mastermind_2
+    21300006: Spider Mastermind_3
+    21300008: Spider Mastermind_4
+    21300010: Spider Mastermind_5
+    21300012: Spider Mastermind_6
+    21300014: Spider Mastermind_7
+    21300016: Spider Mastermind_8
+    21300018: Spider Mastermind_9
+    21300020: Spider Mastermind_10
+    21300022: Spider Mastermind_11
+    21300024: Spider Mastermind_12
+    21300026: Spider Mastermind_13
+    21300028: Spider Mastermind_14
+    21300030: Spider Mastermind_15
+    21300032: Spider Mastermind_16
+    21300034: Spider Mastermind_17
+    21300036: Spider Mastermind_18
+    21300038: Spider Mastermind_19
+    21300040: Spider Mastermind_20
+    21300042: Spider Mastermind_21
+    21300044: Spider Mastermind_22
+    21300046: Spider Mastermind_23
+    21300048: Spider Mastermind_24
+    21300050: Spider Mastermind_25
+    21300052: Spider Mastermind_26
+    21300054: Spider Mastermind_27
+    21300056: Spider Mastermind_28
+    21300058: Spider Mastermind_29
+    21300060: Spider Mastermind_30
+    21300062: Spider Mastermind_31
+    21300064: Spider Mastermind_32
+    21300066: Spider Mastermind_33
+    21300068: Spider Mastermind_34
+    21300070: Spider Mastermind_35
+    21300072: Spider Mastermind_36
+    21300074: Spider Mastermind_37
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Spider Mastermind_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 319
+        width: 195
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.866665, y: 34.911118}
+        - {x: -49.866665, y: -0.08888245}
+        - {x: 50.133335, y: -0.08888245}
+        - {x: 50.133335, y: 10.911118}
+        - {x: 39.133335, y: 47.911118}
+        - {x: 31.133335, y: 56.911118}
+        - {x: -36.866665, y: 56.911118}
+        - {x: -40.866665, y: 55.911118}
+    - name: Spider Mastermind_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 319
+        width: 217
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.444435, y: 15.900009}
+        - {x: -36.444435, y: -0.099990845}
+        - {x: 56.555565, y: -0.099990845}
+        - {x: 56.555565, y: 31.90001}
+        - {x: 52.555565, y: 55.90001}
+        - {x: -36.444435, y: 55.90001}
+        - {x: -55.444435, y: 36.90001}
+    - name: Spider Mastermind_2
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 319
+        width: 193
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.19998, y: 14.644455}
+        - {x: -49.19998, y: -0.35554504}
+        - {x: 50.80002, y: -0.35554504}
+        - {x: 50.80002, y: 22.644455}
+        - {x: 44.80002, y: 55.644455}
+        - {x: -27.199982, y: 55.644455}
+        - {x: -42.19998, y: 40.644455}
+    - name: Spider Mastermind_3
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 319
+        width: 195
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.122192, y: 56.911118}
+        - {x: -24.122192, y: 48.911118}
+        - {x: -21.122192, y: 45.911118}
+        - {x: -23.122192, y: 42.911118}
+        - {x: -22.122192, y: 42.911118}
+        - {x: -23.122192, y: 44.911118}
+        - {x: -28.122192, y: 48.911118}
+        - {x: -35.122192, y: 51.911118}
+        - {x: -50.122192, y: 13.911118}
+        - {x: -50.122192, y: -0.08888245}
+        - {x: 50.877808, y: -0.08888245}
+        - {x: 50.877808, y: 32.911118}
+        - {x: 42.877808, y: 56.911118}
+    - name: Spider Mastermind_4
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 319
+        width: 217
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.06665, y: 55.90001}
+        - {x: -55.06665, y: 27.90001}
+        - {x: -55.06665, y: -0.099990845}
+        - {x: 31.93335, y: -0.099990845}
+        - {x: 56.93335, y: 5.900009}
+        - {x: 56.93335, y: 33.90001}
+        - {x: 39.93335, y: 55.90001}
+    - name: Spider Mastermind_5
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 319
+        width: 193
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.63336, y: 32.90001}
+        - {x: 47.63336, y: 45.90001}
+        - {x: 32.63336, y: 55.90001}
+        - {x: -31.366638, y: 55.90001}
+        - {x: -41.36664, y: 53.90001}
+        - {x: -49.36664, y: 14.900009}
+        - {x: -49.36664, y: -0.099990845}
+        - {x: 49.63336, y: -0.099990845}
+    - name: Spider Mastermind_6
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 325
+        width: 194
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.35553, y: 54.955566}
+        - {x: -43.35553, y: 47.955566}
+        - {x: -49.35553, y: 13.955566}
+        - {x: -49.35553, y: -0.044433594}
+        - {x: 50.64447, y: -0.044433594}
+        - {x: 50.64447, y: 11.955566}
+        - {x: 28.64447, y: 54.955566}
+    - name: Spider Mastermind_7
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 323
+        width: 196
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.966736, y: 54.93335}
+        - {x: -24.033264, y: 54.93335}
+        - {x: -39.033264, y: 50.93335}
+        - {x: -50.033264, y: 12.93335}
+        - {x: -50.033264, y: -0.06665039}
+        - {x: 50.966736, y: -0.06665039}
+        - {x: 50.966736, y: 14.93335}
+        - {x: 42.966736, y: 41.93335}
+    - name: Spider Mastermind_8
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 323
+        width: 197
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.533386, y: 55.944458}
+        - {x: -32.466614, y: 55.944458}
+        - {x: -50.466614, y: 32.944458}
+        - {x: -50.466614, y: 2.944458}
+        - {x: -39.466614, y: -0.055541992}
+        - {x: -35.466614, y: -0.055541992}
+        - {x: -28.466614, y: 3.944458}
+        - {x: 31.533386, y: 5.944458}
+        - {x: 33.533386, y: 15.944458}
+        - {x: 32.533386, y: 12.944458}
+        - {x: 33.533386, y: -0.055541992}
+        - {x: 51.533386, y: -0.055541992}
+        - {x: 51.533386, y: 14.944458}
+        - {x: 36.533386, y: 47.944458}
+    - name: Spider Mastermind_9
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 325
+        width: 181
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.85559, y: 25.944443}
+        - {x: 35.85559, y: 53.944443}
+        - {x: -34.14441, y: 53.944443}
+        - {x: -46.14441, y: 37.944443}
+        - {x: -46.14441, y: 32.944443}
+        - {x: -38.14441, y: 13.944443}
+        - {x: -29.14441, y: -0.05555725}
+        - {x: -17.14441, y: -0.05555725}
+        - {x: -11.144409, y: 2.9444427}
+        - {x: 2.8555908, y: -0.05555725}
+        - {x: 46.85559, y: -0.05555725}
+    - name: Spider Mastermind_10
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 325
+        width: 188
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.611084, y: 50.655563}
+        - {x: -47.611084, y: 37.655563}
+        - {x: -47.611084, y: 0.65556335}
+        - {x: -35.611084, y: -0.34443665}
+        - {x: 49.388916, y: -0.34443665}
+        - {x: 49.388916, y: 18.655563}
+        - {x: 38.388916, y: 50.655563}
+    - name: Spider Mastermind_11
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 325
+        width: 185
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.499878, y: -0.3888855}
+        - {x: 47.500122, y: -0.3888855}
+        - {x: 47.500122, y: 25.611115}
+        - {x: 44.500122, y: 44.611115}
+        - {x: 34.500122, y: 46.611115}
+        - {x: -35.499878, y: 46.611115}
+        - {x: -47.499878, y: 38.611115}
+    - name: Spider Mastermind_12
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 325
+        width: 184
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.92212, y: 27.055557}
+        - {x: -46.92212, y: 24.055557}
+        - {x: -46.92212, y: 0.05555725}
+        - {x: 48.07788, y: 0.05555725}
+        - {x: 48.07788, y: 20.055557}
+        - {x: 43.07788, y: 41.055557}
+        - {x: -26.92212, y: 41.055557}
+        - {x: -28.92212, y: 40.055557}
+    - name: Spider Mastermind_13
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 325
+        width: 187
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.855469, y: 39.03334}
+        - {x: -38.85547, y: 38.03334}
+        - {x: -47.85547, y: 22.03334}
+        - {x: -47.85547, y: 0.033340454}
+        - {x: 49.14453, y: 0.033340454}
+        - {x: 49.14453, y: 14.03334}
+        - {x: 37.14453, y: 39.03334}
+    - name: Spider Mastermind_14
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 325
+        width: 190
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.755493, y: 37.01111}
+        - {x: -48.755493, y: 0.011108398}
+        - {x: 49.244507, y: 0.011108398}
+        - {x: 49.244507, y: 37.01111}
+    - name: Spider Mastermind_15
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 325
+        width: 193
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.62207, y: 45.600006}
+        - {x: -49.62207, y: 30.600006}
+        - {x: -49.62207, y: -0.3999939}
+        - {x: 50.37793, y: -0.3999939}
+        - {x: 50.37793, y: 36.600006}
+        - {x: 40.37793, y: 45.600006}
+    - name: Spider Mastermind_16
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 325
+        width: 211
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.955444, y: 48.63333}
+        - {x: -50.955444, y: 43.63333}
+        - {x: -53.955444, y: 37.63333}
+        - {x: -53.955444, y: -0.3666687}
+        - {x: 54.044556, y: -0.3666687}
+        - {x: 54.044556, y: 46.63333}
+        - {x: 53.044556, y: 48.63333}
+    - name: Spider Mastermind_17
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 325
+        width: 215
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.411255, y: 59}
+        - {x: -42.588745, y: 59}
+        - {x: -54.588745, y: 51}
+        - {x: -54.588745, y: 6}
+        - {x: -53.588745, y: 5}
+        - {x: -52.588745, y: 5}
+        - {x: -51.588745, y: 0}
+        - {x: 56.411255, y: 0}
+        - {x: 56.411255, y: 51}
+        - {x: 48.411255, y: 55}
+    - name: Spider Mastermind_18
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 376
+        width: 26
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spider Mastermind_19
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 325
+        width: 185
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spider Mastermind_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 209
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 58.98889}
+        - {x: -42.5, y: 45.98889}
+        - {x: -53.5, y: 14.988892}
+        - {x: -53.5, y: -0.011108398}
+        - {x: -36.5, y: -0.011108398}
+        - {x: -24.5, y: 7.9888916}
+        - {x: 9.5, y: -0.011108398}
+        - {x: 53.5, y: -0.011108398}
+        - {x: 53.5, y: 17.988892}
+        - {x: 24.5, y: 58.98889}
+    - name: Spider Mastermind_21
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 170
+        width: 215
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.055565, y: 16.966675}
+        - {x: 18.055565, y: 15.966675}
+        - {x: 16.055565, y: 6.966675}
+        - {x: 30.055565, y: -0.033325195}
+        - {x: 56.055565, y: -0.033325195}
+        - {x: 56.055565, y: 11.966675}
+        - {x: 34.055565, y: 53.966675}
+        - {x: 31.055565, y: 54.966675}
+        - {x: -29.944435, y: 54.966675}
+        - {x: -54.944435, y: 35.966675}
+        - {x: -54.944435, y: -0.033325195}
+        - {x: -28.944435, y: -0.033325195}
+        - {x: 17.055565, y: 13.966675}
+        - {x: 19.055565, y: 17.966675}
+        - {x: 18.055565, y: 17.966675}
+    - name: Spider Mastermind_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 172
+        width: 209
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.333313, y: 58.022232}
+        - {x: -36.333313, y: 55.022232}
+        - {x: -53.333313, y: 16.022232}
+        - {x: -53.333313, y: 0.022232056}
+        - {x: 54.666687, y: 0.022232056}
+        - {x: 54.666687, y: 22.022232}
+        - {x: 24.666687, y: 58.022232}
+    - name: Spider Mastermind_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 172
+        width: 196
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.255524, y: 24.011124}
+        - {x: -50.255524, y: 0.011123657}
+        - {x: 50.744476, y: 0.011123657}
+        - {x: 50.744476, y: 24.011124}
+        - {x: 40.744476, y: 48.011124}
+        - {x: 31.744476, y: 57.011124}
+        - {x: -37.255524, y: 57.011124}
+        - {x: -43.255524, y: 56.011124}
+    - name: Spider Mastermind_24
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 172
+        width: 219
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.322205, y: 17.011124}
+        - {x: -50.322205, y: 12.011124}
+        - {x: -41.322205, y: 11.011124}
+        - {x: -34.322205, y: 20.011124}
+        - {x: -35.322205, y: 0.011123657}
+        - {x: 56.677795, y: 0.011123657}
+        - {x: 56.677795, y: 17.011124}
+        - {x: 43.677795, y: 53.011124}
+        - {x: 32.677795, y: 57.011124}
+        - {x: -12.322205, y: 57.011124}
+        - {x: -56.322205, y: 32.011124}
+    - name: Spider Mastermind_25
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 176
+        width: 215
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.43335, y: 57.055557}
+        - {x: 1.4333496, y: 57.055557}
+        - {x: -29.56665, y: 45.055557}
+        - {x: -54.56665, y: 18.055557}
+        - {x: -54.56665, y: 0.05555725}
+        - {x: 56.43335, y: 0.05555725}
+        - {x: 56.43335, y: 17.055557}
+        - {x: 40.43335, y: 51.055557}
+    - name: Spider Mastermind_26
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 174
+        width: 209
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.955566, y: 60.06668}
+        - {x: -13.044434, y: 60.06668}
+        - {x: -53.044434, y: 29.06668}
+        - {x: -53.044434, y: 5.066681}
+        - {x: -36.044434, y: 0.06668091}
+        - {x: 54.955566, y: 0.06668091}
+        - {x: 54.955566, y: 19.06668}
+        - {x: 45.955566, y: 51.06668}
+    - name: Spider Mastermind_27
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 170
+        width: 209
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.64441, y: 60.022232}
+        - {x: -26.64441, y: 53.022232}
+        - {x: -53.64441, y: 11.022232}
+        - {x: -53.64441, y: 4.022232}
+        - {x: -45.64441, y: 2.022232}
+        - {x: -36.64441, y: 3.022232}
+        - {x: -21.64441, y: 0.022232056}
+        - {x: 54.35559, y: 0.022232056}
+        - {x: 54.35559, y: 39.022232}
+        - {x: 34.35559, y: 60.022232}
+    - name: Spider Mastermind_28
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 174
+        width: 221
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.555481, y: 56.022232}
+        - {x: -32.55548, y: 50.022232}
+        - {x: -56.55548, y: 13.022232}
+        - {x: -56.55548, y: 0.022232056}
+        - {x: -39.55548, y: 0.022232056}
+        - {x: -34.55548, y: 1.022232}
+        - {x: -34.55548, y: 12.022232}
+        - {x: -36.55548, y: 15.022232}
+        - {x: -34.55548, y: 15.022232}
+        - {x: -33.55548, y: 10.022232}
+        - {x: -31.555481, y: 8.022232}
+        - {x: -22.555481, y: 0.022232056}
+        - {x: 57.44452, y: 0.022232056}
+        - {x: 57.44452, y: 37.022232}
+        - {x: 31.444519, y: 56.022232}
+    - name: Spider Mastermind_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 209
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.52222, y: 57.622223}
+        - {x: -24.47778, y: 57.622223}
+        - {x: -53.47778, y: 19.622223}
+        - {x: -53.47778, y: -0.3777771}
+        - {x: 53.52222, y: -0.3777771}
+        - {x: 53.52222, y: 11.622223}
+        - {x: 35.52222, y: 52.622223}
+    - name: Spider Mastermind_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 216
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.544449, y: 54.58889}
+        - {x: -28.455551, y: 54.58889}
+        - {x: -36.45555, y: 45.58889}
+        - {x: -55.45555, y: 16.58889}
+        - {x: -55.45555, y: -0.41110992}
+        - {x: 55.54445, y: -0.41110992}
+        - {x: 55.54445, y: 20.58889}
+        - {x: 45.54445, y: 50.58889}
+    - name: Spider Mastermind_31
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2
+        width: 211
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.92221, y: 56.88889}
+        - {x: -41.92221, y: 49.88889}
+        - {x: -53.92221, y: 10.888891}
+        - {x: -53.92221, y: -0.11110902}
+        - {x: 55.07779, y: -0.11110902}
+        - {x: 55.07779, y: 20.888891}
+        - {x: 39.07779, y: 56.88889}
+    - name: Spider Mastermind_32
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2
+        width: 197
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.688873, y: -0.36666512}
+        - {x: 51.311127, y: -0.36666512}
+        - {x: 51.311127, y: 22.633335}
+        - {x: 43.311127, y: 56.633335}
+        - {x: -24.688873, y: 56.633335}
+        - {x: -50.688873, y: 31.633335}
+    - name: Spider Mastermind_33
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2
+        width: 217
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.266693, y: 55.622223}
+        - {x: -24.733307, y: 55.622223}
+        - {x: -40.733307, y: 51.622223}
+        - {x: -55.733307, y: 12.622225}
+        - {x: -55.733307, y: -0.37777543}
+        - {x: 56.266693, y: -0.37777543}
+        - {x: 56.266693, y: 26.622225}
+        - {x: 23.266693, y: 48.622223}
+    - name: Spider Mastermind_34
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 6
+        width: 215
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.611084, y: 54.911114}
+        - {x: -36.611084, y: 50.911114}
+        - {x: -54.611084, y: 14.911113}
+        - {x: -54.611084, y: -0.088886976}
+        - {x: 56.388916, y: -0.088886976}
+        - {x: 56.388916, y: 24.911114}
+        - {x: 20.388916, y: 54.911114}
+    - name: Spider Mastermind_35
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 6
+        width: 209
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.111084, y: 57.944447}
+        - {x: -49.111084, y: 47.944447}
+        - {x: -53.111084, y: 29.944447}
+        - {x: -53.111084, y: -0.05555415}
+        - {x: 54.888916, y: -0.05555415}
+        - {x: 54.888916, y: 25.944447}
+        - {x: 22.888916, y: 57.944447}
+    - name: Spider Mastermind_36
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 2
+        width: 209
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.355591, y: 57.9}
+        - {x: -14.644409, y: 57.9}
+        - {x: -41.64441, y: 48.9}
+        - {x: -53.64441, y: 10.900002}
+        - {x: -53.64441, y: -0.09999871}
+        - {x: 54.35559, y: -0.09999871}
+        - {x: 54.35559, y: 12.900002}
+        - {x: 26.35559, y: 46.9}
+    - name: Spider Mastermind_37
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 4
+        width: 222
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.533386, y: 54.633335}
+        - {x: -25.466614, y: 54.633335}
+        - {x: -56.466614, y: 13.633335}
+        - {x: -56.466614, y: -0.36666536}
+        - {x: 57.533386, y: -0.36666536}
+        - {x: 57.533386, y: 14.633335}
+        - {x: 39.533386, y: 49.633335}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: d5810f78a18a6964fb8f5cdcd4fc167d
+timeCreated: 1459861409
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Weapons_0
+    21300002: Weapons_1
+    21300004: Weapons_2
+    21300006: Weapons_3
+    21300008: Weapons_4
+    21300010: Weapons_5
+    21300012: Weapons_6
+    21300014: Weapons_7
+    21300016: Weapons_8
+    21300018: Weapons_9
+    21300020: Weapons_10
+    21300022: Weapons_11
+    21300024: Weapons_12
+    21300026: Weapons_13
+    21300028: Weapons_15
+    21300030: Weapons_16
+    21300032: Weapons_17
+    21300034: Weapons_18
+    21300036: Weapons_19
+    21300038: Weapons_20
+    21300040: Weapons_24
+    21300042: Weapons_27
+    21300044: Weapons_30
+    21300046: Weapons_33
+    21300048: Weapons_34
+    21300050: Weapons_35
+    21300052: Weapons_36
+    21300054: Weapons_37
+    21300056: Weapons_38
+    21300058: Weapons_39
+    21300060: Weapons_40
+    21300062: Weapons_41
+    21300064: Weapons_42
+    21300066: Weapons_43
+    21300068: Weapons_44
+    21300070: Weapons_45
+    21300072: Weapons_46
+    21300074: Weapons_47
+    21300076: Weapons_48
+    21300078: Weapons_50
+    21300080: Weapons_51
+    21300082: Weapons_52
+    21300084: Weapons_53
+    21300086: Weapons_54
+    21300088: Weapons_55
+    21300090: Weapons_56
+    21300092: Weapons_57
+    21300094: Weapons_58
+    21300096: Weapons_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 880
+        width: 114
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 57}
+        - {x: -57, y: 0}
+        - {x: 57, y: 0}
+        - {x: 57, y: 22}
+        - {x: 52, y: 65}
+        - {x: 30, y: 83}
+        - {x: -22, y: 83}
+        - {x: -56, y: 70}
+    - name: Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 880
+        width: 114
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 0}
+        - {x: 57, y: 0}
+        - {x: 57, y: 31}
+        - {x: 52, y: 67}
+        - {x: 44, y: 81}
+        - {x: -37, y: 81}
+        - {x: -57, y: 72}
+    - name: Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 916
+        width: 86
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 46}
+        - {x: -41, y: 37}
+        - {x: -43, y: 24}
+        - {x: -43, y: 0}
+        - {x: 43, y: 0}
+        - {x: 43, y: 32}
+        - {x: 24, y: 46}
+    - name: Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 916
+        width: 85
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 47}
+        - {x: -26.5, y: 47}
+        - {x: -42.5, y: 18}
+        - {x: -42.5, y: 0}
+        - {x: 42.5, y: 0}
+        - {x: 42.5, y: 7}
+        - {x: 31.5, y: 38}
+    - name: Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 788
+        width: 153
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.5, y: 12}
+        - {x: -76.5, y: 0}
+        - {x: 76.5, y: 0}
+        - {x: 76.5, y: 33}
+        - {x: 75.5, y: 48}
+        - {x: 46.5, y: 89}
+        - {x: 10.5, y: 89}
+        - {x: -63.5, y: 49}
+    - name: Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 788
+        width: 154
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 89}
+        - {x: -36, y: 67}
+        - {x: -77, y: 18}
+        - {x: -77, y: 0}
+        - {x: 77, y: 0}
+        - {x: 77, y: 42}
+        - {x: 35, y: 89}
+    - name: Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 788
+        width: 140
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 55}
+        - {x: -70, y: 14}
+        - {x: -70, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 43}
+        - {x: 48, y: 55}
+    - name: Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 788
+        width: 140
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 55}
+        - {x: -70, y: 14}
+        - {x: -70, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 43}
+        - {x: 48, y: 55}
+    - name: Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 682
+        width: 79
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 82}
+        - {x: -39.5, y: 17}
+        - {x: -39.5, y: 0}
+        - {x: 34.5, y: 0}
+        - {x: 39.5, y: 10}
+        - {x: 39.5, y: 67}
+        - {x: 26.5, y: 82}
+    - name: Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 682
+        width: 66
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 81}
+        - {x: -26, y: 32}
+        - {x: -33, y: 9}
+        - {x: -33, y: 0}
+        - {x: 27, y: 0}
+        - {x: 33, y: 8}
+        - {x: 33, y: 48}
+        - {x: 18, y: 81}
+    - name: Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 682
+        width: 61
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 81}
+        - {x: -5.5, y: 79}
+        - {x: -30.5, y: 36}
+        - {x: -30.5, y: 0}
+        - {x: 30.5, y: 0}
+        - {x: 30.5, y: 70}
+        - {x: 16.5, y: 81}
+    - name: Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 682
+        width: 78
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 103}
+        - {x: -20, y: 54}
+        - {x: -39, y: 8}
+        - {x: -39, y: 0}
+        - {x: 34, y: 0}
+        - {x: 39, y: 15}
+        - {x: 39, y: 76}
+        - {x: 21, y: 103}
+    - name: Weapons_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 746
+        width: 41
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 38}
+        - {x: -10.5, y: 38}
+        - {x: -20.5, y: 23}
+        - {x: -20.5, y: 4}
+        - {x: -19.5, y: 1}
+        - {x: -16.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 20.5, y: 2}
+        - {x: 20.5, y: 19}
+        - {x: 7.5, y: 37}
+    - name: Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 682
+        width: 57
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 62}
+        - {x: -28.5, y: 40}
+        - {x: -28.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 28.5, y: 8}
+        - {x: 28.5, y: 34}
+        - {x: 19.5, y: 62}
+    - name: Weapons_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 602
+        width: 113
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 12}
+        - {x: -56.5, y: 0}
+        - {x: -20.5, y: 0}
+        - {x: -20.5, y: 3}
+        - {x: -34.5, y: 12}
+      - - {x: -26.5, y: 42}
+        - {x: -26.5, y: 26}
+        - {x: -18.5, y: 0}
+        - {x: 56.5, y: 0}
+        - {x: 56.5, y: 7}
+        - {x: 52.5, y: 21}
+        - {x: 14.5, y: 42}
+    - name: Weapons_16
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 602
+        width: 80
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 41}
+        - {x: -7, y: 38}
+        - {x: -24, y: 21}
+        - {x: -39, y: 5}
+        - {x: -40, y: 4}
+        - {x: -40, y: 0}
+        - {x: 40, y: 0}
+        - {x: 40, y: 19}
+        - {x: 14, y: 41}
+    - name: Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 602
+        width: 107
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 52}
+        - {x: -53.5, y: 5}
+        - {x: -53.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 53.5, y: 8}
+        - {x: 53.5, y: 36}
+        - {x: 46.5, y: 52}
+    - name: Weapons_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 603
+        width: 147
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 76}
+        - {x: -40.5, y: 41}
+        - {x: -73.5, y: 5}
+        - {x: -73.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 73.5, y: 7}
+        - {x: 73.5, y: 76}
+    - name: Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 520
+        width: 87
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 79}
+        - {x: -43.5, y: 57}
+        - {x: -43.5, y: 1}
+        - {x: -41.5, y: 0}
+        - {x: 42.5, y: 0}
+        - {x: 43.5, y: 1}
+        - {x: 43.5, y: 49}
+        - {x: 26.5, y: 79}
+    - name: Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 520
+        width: 102
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 75}
+        - {x: -51, y: 34}
+        - {x: -51, y: 0}
+        - {x: 51, y: 0}
+        - {x: 51, y: 53}
+        - {x: 21, y: 75}
+    - name: Weapons_24
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 520
+        width: 88
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 58}
+        - {x: -40, y: 58}
+        - {x: -44, y: 56}
+        - {x: -44, y: 0}
+        - {x: 44, y: 0}
+        - {x: 44, y: 36}
+        - {x: 42, y: 47}
+    - name: Weapons_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 520
+        width: 73
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 51}
+        - {x: -36.5, y: 44}
+        - {x: -36.5, y: 0}
+        - {x: 36.5, y: 0}
+        - {x: 36.5, y: 40}
+        - {x: 21.5, y: 51}
+    - name: Weapons_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 520
+        width: 53
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 366
+        width: 119
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 121}
+        - {x: -59.5, y: 81}
+        - {x: -59.5, y: 0}
+        - {x: 55.5, y: 0}
+        - {x: 59.5, y: 28}
+        - {x: 59.5, y: 66}
+        - {x: 35.5, y: 121}
+    - name: Weapons_34
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 366
+        width: 87
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 151}
+        - {x: -31.5, y: 151}
+        - {x: -40.5, y: 146}
+        - {x: -43.5, y: 70}
+        - {x: -43.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 40.5, y: 10}
+        - {x: 43.5, y: 26}
+        - {x: 43.5, y: 104}
+    - name: Weapons_35
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 366
+        width: 113
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 131}
+        - {x: -56.5, y: 70}
+        - {x: -44.5, y: 0}
+        - {x: 55.5, y: 0}
+        - {x: 56.5, y: 5}
+        - {x: 56.5, y: 78}
+        - {x: -5.5, y: 131}
+    - name: Weapons_36
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 474
+        width: 44
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Weapons_37
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 473
+        width: 54
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 44}
+        - {x: -18, y: 36}
+        - {x: -27, y: 24}
+        - {x: -27, y: 0}
+        - {x: 27, y: 0}
+        - {x: 27, y: 22}
+        - {x: 8, y: 44}
+    - name: Weapons_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 366
+        width: 79
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 60}
+        - {x: -1.5, y: 60}
+        - {x: -8.5, y: 56}
+        - {x: -35.5, y: 37}
+        - {x: -39.5, y: 17}
+        - {x: -39.5, y: 0}
+        - {x: 39.5, y: 0}
+        - {x: 39.5, y: 5}
+        - {x: 27.5, y: 36}
+    - name: Weapons_39
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 204
+        width: 83
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 103}
+        - {x: -33.5, y: 97}
+        - {x: -41.5, y: 19}
+        - {x: -41.5, y: 0}
+        - {x: 33.5, y: 0}
+        - {x: 41.5, y: 17}
+        - {x: 41.5, y: 56}
+        - {x: 0.5, y: 103}
+    - name: Weapons_40
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 204
+        width: 121
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.5, y: 130}
+        - {x: -60.5, y: 122}
+        - {x: -60.5, y: 90}
+        - {x: -58.5, y: 74}
+        - {x: -52.5, y: 27}
+        - {x: -50.5, y: 12}
+        - {x: -52.5, y: 0}
+        - {x: 60.5, y: 0}
+        - {x: 60.5, y: 82}
+        - {x: -19.5, y: 130}
+    - name: Weapons_41
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 297
+        width: 55
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 37}
+        - {x: -27.5, y: 35}
+        - {x: -27.5, y: 7}
+        - {x: -24.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 27.5, y: 4}
+        - {x: 27.5, y: 27}
+        - {x: 22.5, y: 37}
+    - name: Weapons_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 204
+        width: 59
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 55}
+        - {x: -29.5, y: 25}
+        - {x: -29.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 29.5, y: 29}
+        - {x: 17.5, y: 55}
+    - name: Weapons_43
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 204
+        width: 81
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 80}
+        - {x: -40.5, y: 7}
+        - {x: -40.5, y: 0}
+        - {x: 40.5, y: 0}
+        - {x: 40.5, y: 80}
+    - name: Weapons_44
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 204
+        width: 201
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 63}
+        - {x: -54.5, y: 63}
+        - {x: -75.5, y: 56}
+        - {x: -100.5, y: 14}
+        - {x: -100.5, y: 0}
+        - {x: -34.5, y: 0}
+        - {x: 2.5, y: 5}
+        - {x: 2.5, y: 28}
+      - - {x: 37.5, y: 45}
+        - {x: 21.5, y: 40}
+        - {x: 21.5, y: 19}
+        - {x: 45.5, y: 0}
+        - {x: 100.5, y: 0}
+        - {x: 100.5, y: 5}
+        - {x: 66.5, y: 45}
+    - name: Weapons_45
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 204
+        width: 88
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 0}
+        - {x: 44, y: 0}
+        - {x: 44, y: 8}
+        - {x: 32, y: 38}
+        - {x: 18, y: 51}
+        - {x: -27, y: 51}
+        - {x: -44, y: 39}
+    - name: Weapons_46
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 204
+        width: 81
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 80}
+        - {x: -40.5, y: 7}
+        - {x: -40.5, y: 0}
+        - {x: 40.5, y: 0}
+        - {x: 40.5, y: 80}
+    - name: Weapons_47
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 204
+        width: 77
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 85}
+        - {x: -38.5, y: 66}
+        - {x: -38.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 38.5, y: 36}
+        - {x: 0.5, y: 85}
+    - name: Weapons_48
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 248
+        width: 65
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 46}
+        - {x: -32.5, y: 26}
+        - {x: -32.5, y: 0}
+        - {x: 32.5, y: 0}
+        - {x: 32.5, y: 28}
+        - {x: 14.5, y: 46}
+    - name: Weapons_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 90
+        width: 83
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 61}
+        - {x: -41.5, y: 28}
+        - {x: -41.5, y: 0}
+        - {x: 41.5, y: 0}
+        - {x: 41.5, y: 26}
+        - {x: 37.5, y: 59}
+        - {x: 26.5, y: 61}
+    - name: Weapons_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 90
+        width: 83
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 75}
+        - {x: -34.5, y: 56}
+        - {x: -41.5, y: 12}
+        - {x: -41.5, y: 0}
+        - {x: 41.5, y: 0}
+        - {x: 41.5, y: 26}
+        - {x: 38.5, y: 51}
+        - {x: 20.5, y: 75}
+    - name: Weapons_52
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 90
+        width: 85
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 73}
+        - {x: -25.5, y: 73}
+        - {x: -42.5, y: 64}
+        - {x: -42.5, y: 0}
+        - {x: 42.5, y: 0}
+        - {x: 42.5, y: 31}
+        - {x: 37.5, y: 66}
+    - name: Weapons_53
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 90
+        width: 104
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 0}
+        - {x: 52, y: 0}
+        - {x: 52, y: 71}
+        - {x: 34, y: 111}
+        - {x: -33, y: 111}
+        - {x: -52, y: 58}
+    - name: Weapons_54
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 170
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 84}
+        - {x: -53, y: 84}
+        - {x: -85, y: 43}
+        - {x: -85, y: 0}
+        - {x: 85, y: 0}
+        - {x: 85, y: 36}
+        - {x: 81, y: 64}
+    - name: Weapons_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3
+        width: 170
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 24}
+        - {x: -85, y: 0}
+        - {x: 85, y: 0}
+        - {x: 85, y: 15}
+        - {x: 66, y: 68}
+        - {x: 37, y: 84}
+        - {x: -29, y: 84}
+        - {x: -66, y: 75}
+    - name: Weapons_56
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 3
+        width: 156
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 83}
+        - {x: -76, y: 65}
+        - {x: -78, y: 50}
+        - {x: -78, y: 0}
+        - {x: 78, y: 0}
+        - {x: 78, y: 54}
+        - {x: 43, y: 83}
+    - name: Weapons_57
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 19
+        width: 82
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 40}
+        - {x: -23, y: 40}
+        - {x: -32, y: 36}
+        - {x: -41, y: 30}
+        - {x: -41, y: 0}
+        - {x: 41, y: 0}
+        - {x: 41, y: 28}
+        - {x: 32, y: 37}
+    - name: Weapons_58
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 19
+        width: 139
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 47}
+        - {x: 5.5, y: 67}
+        - {x: -6.5, y: 67}
+        - {x: -8.5, y: 62}
+        - {x: -13.5, y: 49}
+        - {x: -24.5, y: 61}
+        - {x: -69.5, y: 26}
+        - {x: -69.5, y: 0}
+        - {x: 66.5, y: 0}
+        - {x: 69.5, y: 2}
+        - {x: 69.5, y: 16}
+        - {x: 65.5, y: 23}
+    - name: Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 520
+        width: 105
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 25.5}
+        - {x: 26.5, y: 23.5}
+        - {x: 28.5, y: 20.5}
+        - {x: 24.5, y: 11.5}
+        - {x: 35.5, y: 0.5}
+        - {x: -9.5, y: -1.5}
+        - {x: -0.5, y: 18.5}
+        - {x: 0.5, y: 23.5}
+        - {x: -1.5, y: 25.5}
+        - {x: 3.5, y: 22.5}
+        - {x: 4.5, y: 18.5}
+        - {x: 21.5, y: 11.5}
+        - {x: 24.5, y: 15.5}
+        - {x: 23.5, y: 39.5}
+        - {x: -43.5, y: 39.5}
+        - {x: -52.5, y: 22.5}
+        - {x: -52.5, y: -39.5}
+        - {x: 52.5, y: -39.5}
+        - {x: 52.5, y: 9.5}
+        - {x: 35.5, y: 28.5}
+      - - {x: 43.5, y: 5.5}
+        - {x: 45.5, y: 4.5}
+        - {x: 48.5, y: 5.5}
+        - {x: 48.5, y: 9.5}
+        - {x: 47.5, y: 12.5}
+        - {x: 44.5, y: 12.5}
+        - {x: 43.5, y: 10.5}
+      - - {x: -46.5, y: 20.5}
+        - {x: -44.5, y: 19.5}
+        - {x: -41.5, y: 20.5}
+        - {x: -41.5, y: 24.5}
+        - {x: -42.5, y: 27.5}
+        - {x: -45.5, y: 27.5}
+        - {x: -46.5, y: 25.5}
+      - - {x: 22.5, y: 25.5}
+        - {x: 25.5, y: 26.5}
+        - {x: 25.5, y: 29.5}
+        - {x: 22.5, y: 30.5}
+        - {x: 20.5, y: 28.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

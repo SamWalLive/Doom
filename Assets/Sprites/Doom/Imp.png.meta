@@ -1,0 +1,1161 @@
+fileFormatVersion: 2
+guid: 6c36a25ab8e3bef4db93394723c3971d
+timeCreated: 1459872329
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Imp_Front_Walking_0
+    21300002: Imp_Front_Walking_1
+    21300004: Imp_Front_Walking_2
+    21300006: Imp_Front_Walking_3
+    21300008: Imp_Front_Attack_0
+    21300010: Imp_Front_Attack_1
+    21300012: Imp_Front_Attack_2
+    21300014: Imp_FrontSide_Walking_0
+    21300016: Imp_FrontSide_Walking_1
+    21300018: Imp_FrontSide_Walking_2
+    21300020: Imp_FrontSide_Walking_3
+    21300022: Imp_FrontSide_Attack_0
+    21300024: Imp_FrontSide_Attack_1
+    21300026: Imp_FrontSide_Attack_2
+    21300028: Imp_Side_Walking_0
+    21300030: Imp_Side_Walking_1
+    21300032: Imp_Side_Walking_2
+    21300034: Imp_Side_Walking_3
+    21300036: Imp_Side_Attack_0
+    21300038: Imp_Side_Attack_1
+    21300040: Imp_Side_Attack_2
+    21300042: Imp_BackSide_Walking_0
+    21300044: Imp_BackSide_Walking_1
+    21300046: Imp_BackSide_Walking_2
+    21300048: Imp_BackSide_Walking_3
+    21300050: Imp_BackSide_Attack_0
+    21300052: Imp_BackSide_Attack_1
+    21300054: Imp_BackSide_Attack_2
+    21300056: Imp_Back_Walking_0
+    21300058: Imp_Back_Walking_1
+    21300060: Imp_Back_Walking_2
+    21300062: Imp_Back_Walking_3
+    21300064: Imp_Back_Attack_0
+    21300066: Imp_Back_Attack_1
+    21300068: Imp_Back_Attack_2
+    21300070: Imp_Front_Hurt_0
+    21300072: Imp_FrontSide_Hurt_0
+    21300074: Imp_Side_Hurt_0
+    21300076: Imp_BackSide_Hurt_0
+    21300078: Imp_Back_Hurt_0
+    21300080: Imp_Projectile_0
+    21300082: Imp_Projectile_1
+    21300084: Imp_PlayerDeath_0
+    21300086: Imp_PlayerDeath_1
+    21300088: Imp_PlayerDeath_2
+    21300090: Imp_PlayerDeath_3
+    21300092: Imp_Impact_0
+    21300094: Imp_Impact_1
+    21300096: Imp_PlayerDeath_4
+    21300098: Imp_EnemyDeath_0
+    21300100: Imp_EnemyDeath_1
+    21300102: Imp_EnemyDeath_2
+    21300104: Imp_EnemyDeath_3
+    21300106: Imp_57
+    21300108: Imp_EnemyDeath_4
+    21300110: Imp_EnemyDeath_5
+    21300112: Imp_EnemyDeath_6
+    21300114: Imp_EnemyDeath_7
+    21300116: Imp_Impact_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Imp_Front_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 416
+        width: 41
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 57}
+        - {x: -20.5, y: 55}
+        - {x: -20.5, y: 19}
+        - {x: -13.5, y: 17}
+        - {x: -11.5, y: 21}
+        - {x: -11.5, y: 16}
+        - {x: -9.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 20.5, y: 18}
+        - {x: 20.5, y: 51}
+        - {x: 14.5, y: 57}
+    - name: Imp_Front_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 416
+        width: 39
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 56}
+        - {x: -19.5, y: 56}
+        - {x: -19.5, y: 21}
+        - {x: -17.5, y: 20}
+        - {x: -14.5, y: 20}
+        - {x: -11.5, y: 23}
+        - {x: -11.5, y: 26}
+        - {x: -11.5, y: 17}
+        - {x: -8.5, y: 2}
+        - {x: -7.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 19.5, y: 14}
+        - {x: 19.5, y: 49}
+        - {x: 18.5, y: 54}
+    - name: Imp_Front_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 416
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 60}
+        - {x: -19.5, y: 57}
+        - {x: -19.5, y: 12}
+        - {x: -7.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 19.5, y: 9}
+        - {x: 19.5, y: 60}
+    - name: Imp_Front_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 416
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 57}
+        - {x: -18.5, y: 51}
+        - {x: -18.5, y: 24}
+        - {x: -7.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 18.5, y: 12}
+        - {x: 18.5, y: 57}
+    - name: Imp_Front_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 416
+        width: 49
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 60}
+        - {x: -24.5, y: 42}
+        - {x: -24.5, y: 23}
+        - {x: -15.5, y: 7}
+        - {x: 0.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 24.5, y: 54}
+        - {x: 18.5, y: 60}
+    - name: Imp_Front_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 416
+        width: 44
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 55}
+        - {x: -12, y: 55}
+        - {x: -22, y: 45}
+        - {x: -22, y: 28}
+        - {x: -13, y: 9}
+        - {x: -6, y: 3}
+        - {x: -2, y: 0}
+        - {x: 15, y: 0}
+        - {x: 22, y: 23}
+        - {x: 22, y: 45}
+        - {x: 20, y: 51}
+    - name: Imp_Front_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 416
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 55}
+        - {x: -16, y: 54}
+        - {x: -16, y: 0}
+        - {x: 8, y: 0}
+        - {x: 16, y: 7}
+        - {x: 16, y: 50}
+        - {x: 13, y: 55}
+    - name: Imp_FrontSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 355
+        width: 40
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 55}
+        - {x: -20, y: 54}
+        - {x: -20, y: 12}
+        - {x: -8, y: 0}
+        - {x: 20, y: 0}
+        - {x: 20, y: 49}
+        - {x: 10, y: 55}
+    - name: Imp_FrontSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 355
+        width: 38
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 57}
+        - {x: -19, y: 9}
+        - {x: -10, y: 0}
+        - {x: 13, y: 0}
+        - {x: 19, y: 12}
+        - {x: 19, y: 46}
+        - {x: 7, y: 57}
+    - name: Imp_FrontSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 355
+        width: 41
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 58}
+        - {x: -20.5, y: 23}
+        - {x: -6.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 20.5, y: 16}
+        - {x: 20.5, y: 58}
+    - name: Imp_FrontSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 355
+        width: 45
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 54}
+        - {x: 5.5, y: 55}
+        - {x: -16.5, y: 55}
+        - {x: -20.5, y: 54}
+        - {x: -22.5, y: 48}
+        - {x: -22.5, y: 13}
+        - {x: -13.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 22.5, y: 2}
+        - {x: 22.5, y: 42}
+    - name: Imp_FrontSide_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 355
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 56}
+        - {x: -16, y: 14}
+        - {x: -7, y: 0}
+        - {x: 11, y: 0}
+        - {x: 16, y: 3}
+        - {x: 16, y: 37}
+        - {x: 2, y: 56}
+    - name: Imp_FrontSide_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 355
+        width: 45
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 54}
+        - {x: -18.5, y: 53}
+        - {x: -22.5, y: 39}
+        - {x: -22.5, y: 23}
+        - {x: 4.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 22.5, y: 5}
+        - {x: 22.5, y: 49}
+        - {x: 11.5, y: 54}
+    - name: Imp_FrontSide_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 355
+        width: 55
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 55}
+        - {x: -27.5, y: 54}
+        - {x: -27.5, y: 26}
+        - {x: -1.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 27.5, y: 12}
+        - {x: 27.5, y: 53}
+        - {x: 26.5, y: 55}
+    - name: Imp_Side_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 299
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 49}
+        - {x: -18, y: 31}
+        - {x: -4, y: 0}
+        - {x: 16, y: 0}
+        - {x: 18, y: 1}
+        - {x: 18, y: 30}
+        - {x: 0, y: 49}
+    - name: Imp_Side_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 299
+        width: 38
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 51}
+        - {x: -19, y: 51}
+        - {x: -19, y: 28}
+        - {x: -8, y: 0}
+        - {x: 19, y: 0}
+        - {x: 19, y: 21}
+        - {x: 4, y: 50}
+    - name: Imp_Side_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 299
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_Side_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 299
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 48}
+        - {x: -19.5, y: 3}
+        - {x: -10.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 19.5, y: 15}
+        - {x: 12.5, y: 48}
+    - name: Imp_Side_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 299
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 49}
+        - {x: -16.5, y: 49}
+        - {x: -19.5, y: 45}
+        - {x: -19.5, y: 10}
+        - {x: -16.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 19.5, y: 29}
+        - {x: 17.5, y: 33}
+    - name: Imp_Side_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 299
+        width: 42
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 49}
+        - {x: -21, y: 11}
+        - {x: -15, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 18}
+        - {x: 12, y: 47}
+        - {x: 1, y: 49}
+    - name: Imp_Side_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 299
+        width: 59
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 51}
+        - {x: -29.5, y: 47}
+        - {x: -29.5, y: 16}
+        - {x: 0.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 29.5, y: 22}
+        - {x: 14.5, y: 51}
+    - name: Imp_BackSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 245
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_BackSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 245
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 47}
+        - {x: -16.5, y: 46}
+        - {x: -16.5, y: 19}
+        - {x: -10.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 16.5, y: 42}
+        - {x: 6.5, y: 47}
+    - name: Imp_BackSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 245
+        width: 28
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_BackSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 245
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_BackSide_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 245
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 47}
+        - {x: -17, y: 20}
+        - {x: -14, y: 23}
+        - {x: -15, y: 20}
+        - {x: -17, y: 0}
+        - {x: 17, y: 0}
+        - {x: 17, y: 47}
+    - name: Imp_BackSide_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 245
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 0}
+        - {x: 18, y: 33}
+        - {x: 16, y: 46}
+        - {x: 14, y: 47}
+        - {x: -16, y: 47}
+        - {x: -18, y: 45}
+        - {x: -18, y: 17}
+        - {x: -7, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 4}
+        - {x: 6, y: 2}
+        - {x: 8, y: 0}
+    - name: Imp_BackSide_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 245
+        width: 46
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 0}
+        - {x: 23, y: 13}
+        - {x: 9, y: 47}
+        - {x: -23, y: 47}
+        - {x: -23, y: 12}
+        - {x: -12, y: 0}
+        - {x: 11, y: 0}
+        - {x: 11, y: 5}
+        - {x: 11, y: 2}
+        - {x: 13, y: 0}
+    - name: Imp_Back_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 193
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 49}
+        - {x: -17.5, y: 19}
+        - {x: -7.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 17.5, y: 16}
+        - {x: 17.5, y: 49}
+    - name: Imp_Back_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 193
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 46}
+        - {x: -16.5, y: 18}
+        - {x: -9.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 16.5, y: 8}
+        - {x: 16.5, y: 46}
+    - name: Imp_Back_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 193
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 49}
+        - {x: -17.5, y: 11}
+        - {x: -10.5, y: 0}
+        - {x: 8.5, y: 0}
+        - {x: 17.5, y: 12}
+        - {x: 17.5, y: 45}
+        - {x: 15.5, y: 49}
+    - name: Imp_Back_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 193
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 46}
+        - {x: -16.5, y: 40}
+        - {x: -16.5, y: 19}
+        - {x: -13.5, y: 16}
+        - {x: -10.5, y: 14}
+        - {x: -7.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 16.5, y: 17}
+        - {x: 16.5, y: 46}
+    - name: Imp_Back_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 193
+        width: 38
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 48}
+        - {x: -12, y: 48}
+        - {x: -19, y: 45}
+        - {x: -19, y: 7}
+        - {x: -18, y: 0}
+        - {x: 3, y: 0}
+        - {x: 19, y: 19}
+        - {x: 19, y: 33}
+    - name: Imp_Back_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 46}
+        - {x: -16.5, y: 14}
+        - {x: -11.5, y: 0}
+        - {x: 10.5, y: 0}
+        - {x: 16.5, y: 18}
+        - {x: 16.5, y: 46}
+    - name: Imp_Back_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 193
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_Front_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 132
+        width: 41
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 55}
+        - {x: -13.5, y: 52}
+        - {x: -20.5, y: 35}
+        - {x: -20.5, y: 14}
+        - {x: -8.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 20.5, y: 15}
+        - {x: 20.5, y: 55}
+    - name: Imp_FrontSide_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 132
+        width: 31
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_Side_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 132
+        width: 34
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 1}
+        - {x: 17, y: 3}
+        - {x: 17, y: 8}
+        - {x: 15, y: 14}
+        - {x: 17, y: 24}
+        - {x: 17, y: 56}
+        - {x: 15, y: 57}
+        - {x: -5, y: 57}
+        - {x: -17, y: 41}
+        - {x: -17, y: 33}
+        - {x: -14, y: 32}
+        - {x: -14, y: 13}
+        - {x: -11, y: 0}
+        - {x: 4, y: 0}
+        - {x: 4, y: 9}
+        - {x: 5, y: 3}
+        - {x: 7, y: 1}
+    - name: Imp_BackSide_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 132
+        width: 34
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 1}
+        - {x: 2, y: 0}
+        - {x: 17, y: 0}
+        - {x: 17, y: 55}
+        - {x: 13, y: 56}
+        - {x: -9, y: 56}
+        - {x: -13, y: 53}
+        - {x: -17, y: 45}
+        - {x: -17, y: 17}
+        - {x: -15, y: 2}
+        - {x: -13, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 11}
+        - {x: -1, y: 13}
+        - {x: 0, y: 10}
+    - name: Imp_Back_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 132
+        width: 39
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 57}
+        - {x: -19.5, y: 57}
+        - {x: -19.5, y: 13}
+        - {x: -17.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 19.5, y: 20}
+        - {x: 19.5, y: 34}
+        - {x: 12.5, y: 54}
+    - name: Imp_Projectile_0
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 119
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_Projectile_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 119
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_PlayerDeath_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 42
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 62}
+        - {x: -21, y: 47}
+        - {x: -21, y: 12}
+        - {x: -8, y: 0}
+        - {x: 16, y: 0}
+        - {x: 21, y: 7}
+        - {x: 21, y: 46}
+        - {x: 13, y: 62}
+    - name: Imp_PlayerDeath_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 67
+        width: 41
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 59}
+        - {x: -20.5, y: 44}
+        - {x: -20.5, y: 13}
+        - {x: -6.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 20.5, y: 19}
+        - {x: 20.5, y: 47}
+        - {x: 12.5, y: 59}
+    - name: Imp_PlayerDeath_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 67
+        width: 40
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 54}
+        - {x: -17, y: 36}
+        - {x: -20, y: 20}
+        - {x: -20, y: 0}
+        - {x: 14, y: 0}
+        - {x: 20, y: 3}
+        - {x: 20, y: 42}
+        - {x: 8, y: 54}
+    - name: Imp_PlayerDeath_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 67
+        width: 51
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 46}
+        - {x: -0.5, y: 46}
+        - {x: -25.5, y: 14}
+        - {x: -25.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 24.5, y: 4}
+        - {x: 24.5, y: 19}
+        - {x: 19.5, y: 35}
+    - name: Imp_Impact_0
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 72
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 35}
+        - {x: -18.5, y: 26}
+        - {x: -18.5, y: 7}
+        - {x: -12.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 18.5, y: 2}
+        - {x: 18.5, y: 31}
+        - {x: 17.5, y: 35}
+    - name: Imp_Impact_1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 72
+        width: 43
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 39}
+        - {x: -21.5, y: 31}
+        - {x: -21.5, y: 6}
+        - {x: -14.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 21.5, y: 1}
+        - {x: 21.5, y: 35}
+        - {x: 19.5, y: 39}
+    - name: Imp_PlayerDeath_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 70
+        width: 58
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_EnemyDeath_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 46
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 59}
+        - {x: -23, y: 53}
+        - {x: -23, y: 16}
+        - {x: -16, y: 0}
+        - {x: 18, y: 0}
+        - {x: 23, y: 23}
+        - {x: 23, y: 59}
+    - name: Imp_EnemyDeath_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 3
+        width: 49
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 49}
+        - {x: -24.5, y: 16}
+        - {x: -12.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 24.5, y: 4}
+        - {x: 24.5, y: 61}
+        - {x: -5.5, y: 61}
+        - {x: -13.5, y: 59}
+    - name: Imp_EnemyDeath_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 3
+        width: 55
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 61}
+        - {x: -16.5, y: 61}
+        - {x: -27.5, y: 56}
+        - {x: -27.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 27.5, y: 55}
+        - {x: 26.5, y: 59}
+      - - {x: -18.5, y: 56}
+        - {x: -15.5, y: 57}
+        - {x: -15.5, y: 60}
+        - {x: -18.5, y: 61}
+        - {x: -20.5, y: 59}
+    - name: Imp_EnemyDeath_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 57
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 61}
+        - {x: -9.5, y: 59}
+        - {x: -7.5, y: 52}
+        - {x: -10.5, y: 61}
+        - {x: -19.5, y: 61}
+        - {x: -28.5, y: 53}
+        - {x: -28.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 28.5, y: 8}
+        - {x: 28.5, y: 57}
+        - {x: 16.5, y: 61}
+      - - {x: -13.5, y: 50}
+        - {x: -12.5, y: 47}
+        - {x: -8.5, y: 47}
+        - {x: -4.5, y: 48}
+        - {x: -3.5, y: 51}
+        - {x: -4.5, y: 54}
+        - {x: -8.5, y: 54}
+      - - {x: -13.5, y: 57}
+        - {x: -10.5, y: 58}
+        - {x: -10.5, y: 61}
+        - {x: -14.5, y: 61}
+        - {x: -15.5, y: 60}
+    - name: Imp_EnemyDeath_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3
+        width: 57
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 44}
+        - {x: -28.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 28.5, y: 2}
+        - {x: 28.5, y: 44}
+      - - {x: -8.5, y: 31}
+        - {x: -5.5, y: 32}
+        - {x: -5.5, y: 35}
+        - {x: -8.5, y: 36}
+        - {x: -10.5, y: 34}
+    - name: Imp_EnemyDeath_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3
+        width: 57
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 34}
+        - {x: -28.5, y: 0}
+        - {x: 28.5, y: 0}
+        - {x: 28.5, y: 33}
+        - {x: 27.5, y: 34}
+    - name: Imp_EnemyDeath_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 4
+        width: 56
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_EnemyDeath_7
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 4
+        width: 56
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Imp_Impact_2
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 72
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 22}
+        - {x: -25.5, y: 17}
+        - {x: -25.5, y: -20}
+        - {x: -20.5, y: -22}
+        - {x: 25.5, y: -22}
+        - {x: 25.5, y: 19}
+        - {x: 20.5, y: 22}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

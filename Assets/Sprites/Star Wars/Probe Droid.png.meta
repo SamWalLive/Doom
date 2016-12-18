@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: f1d8116255082c042a60bd4eb1f1e4a7
+timeCreated: 1460223664
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ProbeDroid_Idle_0
+    21300002: ProbeDroid_Idle_1
+    21300004: ProbeDroid_Idle_2
+    21300006: ProbeDroid_Idle_3
+    21300008: ProbeDroid_Idle_4
+    21300010: ProbeDroid_Idle_5
+    21300012: ProbeDroid_Idle_6
+    21300014: ProbeDroid_Idle_7
+    21300016: ProbeDroid_Idle_8
+    21300018: ProbeDroid_Idle_9
+    21300020: ProbeDroid_Idle_10
+    21300022: ProbeDroid_Idle_11
+    21300024: ProbeDroid_Death_2
+    21300026: ProbeDroid_Death_0
+    21300028: ProbeDroid_Death_1
+    21300030: ProbeDroid_Death_3
+    21300032: ProbeDroid_Death_4
+    21300034: ProbeDroid_Death_5
+    21300036: ProbeDroid_Death_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 35
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ProbeDroid_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 20}
+        - {x: 1.5, y: 22}
+        - {x: 1.5, y: 19}
+        - {x: -2.5, y: 11}
+        - {x: 0.5, y: 8}
+        - {x: 3.5, y: 8}
+        - {x: 25.5, y: 9}
+        - {x: 25.5, y: 20}
+        - {x: 20.5, y: 20}
+        - {x: 16.5, y: 19}
+        - {x: 8.5, y: 20}
+        - {x: 11.5, y: 28}
+        - {x: 10.5, y: 29}
+        - {x: 10.5, y: 33}
+        - {x: 8.5, y: 38}
+        - {x: 12.5, y: 27}
+        - {x: 11.5, y: 26}
+        - {x: 10.5, y: 22}
+        - {x: 12.5, y: 20}
+        - {x: 15.5, y: 20}
+        - {x: 23.5, y: 22}
+        - {x: 22.5, y: 52}
+        - {x: 14.5, y: 61}
+        - {x: 2.5, y: 69}
+        - {x: -5.5, y: 69}
+        - {x: -23.5, y: 56}
+        - {x: -23.5, y: 46}
+        - {x: -25.5, y: 40}
+        - {x: -25.5, y: 14}
+        - {x: -18.5, y: 4}
+        - {x: -5.5, y: 4}
+        - {x: -2.5, y: 6}
+        - {x: -6.5, y: 17}
+        - {x: -1.5, y: 17}
+    - name: ProbeDroid_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 95
+        width: 47
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 69}
+        - {x: -19.5, y: 69}
+        - {x: -23.5, y: 59}
+        - {x: -23.5, y: 8}
+        - {x: -20.5, y: 4}
+        - {x: 10.5, y: 4}
+        - {x: 23.5, y: 6}
+        - {x: 23.5, y: 45}
+        - {x: 18.5, y: 63}
+    - name: ProbeDroid_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 95
+        width: 43
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 18}
+        - {x: 10.5, y: 26}
+        - {x: 14.5, y: 20}
+        - {x: 21.5, y: 21}
+        - {x: 21.5, y: 63}
+        - {x: 14.5, y: 69}
+        - {x: -19.5, y: 69}
+        - {x: -21.5, y: 68}
+        - {x: -21.5, y: 3}
+        - {x: 21.5, y: 3}
+        - {x: 21.5, y: 21}
+    - name: ProbeDroid_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 95
+        width: 40
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 19}
+        - {x: 10, y: 28}
+        - {x: 10, y: 22}
+        - {x: 18, y: 20}
+        - {x: 20, y: 20}
+        - {x: 20, y: 67}
+        - {x: 16, y: 69}
+        - {x: -6, y: 69}
+        - {x: -20, y: 62}
+        - {x: -20, y: 10}
+        - {x: -19, y: 2}
+        - {x: 3, y: 2}
+        - {x: 20, y: 8}
+        - {x: 20, y: 20}
+    - name: ProbeDroid_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 95
+        width: 42
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 69}
+        - {x: -2, y: 69}
+        - {x: -20, y: 56}
+        - {x: -21, y: 55}
+        - {x: -21, y: 11}
+        - {x: -12, y: 0}
+        - {x: 18, y: 0}
+        - {x: 21, y: 3}
+        - {x: 21, y: 55}
+        - {x: 18, y: 61}
+    - name: ProbeDroid_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 95
+        width: 45
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 12}
+        - {x: -4.5, y: 9}
+        - {x: -1.5, y: 8}
+        - {x: 21.5, y: 3}
+        - {x: 22.5, y: 5}
+        - {x: 22.5, y: 56}
+        - {x: 8.5, y: 69}
+        - {x: -4.5, y: 69}
+        - {x: -22.5, y: 61}
+        - {x: -22.5, y: 21}
+        - {x: -11.5, y: 0}
+        - {x: 0.5, y: 0}
+        - {x: 2.5, y: 1}
+        - {x: 0.5, y: 5}
+        - {x: -2.5, y: 8}
+        - {x: -6.5, y: 8}
+    - name: ProbeDroid_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 95
+        width: 47
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 17}
+        - {x: -2.5, y: 21}
+        - {x: -4.5, y: 13}
+        - {x: -4.5, y: 12}
+        - {x: -1.5, y: 9}
+        - {x: 15.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 23.5, y: 3}
+        - {x: 23.5, y: 67}
+        - {x: 21.5, y: 69}
+        - {x: -23.5, y: 69}
+        - {x: -23.5, y: 19}
+        - {x: -18.5, y: 0}
+        - {x: 3.5, y: 0}
+        - {x: 3.5, y: 1}
+        - {x: 1.5, y: 5}
+        - {x: -1.5, y: 8}
+        - {x: -7.5, y: 15}
+    - name: ProbeDroid_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 95
+        width: 49
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 11}
+        - {x: 1.5, y: 9}
+        - {x: 19.5, y: 2}
+        - {x: 24.5, y: 2}
+        - {x: 24.5, y: 12}
+        - {x: 19.5, y: 14}
+        - {x: 24.5, y: 44}
+        - {x: 24.5, y: 54}
+        - {x: 7.5, y: 69}
+        - {x: -5.5, y: 69}
+        - {x: -24.5, y: 61}
+        - {x: -24.5, y: 22}
+        - {x: -11.5, y: 0}
+        - {x: 3.5, y: 0}
+        - {x: 2.5, y: 5}
+        - {x: -4.5, y: 9}
+        - {x: -4.5, y: 21}
+    - name: ProbeDroid_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 95
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 12}
+        - {x: 24.5, y: 12}
+        - {x: 17.5, y: 13}
+        - {x: 22.5, y: 52}
+        - {x: 5.5, y: 69}
+        - {x: -7.5, y: 69}
+        - {x: -25.5, y: 61}
+        - {x: -25.5, y: 22}
+        - {x: -14.5, y: 0}
+        - {x: 0.5, y: 0}
+        - {x: -1.5, y: 4}
+        - {x: -4.5, y: 7}
+        - {x: 25.5, y: 1}
+    - name: ProbeDroid_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 95
+        width: 54
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 69}
+        - {x: -18, y: 69}
+        - {x: -27, y: 57}
+        - {x: -27, y: 24}
+        - {x: -17, y: 0}
+        - {x: -4, y: 0}
+        - {x: -2, y: 5}
+        - {x: 27, y: 1}
+        - {x: 27, y: 45}
+    - name: ProbeDroid_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 95
+        width: 53
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 64}
+        - {x: 7.5, y: 69}
+        - {x: -14.5, y: 69}
+        - {x: -26.5, y: 61}
+        - {x: -26.5, y: 17}
+        - {x: -21.5, y: 0}
+        - {x: -0.5, y: 0}
+        - {x: 26.5, y: 1}
+        - {x: 26.5, y: 12}
+        - {x: 25.5, y: 12}
+    - name: ProbeDroid_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 95
+        width: 53
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 19}
+        - {x: 18.5, y: 52}
+        - {x: 3.5, y: 69}
+        - {x: -14.5, y: 69}
+        - {x: -26.5, y: 63}
+        - {x: -26.5, y: 14}
+        - {x: -21.5, y: 0}
+        - {x: -4.5, y: 0}
+        - {x: -3.5, y: 21}
+        - {x: -1.5, y: 12}
+        - {x: 26.5, y: 0}
+    - name: ProbeDroid_Death_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 78
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 17}
+        - {x: 39, y: 40}
+        - {x: 39, y: 76}
+        - {x: 32, y: 89}
+        - {x: 1, y: 89}
+        - {x: 0, y: 87}
+        - {x: 1, y: 82}
+        - {x: -19, y: 88}
+        - {x: -22, y: 88}
+        - {x: -25, y: 85}
+        - {x: -26, y: 82}
+        - {x: -20, y: 75}
+        - {x: -14, y: 71}
+        - {x: -10, y: 56}
+        - {x: -39, y: 35}
+        - {x: -39, y: 26}
+        - {x: -34, y: 26}
+        - {x: -4, y: 7}
+        - {x: 6, y: 7}
+        - {x: 9, y: 8}
+        - {x: 11, y: 14}
+        - {x: 29, y: 7}
+        - {x: 39, y: 7}
+        - {x: 39, y: 15}
+    - name: ProbeDroid_Death_0
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 28
+        width: 57
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 66}
+        - {x: -28.5, y: 46}
+        - {x: -28.5, y: 0}
+        - {x: -2.5, y: 0}
+        - {x: 28.5, y: 3}
+        - {x: 28.5, y: 24}
+        - {x: 13.5, y: 66}
+    - name: ProbeDroid_Death_1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 24
+        width: 53
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 39}
+        - {x: 9.5, y: 69}
+        - {x: -26.5, y: 69}
+        - {x: -26.5, y: 0}
+        - {x: -4.5, y: 0}
+        - {x: -3.5, y: 21}
+        - {x: -1.5, y: 12}
+        - {x: 26.5, y: 0}
+    - name: ProbeDroid_Death_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 6
+        width: 79
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 43}
+        - {x: 25.5, y: 44}
+        - {x: 25.5, y: 43}
+        - {x: 26.5, y: 47}
+        - {x: 30.5, y: 51}
+        - {x: 26.5, y: 75}
+        - {x: 8.5, y: 86}
+        - {x: -8.5, y: 86}
+        - {x: -27.5, y: 67}
+        - {x: -11.5, y: 49}
+        - {x: -6.5, y: 48}
+        - {x: 6.5, y: 51}
+        - {x: 10.5, y: 50}
+        - {x: 11.5, y: 50}
+        - {x: 6.5, y: 50}
+        - {x: 3.5, y: 47}
+        - {x: -8.5, y: 38}
+        - {x: -8.5, y: 33}
+        - {x: -32.5, y: 34}
+        - {x: -39.5, y: 31}
+        - {x: -39.5, y: 21}
+        - {x: -12.5, y: 0}
+        - {x: 39.5, y: 0}
+        - {x: 39.5, y: 12}
+        - {x: 32.5, y: 37}
+      - - {x: -6.5, y: 49}
+        - {x: -8.5, y: 48}
+        - {x: -8.5, y: 42}
+        - {x: -2.5, y: 42}
+        - {x: -1.5, y: 44}
+        - {x: -1.5, y: 47}
+        - {x: -2.5, y: 49}
+      - - {x: -20.5, y: 56}
+        - {x: -24.5, y: 54}
+        - {x: -24.5, y: 50}
+        - {x: -21.5, y: 47}
+        - {x: -17.5, y: 47}
+        - {x: -13.5, y: 49}
+        - {x: -13.5, y: 54}
+        - {x: -14.5, y: 56}
+      - - {x: 31.5, y: 66}
+        - {x: 30.5, y: 64}
+        - {x: 30.5, y: 59}
+        - {x: 37.5, y: 59}
+        - {x: 37.5, y: 65}
+        - {x: 35.5, y: 66}
+      - - {x: 33.5, y: 71}
+        - {x: 33.5, y: 69}
+        - {x: 36.5, y: 66}
+        - {x: 38.5, y: 66}
+        - {x: 39.5, y: 67}
+        - {x: 39.5, y: 74}
+        - {x: 36.5, y: 74}
+      - - {x: -35.5, y: 83}
+        - {x: -34.5, y: 82}
+        - {x: -28.5, y: 82}
+        - {x: -25.5, y: 83}
+        - {x: -25.5, y: 89}
+        - {x: -35.5, y: 89}
+    - name: ProbeDroid_Death_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 6
+        width: 67
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 24}
+        - {x: 26.5, y: 24}
+        - {x: 27.5, y: 24}
+        - {x: 31.5, y: 26}
+        - {x: 33.5, y: 30}
+        - {x: 33.5, y: 38}
+        - {x: 20.5, y: 44}
+        - {x: 18.5, y: 55}
+        - {x: 15.5, y: 60}
+        - {x: -14.5, y: 60}
+        - {x: -33.5, y: 48}
+        - {x: -33.5, y: 15}
+        - {x: -27.5, y: 1}
+        - {x: 31.5, y: 1}
+        - {x: 33.5, y: 8}
+        - {x: 33.5, y: 23}
+      - - {x: -31.5, y: 62}
+        - {x: -31.5, y: 55}
+        - {x: -24.5, y: 55}
+        - {x: -24.5, y: 62}
+      - - {x: 0.5, y: 69}
+        - {x: -0.5, y: 67}
+        - {x: -0.5, y: 63}
+        - {x: 1.5, y: 62}
+        - {x: 5.5, y: 62}
+        - {x: 6.5, y: 64}
+        - {x: 6.5, y: 68}
+        - {x: 4.5, y: 69}
+      - - {x: -10.5, y: 89}
+        - {x: -10.5, y: 86}
+        - {x: -8.5, y: 84}
+        - {x: -5.5, y: 84}
+        - {x: -3.5, y: 86}
+        - {x: -3.5, y: 89}
+    - name: ProbeDroid_Death_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 6
+        width: 87
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 3}
+        - {x: -17.5, y: 0}
+        - {x: 37.5, y: 0}
+        - {x: 38.5, y: 1}
+        - {x: 38.5, y: 37}
+        - {x: -18.5, y: 37}
+        - {x: -43.5, y: 18}
+      - - {x: 37.5, y: 14}
+        - {x: 38.5, y: 11}
+        - {x: 43.5, y: 11}
+        - {x: 43.5, y: 16}
+        - {x: 39.5, y: 16}
+      - - {x: 37.5, y: 37}
+        - {x: 34.5, y: 34}
+        - {x: 34.5, y: 32}
+        - {x: 37.5, y: 29}
+        - {x: 38.5, y: 29}
+        - {x: 41.5, y: 32}
+        - {x: 41.5, y: 34}
+        - {x: 38.5, y: 37}
+      - - {x: 7.5, y: 42}
+        - {x: 4.5, y: 41}
+        - {x: 3.5, y: 38}
+        - {x: 3.5, y: 34}
+        - {x: 6.5, y: 32}
+        - {x: 7.5, y: 32}
+        - {x: 12.5, y: 37}
+        - {x: 12.5, y: 39}
+        - {x: 10.5, y: 42}
+      - - {x: 15.5, y: 41}
+        - {x: 12.5, y: 38}
+        - {x: 12.5, y: 37}
+        - {x: 15.5, y: 34}
+        - {x: 16.5, y: 34}
+        - {x: 19.5, y: 37}
+        - {x: 19.5, y: 38}
+        - {x: 16.5, y: 41}
+      - - {x: -2.5, y: 68}
+        - {x: -5.5, y: 65}
+        - {x: -5.5, y: 64}
+        - {x: -2.5, y: 61}
+        - {x: -1.5, y: 61}
+        - {x: 1.5, y: 64}
+        - {x: 1.5, y: 65}
+        - {x: -1.5, y: 68}
+    - name: ProbeDroid_Death_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 6
+        width: 85
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 30}
+        - {x: -42.5, y: 6}
+        - {x: -22.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 40.5, y: 2}
+        - {x: 42.5, y: 5}
+        - {x: 42.5, y: 30}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

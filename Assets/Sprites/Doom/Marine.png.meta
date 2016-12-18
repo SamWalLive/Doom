@@ -1,0 +1,1087 @@
+fileFormatVersion: 2
+guid: 04724e013d8b9ac47a8f243bcc5c326e
+timeCreated: 1459874643
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Marine_Front_Walking_0
+    21300002: Marine_Front_Walking_1
+    21300004: Marine_Front_Walking_2
+    21300006: Marine_Front_Walking_3
+    21300008: Marine_Front_Attack_0
+    21300010: Marine_Front_Attack_1
+    21300012: Marine_FrontSide_Walking_0
+    21300014: Marine_FrontSide_Walking_1
+    21300016: Marine_FrontSide_Walking_2
+    21300018: Marine_FrontSide_Walking_3
+    21300020: Marine_FrontSide_Attack_0
+    21300022: Marine_FrontSide_Attack_1
+    21300024: Marine_Side_Walking_0
+    21300026: Marine_Side_Walking_1
+    21300028: Marine_Side_Walking_2
+    21300030: Marine_Side_Walking_3
+    21300032: Marine_Side_Attack_0
+    21300034: Marine_Side_Attack_1
+    21300036: Marine_BackSide_Walking_0
+    21300038: Marine_BackSide_Walking_1
+    21300040: Marine_BackSide_Walking_2
+    21300042: Marine_BackSide_Walking_3
+    21300044: Marine_BackSide_Attack_0
+    21300046: Marine_BackSide_Attack_1
+    21300048: Marine_Back_Walking_0
+    21300050: Marine_Back_Walking_1
+    21300052: Marine_Back_Walking_2
+    21300054: Marine_Back_Walking_3
+    21300056: Marine_Back_Attack_0
+    21300058: Marine_Back_Attack_1
+    21300060: Marine_Front_Hurt_0
+    21300062: Marine_FrontSide_Hurt_0
+    21300064: Marine_Side_Jurt_0
+    21300066: Marine_BackSide_Hurt_0
+    21300068: Marine_Back_Hurt_0
+    21300070: Marine_PlayerDeath_0
+    21300072: Marine_PlayerDeath_1
+    21300074: Marine_PlayerDeath_2
+    21300076: Marine_PlayerDeath_3
+    21300078: Marine_PlayerDeath_4
+    21300080: Marine_PlayerDeath_5
+    21300082: Marine_PlayerDeath_6
+    21300084: Marine_EnemyDeath_0
+    21300086: Marine_EnemyDeath_1
+    21300088: Marine_EnemyDeath_2
+    21300090: Marine_EnemyDeath_3
+    21300092: Marine_EnemyDeath_5
+    21300094: Marine_EnemyDeath_6
+    21300096: Marine_EnemyDeath_7
+    21300098: Marine_EnemyDeath_8
+    21300100: Marine_EnemyDeath_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Marine_Front_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 421
+        width: 41
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 56}
+        - {x: -20.5, y: 48}
+        - {x: -20.5, y: 26}
+        - {x: -10.5, y: 5}
+        - {x: -6.5, y: 0}
+        - {x: 3.5, y: 0}
+        - {x: 20.5, y: 24}
+        - {x: 20.5, y: 48}
+        - {x: 10.5, y: 56}
+    - name: Marine_Front_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 421
+        width: 37
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 56}
+        - {x: -18.5, y: 48}
+        - {x: -18.5, y: 14}
+        - {x: -8.5, y: 0}
+        - {x: 10.5, y: 0}
+        - {x: 18.5, y: 33}
+        - {x: 18.5, y: 53}
+        - {x: 12.5, y: 56}
+    - name: Marine_Front_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 421
+        width: 39
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 56}
+        - {x: -19.5, y: 4}
+        - {x: -17.5, y: 0}
+        - {x: 4.5, y: 0}
+        - {x: 19.5, y: 24}
+        - {x: 19.5, y: 56}
+    - name: Marine_Front_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 421
+        width: 40
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 55}
+        - {x: -20, y: 47}
+        - {x: -20, y: 17}
+        - {x: -17, y: 0}
+        - {x: 2, y: 0}
+        - {x: 20, y: 35}
+        - {x: 20, y: 47}
+        - {x: 4, y: 55}
+    - name: Marine_Front_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 421
+        width: 26
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_Front_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 421
+        width: 26
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_FrontSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 363
+        width: 35
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 54}
+        - {x: -17.5, y: 45}
+        - {x: -17.5, y: 3}
+        - {x: -16.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 17.5, y: 49}
+        - {x: 11.5, y: 54}
+    - name: Marine_FrontSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 363
+        width: 35
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 55}
+        - {x: -17.5, y: 41}
+        - {x: -17.5, y: 16}
+        - {x: -8.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 17.5, y: 44}
+        - {x: 5.5, y: 55}
+    - name: Marine_FrontSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 363
+        width: 37
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 55}
+        - {x: -18.5, y: 45}
+        - {x: -18.5, y: 8}
+        - {x: -11.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 18.5, y: 41}
+        - {x: 13.5, y: 55}
+    - name: Marine_FrontSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 363
+        width: 35
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 55}
+        - {x: -10.5, y: 54}
+        - {x: -17.5, y: 43}
+        - {x: -17.5, y: 19}
+        - {x: -8.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 17.5, y: 3}
+        - {x: 17.5, y: 51}
+        - {x: 10.5, y: 55}
+    - name: Marine_FrontSide_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 363
+        width: 43
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 55}
+        - {x: -21.5, y: 52}
+        - {x: -21.5, y: 8}
+        - {x: -18.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 21.5, y: 46}
+        - {x: 19.5, y: 55}
+    - name: Marine_FrontSide_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 363
+        width: 45
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 55}
+        - {x: -22.5, y: 40}
+        - {x: -22.5, y: 19}
+        - {x: -0.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 22.5, y: 45}
+        - {x: 18.5, y: 55}
+    - name: Marine_Side_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 305
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 53}
+        - {x: -21, y: 41}
+        - {x: -21, y: 8}
+        - {x: -18, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 23}
+        - {x: 4, y: 53}
+    - name: Marine_Side_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 305
+        width: 36
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 55}
+        - {x: -9, y: 55}
+        - {x: -18, y: 49}
+        - {x: -18, y: 12}
+        - {x: -14, y: 0}
+        - {x: 15, y: 0}
+        - {x: 18, y: 2}
+        - {x: 18, y: 19}
+        - {x: 12, y: 42}
+    - name: Marine_Side_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 305
+        width: 38
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 54}
+        - {x: -16, y: 54}
+        - {x: -19, y: 46}
+        - {x: -19, y: 0}
+        - {x: 19, y: 0}
+        - {x: 19, y: 19}
+        - {x: 7, y: 53}
+    - name: Marine_Side_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 305
+        width: 34
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 54}
+        - {x: -14, y: 54}
+        - {x: -17, y: 41}
+        - {x: -17, y: 21}
+        - {x: -5, y: 0}
+        - {x: 17, y: 0}
+        - {x: 17, y: 28}
+        - {x: 9, y: 51}
+    - name: Marine_Side_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 305
+        width: 51
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 53}
+        - {x: -7.5, y: 53}
+        - {x: -25.5, y: 36}
+        - {x: -25.5, y: 8}
+        - {x: -15.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 25.5, y: 31}
+        - {x: 22.5, y: 51}
+    - name: Marine_Side_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 305
+        width: 52
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 19}
+        - {x: -13, y: 0}
+        - {x: 26, y: 0}
+        - {x: 26, y: 53}
+        - {x: -15, y: 53}
+        - {x: -26, y: 50}
+    - name: Marine_BackSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 247
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 21}
+        - {x: -11.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 22.5, y: 29}
+        - {x: 19.5, y: 43}
+        - {x: 7.5, y: 51}
+        - {x: -18.5, y: 51}
+        - {x: -22.5, y: 46}
+    - name: Marine_BackSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 247
+        width: 41
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 54}
+        - {x: -17.5, y: 54}
+        - {x: -20.5, y: 51}
+        - {x: -20.5, y: 15}
+        - {x: -8.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 20.5, y: 19}
+        - {x: 12.5, y: 51}
+    - name: Marine_BackSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 247
+        width: 41
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 55}
+        - {x: -20.5, y: 54}
+        - {x: -20.5, y: 15}
+        - {x: -14.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 20.5, y: 47}
+        - {x: 14.5, y: 55}
+    - name: Marine_BackSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 247
+        width: 40
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 54}
+        - {x: -18, y: 54}
+        - {x: -20, y: 53}
+        - {x: -20, y: 20}
+        - {x: 4, y: 0}
+        - {x: 20, y: 0}
+        - {x: 20, y: 34}
+        - {x: 19, y: 44}
+    - name: Marine_BackSide_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 247
+        width: 38
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 45}
+        - {x: 7, y: 52}
+        - {x: -10, y: 52}
+        - {x: -19, y: 38}
+        - {x: -19, y: 24}
+        - {x: -16, y: 5}
+        - {x: -15, y: 1}
+        - {x: -14, y: 0}
+        - {x: 19, y: 0}
+    - name: Marine_BackSide_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 247
+        width: 41
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 52}
+        - {x: -20.5, y: 43}
+        - {x: -20.5, y: 14}
+        - {x: -14.5, y: 1}
+        - {x: -13.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 20.5, y: 41}
+        - {x: 7.5, y: 52}
+    - name: Marine_Back_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 191
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 50}
+        - {x: -18, y: 46}
+        - {x: -18, y: 30}
+        - {x: -15, y: 24}
+        - {x: -5, y: 0}
+        - {x: 16, y: 0}
+        - {x: 18, y: 13}
+        - {x: 18, y: 47}
+        - {x: 15, y: 50}
+    - name: Marine_Back_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 191
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 53}
+        - {x: -9.5, y: 53}
+        - {x: -17.5, y: 51}
+        - {x: -17.5, y: 31}
+        - {x: -7.5, y: 0}
+        - {x: 8.5, y: 0}
+        - {x: 14.5, y: 1}
+        - {x: 17.5, y: 21}
+        - {x: 17.5, y: 49}
+    - name: Marine_Back_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 191
+        width: 34
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 53}
+        - {x: -9, y: 53}
+        - {x: -17, y: 48}
+        - {x: -17, y: 24}
+        - {x: -10, y: 0}
+        - {x: 9, y: 0}
+        - {x: 10, y: 2}
+        - {x: 17, y: 24}
+        - {x: 17, y: 46}
+    - name: Marine_Back_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 191
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 53}
+        - {x: -17.5, y: 43}
+        - {x: -17.5, y: 35}
+        - {x: -10.5, y: 15}
+        - {x: -4.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 17.5, y: 25}
+        - {x: 17.5, y: 46}
+        - {x: 12.5, y: 53}
+    - name: Marine_Back_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 191
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_Back_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 191
+        width: 23
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_Front_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 132
+        width: 39
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 55}
+        - {x: -19.5, y: 40}
+        - {x: -19.5, y: 13}
+        - {x: -12.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 19.5, y: 55}
+    - name: Marine_FrontSide_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 132
+        width: 36
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 56}
+        - {x: -18, y: 45}
+        - {x: -18, y: 11}
+        - {x: -12, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 56}
+    - name: Marine_Side_Jurt_0
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 132
+        width: 43
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 55}
+        - {x: -21.5, y: 44}
+        - {x: -21.5, y: 13}
+        - {x: -11.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 21.5, y: 55}
+    - name: Marine_BackSide_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 132
+        width: 43
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 52}
+        - {x: -21.5, y: 45}
+        - {x: -21.5, y: 16}
+        - {x: -17.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 21.5, y: 52}
+    - name: Marine_Back_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 131
+        width: 34
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 54}
+        - {x: -10, y: 54}
+        - {x: -14, y: 52}
+        - {x: -17, y: 47}
+        - {x: -17, y: 0}
+        - {x: 11, y: 0}
+        - {x: 17, y: 19}
+        - {x: 17, y: 37}
+    - name: Marine_PlayerDeath_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 79
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 50}
+        - {x: -2, y: 50}
+        - {x: -21, y: 28}
+        - {x: -22, y: 26}
+        - {x: -22, y: 5}
+        - {x: -8, y: 0}
+        - {x: 14, y: 0}
+        - {x: 15, y: 1}
+        - {x: 22, y: 11}
+        - {x: 22, y: 35}
+    - name: Marine_PlayerDeath_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 79
+        width: 35
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 43}
+        - {x: -17.5, y: 37}
+        - {x: -17.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 17.5, y: 42}
+        - {x: 16.5, y: 43}
+    - name: Marine_PlayerDeath_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 79
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 46}
+        - {x: -11, y: 46}
+        - {x: -18, y: 38}
+        - {x: -18, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 13}
+        - {x: 14, y: 35}
+    - name: Marine_PlayerDeath_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 79
+        width: 41
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 38}
+        - {x: -17.5, y: 38}
+        - {x: -20.5, y: 35}
+        - {x: -20.5, y: 6}
+        - {x: -19.5, y: 3}
+        - {x: -16.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 20.5, y: 17}
+        - {x: 16.5, y: 32}
+    - name: Marine_PlayerDeath_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 79
+        width: 51
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_PlayerDeath_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 79
+        width: 51
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_PlayerDeath_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 79
+        width: 51
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_EnemyDeath_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 17
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 56}
+        - {x: -19, y: 41}
+        - {x: -19, y: 9}
+        - {x: -13, y: 0}
+        - {x: 15, y: 0}
+        - {x: 19, y: 7}
+        - {x: 19, y: 56}
+    - name: Marine_EnemyDeath_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 17
+        width: 44
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 59}
+        - {x: -22, y: 10}
+        - {x: -18, y: 0}
+        - {x: 12, y: 0}
+        - {x: 22, y: 11}
+        - {x: 22, y: 55}
+        - {x: 16, y: 59}
+    - name: Marine_EnemyDeath_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 17
+        width: 48
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 57}
+        - {x: -3, y: 54}
+        - {x: -3, y: 57}
+        - {x: -11, y: 57}
+        - {x: -13, y: 55}
+        - {x: -13, y: 54}
+        - {x: -20, y: 52}
+        - {x: -24, y: 50}
+        - {x: -24, y: 3}
+        - {x: -15, y: 0}
+        - {x: 12, y: 0}
+        - {x: 24, y: 9}
+        - {x: 24, y: 46}
+        - {x: 15, y: 57}
+    - name: Marine_EnemyDeath_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 17
+        width: 53
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 52}
+        - {x: -4.5, y: 48}
+        - {x: -1.5, y: 45}
+        - {x: -0.5, y: 45}
+        - {x: 1.5, y: 47}
+        - {x: 5.5, y: 40}
+        - {x: 3.5, y: 43}
+        - {x: 0.5, y: 44}
+        - {x: -9.5, y: 45}
+        - {x: -6.5, y: 48}
+        - {x: -6.5, y: 52}
+        - {x: -17.5, y: 52}
+        - {x: -26.5, y: 41}
+        - {x: -26.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 26.5, y: 51}
+        - {x: 24.5, y: 52}
+      - - {x: 7.5, y: 22}
+        - {x: 10.5, y: 23}
+        - {x: 10.5, y: 26}
+        - {x: 7.5, y: 27}
+        - {x: 5.5, y: 25}
+    - name: Marine_EnemyDeath_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 17
+        width: 57
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 36}
+        - {x: -9.5, y: 40}
+        - {x: -18.5, y: 40}
+        - {x: -27.5, y: 26}
+        - {x: -28.5, y: 23}
+        - {x: -28.5, y: 0}
+        - {x: 28.5, y: 0}
+        - {x: 28.5, y: 18}
+        - {x: 7.5, y: 30}
+      - - {x: 2.5, y: 20}
+        - {x: 5.5, y: 21}
+        - {x: 5.5, y: 24}
+        - {x: 2.5, y: 25}
+        - {x: 0.5, y: 23}
+      - - {x: -1.5, y: 23}
+        - {x: 1.5, y: 24}
+        - {x: 1.5, y: 27}
+        - {x: -1.5, y: 28}
+        - {x: -3.5, y: 26}
+      - - {x: 17.5, y: 40}
+        - {x: 10.5, y: 34}
+        - {x: 10.5, y: 29}
+        - {x: 12.5, y: 24}
+        - {x: 14.5, y: 23}
+        - {x: 26.5, y: 23}
+        - {x: 28.5, y: 29}
+        - {x: 28.5, y: 36}
+        - {x: 24.5, y: 40}
+      - - {x: 2.5, y: 32}
+        - {x: 5.5, y: 33}
+        - {x: 5.5, y: 36}
+        - {x: 2.5, y: 37}
+        - {x: 0.5, y: 35}
+    - name: Marine_EnemyDeath_6
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 17
+        width: 57
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 33}
+        - {x: 17.5, y: 33}
+        - {x: -1.5, y: 20}
+        - {x: -3.5, y: 18}
+        - {x: -1.5, y: 15}
+        - {x: -5.5, y: 17}
+        - {x: -2.5, y: 24}
+        - {x: -6.5, y: 30}
+        - {x: -9.5, y: 30}
+        - {x: -10.5, y: 27}
+        - {x: -12.5, y: 33}
+        - {x: -18.5, y: 33}
+        - {x: -26.5, y: 30}
+        - {x: -28.5, y: 26}
+        - {x: -28.5, y: 0}
+        - {x: 28.5, y: 0}
+        - {x: 28.5, y: 27}
+      - - {x: 2.5, y: 25}
+        - {x: 5.5, y: 26}
+        - {x: 5.5, y: 29}
+        - {x: 2.5, y: 30}
+        - {x: 0.5, y: 28}
+    - name: Marine_EnemyDeath_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 17
+        width: 57
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_EnemyDeath_8
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 17
+        width: 57
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Marine_EnemyDeath_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 17
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 23.5}
+        - {x: 6.5, y: 17.5}
+        - {x: 4.5, y: 9.5}
+        - {x: 5.5, y: -6.5}
+        - {x: 8.5, y: -7.5}
+        - {x: 6.5, y: -7.5}
+        - {x: 3.5, y: -4.5}
+        - {x: 1.5, y: -4.5}
+        - {x: -2.5, y: -8.5}
+        - {x: -4.5, y: -5.5}
+        - {x: -2.5, y: -7.5}
+        - {x: -0.5, y: -7.5}
+        - {x: 1.5, y: -4.5}
+        - {x: 2.5, y: 2.5}
+        - {x: -8.5, y: 22.5}
+        - {x: -10.5, y: 23.5}
+        - {x: -17.5, y: 23.5}
+        - {x: -27.5, y: 17.5}
+        - {x: -27.5, y: -23.5}
+        - {x: 26.5, y: -23.5}
+        - {x: 27.5, y: -21.5}
+        - {x: 27.5, y: 19.5}
+        - {x: 22.5, y: 23.5}
+      - - {x: 2.5, y: 5.5}
+        - {x: 5.5, y: 6.5}
+        - {x: 5.5, y: 9.5}
+        - {x: 2.5, y: 10.5}
+        - {x: 0.5, y: 8.5}
+      - - {x: -1.5, y: 9.5}
+        - {x: 1.5, y: 10.5}
+        - {x: 1.5, y: 13.5}
+        - {x: -1.5, y: 14.5}
+        - {x: -3.5, y: 12.5}
+      - - {x: -8.5, y: 21.5}
+        - {x: -8.5, y: 16.5}
+        - {x: -5.5, y: 13.5}
+        - {x: -3.5, y: 13.5}
+        - {x: -1.5, y: 16.5}
+        - {x: -1.5, y: 19.5}
+        - {x: -5.5, y: 22.5}
+      - - {x: 1.5, y: 15.5}
+        - {x: 4.5, y: 16.5}
+        - {x: 4.5, y: 19.5}
+        - {x: 1.5, y: 20.5}
+        - {x: -0.5, y: 18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

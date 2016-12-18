@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: e5020a3dec534f54b8cde6e52bfd43b2
+timeCreated: 1459860574
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Doomguy Heads_0
+    21300002: Doomguy Heads_1
+    21300004: Doomguy Heads_2
+    21300006: Doomguy Heads_3
+    21300008: Doomguy Heads_4
+    21300010: Doomguy Heads_5
+    21300012: Doomguy Heads_6
+    21300014: Doomguy Heads_7
+    21300016: Doomguy Heads_8
+    21300018: Doomguy Heads_9
+    21300020: Doomguy Heads_10
+    21300022: Doomguy Heads_11
+    21300024: Doomguy Heads_12
+    21300026: Doomguy Heads_13
+    21300028: Doomguy Heads_14
+    21300030: Doomguy Heads_15
+    21300032: Doomguy Heads_16
+    21300034: Doomguy Heads_17
+    21300036: Doomguy Heads_18
+    21300038: Doomguy Heads_19
+    21300040: Doomguy Heads_20
+    21300042: Doomguy Heads_21
+    21300044: Doomguy Heads_22
+    21300046: Doomguy Heads_23
+    21300048: Doomguy Heads_24
+    21300050: Doomguy Heads_25
+    21300052: Doomguy Heads_26
+    21300054: Doomguy Heads_27
+    21300056: Doomguy Heads_28
+    21300058: Doomguy Heads_29
+    21300060: Doomguy Heads_30
+    21300062: Doomguy Heads_31
+    21300064: Doomguy Heads_32
+    21300066: Doomguy Heads_33
+    21300068: Doomguy Heads_34
+    21300070: Doomguy Heads_35
+    21300072: Doomguy Heads_36
+    21300074: Doomguy Heads_37
+    21300076: Doomguy Heads_38
+    21300078: Doomguy Heads_39
+    21300080: Doomguy Heads_40
+    21300082: Doomguy Heads_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Doomguy Heads_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 177
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 177
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 177
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 177
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 177
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 177
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 177
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 178
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 143
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 143
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 143
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 143
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 143
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 143
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 143
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 143
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 109
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 109
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 109
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 109
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 109
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 109
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 109
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 75
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_27
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 75
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_28
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 75
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 75
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 75
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 75
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_32
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 75
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 41
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_34
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 41
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 41
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_36
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 41
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_37
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 41
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 41
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_39
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 41
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 41
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Doomguy Heads_41
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 41
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

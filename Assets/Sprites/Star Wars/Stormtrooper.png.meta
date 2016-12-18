@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 9aad435564d95e4479b87c755e89fe78
+timeCreated: 1460744285
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Stormtrooper_Forward_Walking_0
+    21300002: Stormtrooper_Forward_Walking_1
+    21300004: Stormtrooper_Forward_Walking_2
+    21300006: Stormtrooper_Forward_Walking_3
+    21300008: Stormtrooper_Forward_Walking_4
+    21300010: Stormtrooper_Forward_Walking_5
+    21300012: Stormtrooper_ForwardSide_Walking_0
+    21300014: Stormtrooper_ForwardSide_Walking_1
+    21300016: Stormtrooper_ForwardSide_Walking_2
+    21300018: Stormtrooper_ForwardSide_Walking_3
+    21300020: Stormtrooper_ForwardSide_Walking_4
+    21300022: Stormtrooper_ForwardSide_Walking_5
+    21300024: Stormtrooper_Back_Walking_0
+    21300026: Stormtrooper_Back_Walking_1
+    21300028: Stormtrooper_Back_Walking_2
+    21300030: Stormtrooper_Back_Walking_3
+    21300032: Stormtrooper_Back_Walking_4
+    21300034: Stormtrooper_Back_Walking_5
+    21300036: Stormtrooper_Shooting_0
+    21300038: Stormtrooper_Shooting_1
+    21300040: Stormtrooper_ShotDeath_0
+    21300042: Stormtrooper_ShotDeath_1
+    21300044: Stormtrooper_ShotDeath_2
+    21300046: Stormtrooper_ShotDeath_3
+    21300048: Stormtrooper_ShotDeath_4
+    21300050: Stormtrooper_Side_Walking_0
+    21300052: Stormtrooper_Side_Walking_1
+    21300054: Stormtrooper_Side_Walking_2
+    21300056: Stormtrooper_Side_Walking_3
+    21300058: Stormtrooper_Side_Walking_4
+    21300060: Stormtrooper_Side_Walking_5
+    21300062: Stormtrooper_BackSide_Walking_0
+    21300064: Stormtrooper_BackSide_Walking_1
+    21300066: Stormtrooper_BackSide_Walking_2
+    21300068: Stormtrooper_BackSide_Walking_3
+    21300070: Stormtrooper_BackSide_Walking_4
+    21300072: Stormtrooper_BackSide_Walking_5
+    21300074: Stormtrooper_OtherDeath_0
+    21300076: Stormtrooper_OtherDeath_1
+    21300078: Stormtrooper_OtherDeath_2
+    21300080: Stormtrooper_OtherDeath_3
+    21300082: Stormtrooper_OtherDeath_4
+    21300084: Stormtrooper_OtherDeath_5
+    21300086: Stormtrooper_Front_Idle_0
+    21300088: Stormtrooper_FrontSide_Idle_0
+    21300090: Stormtrooper_Side_Idle_0
+    21300092: Stormtrooper_BackSide_Idle_0
+    21300094: Stormtrooper_Back_Idle_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Stormtrooper_Forward_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 29
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Forward_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 208
+        width: 29
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Forward_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 208
+        width: 28
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Forward_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 208
+        width: 29
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Forward_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 208
+        width: 30
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Forward_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 208
+        width: 30
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_ForwardSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 208
+        width: 42
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 67}
+        - {x: -21, y: 50}
+        - {x: -21, y: 29}
+        - {x: -1, y: 0}
+        - {x: 20, y: 0}
+        - {x: 21, y: 1}
+        - {x: 21, y: 56}
+        - {x: 19, y: 67}
+    - name: Stormtrooper_ForwardSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 40
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 67}
+        - {x: -20, y: 48}
+        - {x: -20, y: 27}
+        - {x: -8, y: 0}
+        - {x: 20, y: 0}
+        - {x: 20, y: 67}
+    - name: Stormtrooper_ForwardSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 208
+        width: 41
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 7}
+        - {x: 20.5, y: 57}
+        - {x: 14.5, y: 67}
+        - {x: -6.5, y: 67}
+        - {x: -20.5, y: 59}
+        - {x: -20.5, y: 27}
+        - {x: -8.5, y: 0}
+        - {x: 8.5, y: 0}
+        - {x: 9.5, y: 1}
+        - {x: 9.5, y: 3}
+        - {x: 16.5, y: 0}
+    - name: Stormtrooper_ForwardSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 208
+        width: 40
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: 1, y: 0}
+        - {x: 20, y: 0}
+        - {x: 20, y: 67}
+        - {x: -6, y: 67}
+        - {x: -20, y: 60}
+    - name: Stormtrooper_ForwardSide_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 208
+        width: 45
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 67}
+        - {x: -4.5, y: 66}
+        - {x: -22.5, y: 50}
+        - {x: -22.5, y: 18}
+        - {x: -20.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 22.5, y: 55}
+        - {x: 9.5, y: 67}
+    - name: Stormtrooper_ForwardSide_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 208
+        width: 47
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 67}
+        - {x: -23.5, y: 63}
+        - {x: -23.5, y: 21}
+        - {x: -15.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 23.5, y: 61}
+        - {x: 13.5, y: 67}
+    - name: Stormtrooper_Back_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 28
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Back_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 140
+        width: 28
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Back_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 140
+        width: 28
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Back_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 140
+        width: 28
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Back_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 140
+        width: 29
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Back_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 140
+        width: 28
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Shooting_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 140
+        width: 30
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Shooting_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 140
+        width: 30
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_ShotDeath_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 140
+        width: 31
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_ShotDeath_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 140
+        width: 42
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 64}
+        - {x: -21, y: 64}
+        - {x: -21, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 20}
+        - {x: 12, y: 46}
+    - name: Stormtrooper_ShotDeath_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 140
+        width: 44
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 57}
+        - {x: 1, y: 57}
+        - {x: -2, y: 56}
+        - {x: -9, y: 48}
+        - {x: -13, y: 44}
+        - {x: -11, y: 48}
+        - {x: -11, y: 49}
+        - {x: -15, y: 55}
+        - {x: -22, y: 52}
+        - {x: -22, y: 1}
+        - {x: -19, y: 0}
+        - {x: 22, y: 0}
+        - {x: 22, y: 17}
+        - {x: 13, y: 49}
+    - name: Stormtrooper_ShotDeath_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 140
+        width: 44
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 42}
+        - {x: -21, y: 42}
+        - {x: -22, y: 40}
+        - {x: -22, y: 9}
+        - {x: -4, y: 0}
+        - {x: 20, y: 0}
+        - {x: 22, y: 2}
+        - {x: 22, y: 10}
+        - {x: 13, y: 37}
+    - name: Stormtrooper_ShotDeath_4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 140
+        width: 44
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 22}
+        - {x: -22, y: 19}
+        - {x: -22, y: 1}
+        - {x: -17, y: 0}
+        - {x: 20, y: 0}
+        - {x: 22, y: 1}
+        - {x: 22, y: 10}
+        - {x: 6, y: 22}
+    - name: Stormtrooper_Side_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 39
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 67}
+        - {x: -19.5, y: 50}
+        - {x: -19.5, y: 32}
+        - {x: 3.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 19.5, y: 51}
+        - {x: 17.5, y: 67}
+    - name: Stormtrooper_Side_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 50
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 1}
+        - {x: 25, y: 28}
+        - {x: 14, y: 67}
+        - {x: -15, y: 67}
+        - {x: -25, y: 57}
+        - {x: -25, y: 15}
+        - {x: -21, y: 0}
+        - {x: -1, y: 0}
+        - {x: 2, y: 12}
+        - {x: 9, y: 0}
+        - {x: 24, y: 0}
+    - name: Stormtrooper_Side_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 72
+        width: 49
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 67}
+        - {x: -15.5, y: 67}
+        - {x: -24.5, y: 54}
+        - {x: -24.5, y: 30}
+        - {x: -21.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 24.5, y: 1}
+        - {x: 24.5, y: 25}
+        - {x: 15.5, y: 52}
+    - name: Stormtrooper_Side_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 72
+        width: 36
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 67}
+        - {x: -18, y: 61}
+        - {x: -18, y: 28}
+        - {x: -5, y: 0}
+        - {x: 16, y: 0}
+        - {x: 18, y: 4}
+        - {x: 18, y: 55}
+        - {x: 14, y: 67}
+    - name: Stormtrooper_Side_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 72
+        width: 43
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 47}
+        - {x: -21.5, y: 0}
+        - {x: 21.5, y: 0}
+        - {x: 21.5, y: 20}
+        - {x: 18.5, y: 52}
+        - {x: 8.5, y: 67}
+        - {x: -4.5, y: 67}
+        - {x: -14.5, y: 61}
+    - name: Stormtrooper_Side_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 72
+        width: 46
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 67}
+        - {x: -15, y: 67}
+        - {x: -23, y: 57}
+        - {x: -23, y: 3}
+        - {x: -20, y: 0}
+        - {x: 23, y: 0}
+        - {x: 23, y: 35}
+        - {x: 10, y: 66}
+    - name: Stormtrooper_BackSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 72
+        width: 27
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_BackSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 72
+        width: 38
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 66}
+        - {x: -18, y: 66}
+        - {x: -19, y: 56}
+        - {x: -19, y: 0}
+        - {x: 19, y: 0}
+        - {x: 19, y: 31}
+        - {x: 16, y: 54}
+    - name: Stormtrooper_BackSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 72
+        width: 38
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 66}
+        - {x: 1, y: 67}
+        - {x: -10, y: 67}
+        - {x: -17, y: 56}
+        - {x: -19, y: 44}
+        - {x: -19, y: 0}
+        - {x: 19, y: 0}
+        - {x: 19, y: 29}
+        - {x: 13, y: 50}
+    - name: Stormtrooper_BackSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 72
+        width: 26
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_BackSide_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 72
+        width: 25
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_BackSide_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 72
+        width: 28
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_OtherDeath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 33
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 62}
+        - {x: -16.5, y: 59}
+        - {x: -16.5, y: 17}
+        - {x: -13.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 16.5, y: 46}
+        - {x: 3.5, y: 62}
+    - name: Stormtrooper_OtherDeath_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 4
+        width: 36
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 61}
+        - {x: -18, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 43}
+        - {x: -1, y: 61}
+    - name: Stormtrooper_OtherDeath_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4
+        width: 39
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 57}
+        - {x: -19.5, y: 55}
+        - {x: -19.5, y: 16}
+        - {x: -16.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 19.5, y: 37}
+        - {x: -0.5, y: 57}
+    - name: Stormtrooper_OtherDeath_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 4
+        width: 42
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 52}
+        - {x: -21, y: 10}
+        - {x: -19, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 40}
+        - {x: 14, y: 52}
+    - name: Stormtrooper_OtherDeath_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 4
+        width: 45
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 41}
+        - {x: -22.5, y: 36}
+        - {x: -22.5, y: 4}
+        - {x: -20.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 22.5, y: 23}
+        - {x: 21.5, y: 25}
+        - {x: -5.5, y: 41}
+    - name: Stormtrooper_OtherDeath_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 4
+        width: 44
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 22}
+        - {x: -22, y: 19}
+        - {x: -22, y: 1}
+        - {x: -17, y: 0}
+        - {x: 20, y: 0}
+        - {x: 22, y: 1}
+        - {x: 22, y: 10}
+        - {x: 6, y: 22}
+    - name: Stormtrooper_Front_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 4
+        width: 32
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 67}
+        - {x: -16, y: 55}
+        - {x: -16, y: 19}
+        - {x: -10, y: 0}
+        - {x: 16, y: 0}
+        - {x: 16, y: 67}
+    - name: Stormtrooper_FrontSide_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 4
+        width: 35
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 67}
+        - {x: -17.5, y: 62}
+        - {x: -17.5, y: 17}
+        - {x: -11.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 17.5, y: 67}
+    - name: Stormtrooper_Side_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 4
+        width: 26
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_BackSide_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 4
+        width: 25
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Stormtrooper_Back_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 4
+        width: 29
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

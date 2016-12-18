@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: 6055b9bf609ea53488dcf46307f58256
+timeCreated: 1460223378
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fist_0
+    21300002: Weapons_1
+    21300004: Fist_2
+    21300006: Fist_3
+    21300008: BryarPistol_Idle_0
+    21300010: BryarPistol_Fire_0
+    21300012: BryarPistol_Fire_1
+    21300014: E-11BlasterRifle_Idle_0
+    21300016: E-11BlasterRifle_Fire_0
+    21300018: Fist_1
+    21300020: ThermalDetonator_Idle_0
+    21300022: ThermalDetonator_Throw_0
+    21300024: ImperialRepeaterGun_Idle_0
+    21300026: ImperialRepeaterGun_Fire_0
+    21300028: ImperialRepeaterGun_Fire_1
+    21300030: JeronFusionCutter_Idle_0
+    21300032: JeronFusionCutter_Fire1_0
+    21300034: JeronFusionCutter_Fire2_0
+    21300036: JeronFusionCutter_Fire3_0
+    21300038: JeronFusionCutter_Fire4_0
+    21300040: JeronFusionCutter_FireAll_0
+    21300042: PackeredMortarGun_Idle_0
+    21300044: PackeredMortarGun_Fire_0
+    21300046: PackeredMortarGun_Fire_1
+    21300048: PackeredMortarGun_Fire_2
+    21300050: AssaultCannon_Idle_0
+    21300052: AssaultCannon_FirePlasma_0
+    21300054: I.M.Mine_Idle_0
+    21300056: I.M.Mine_Throw_0
+    21300058: AssaultCannon_FireRocket_0
+    21300060: AssaultCannon_FireRocket_1
+    21300062: StoukerConcussionRifle_Idle_0
+    21300064: StoukerConcussionRifle_Fire_0
+    21300066: StoukerConcussionRifle_Fire_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 0.1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Fist_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 599
+        width: 148
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 121}
+        - {x: -74, y: 121}
+        - {x: -74, y: 41}
+        - {x: 8, y: 0}
+        - {x: 74, y: 0}
+        - {x: 74, y: 7}
+        - {x: -7, y: 118}
+    - name: Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 672
+        width: 96
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 60}
+        - {x: -42, y: 29}
+        - {x: -48, y: 7}
+        - {x: -48, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 15}
+        - {x: 17, y: 60}
+    - name: Fist_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 601
+        width: 148
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: 122}
+        - {x: 12, y: 122}
+        - {x: -10, y: 113}
+        - {x: -74, y: 8}
+        - {x: -74, y: 0}
+        - {x: 5, y: 0}
+        - {x: 74, y: 70}
+        - {x: 74, y: 104}
+        - {x: 71, y: 120}
+    - name: Fist_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 602
+        width: 150
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 95}
+        - {x: 3, y: 95}
+        - {x: -75, y: 9}
+        - {x: -75, y: 0}
+        - {x: -3, y: 0}
+        - {x: 75, y: 50}
+        - {x: 75, y: 71}
+        - {x: 62, y: 93}
+    - name: BryarPistol_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 607
+        width: 83
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 94}
+        - {x: -41.5, y: 78}
+        - {x: -41.5, y: 24}
+        - {x: -26.5, y: 0}
+        - {x: 41.5, y: 0}
+        - {x: 41.5, y: 38}
+        - {x: 40.5, y: 45}
+        - {x: -1.5, y: 94}
+    - name: BryarPistol_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 607
+        width: 81
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 117}
+        - {x: -24.5, y: 117}
+        - {x: -26.5, y: 109}
+        - {x: -30.5, y: 84}
+        - {x: -40.5, y: 69}
+        - {x: -40.5, y: 24}
+        - {x: -36.5, y: 20}
+        - {x: -18.5, y: 20}
+        - {x: -17.5, y: 19}
+        - {x: -20.5, y: 20}
+        - {x: -24.5, y: 20}
+        - {x: -35.5, y: 17}
+        - {x: -28.5, y: 0}
+        - {x: 40.5, y: 0}
+        - {x: 40.5, y: 65}
+        - {x: 8.5, y: 116}
+    - name: BryarPistol_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 607
+        width: 85
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 113}
+        - {x: -26.5, y: 113}
+        - {x: -42.5, y: 97}
+        - {x: -42.5, y: 8}
+        - {x: -17.5, y: 0}
+        - {x: 42.5, y: 0}
+        - {x: 42.5, y: 19}
+        - {x: 28.5, y: 65}
+    - name: E-11BlasterRifle_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 605
+        width: 153
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 109}
+        - {x: -33.5, y: 94}
+        - {x: -71.5, y: 71}
+        - {x: -76.5, y: 63}
+        - {x: -76.5, y: 39}
+        - {x: -64.5, y: 39}
+        - {x: -68.5, y: 0}
+        - {x: 76.5, y: 0}
+        - {x: 76.5, y: 62}
+        - {x: 12.5, y: 109}
+    - name: E-11BlasterRifle_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 606
+        width: 165
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 122}
+        - {x: -82.5, y: 93}
+        - {x: -82.5, y: 16}
+        - {x: -78.5, y: 0}
+        - {x: 82.5, y: 0}
+        - {x: 82.5, y: 63}
+        - {x: 23.5, y: 122}
+    - name: Fist_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 600
+        width: 123
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 69}
+        - {x: -60.5, y: 7}
+        - {x: -61.5, y: 4}
+        - {x: -61.5, y: 0}
+        - {x: 32.5, y: 0}
+        - {x: 61.5, y: 25}
+        - {x: 61.5, y: 67}
+        - {x: 50.5, y: 69}
+    - name: ThermalDetonator_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 459
+        width: 103
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 115}
+        - {x: -51.5, y: 106}
+        - {x: -51.5, y: 65}
+        - {x: -12.5, y: 0}
+        - {x: 51.5, y: 0}
+        - {x: 51.5, y: 12}
+        - {x: 25.5, y: 94}
+        - {x: -2.5, y: 115}
+    - name: ThermalDetonator_Throw_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 459
+        width: 123
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 134}
+        - {x: -53.5, y: 130}
+        - {x: -51.5, y: 122}
+        - {x: -44.5, y: 115}
+        - {x: -61.5, y: 116}
+        - {x: -61.5, y: 52}
+        - {x: -0.5, y: 0}
+        - {x: 61.5, y: 0}
+        - {x: 61.5, y: 43}
+        - {x: 0.5, y: 134}
+      - - {x: -2.5, y: 8}
+        - {x: -0.5, y: 6}
+        - {x: 2.5, y: 7}
+        - {x: 2.5, y: 10}
+        - {x: 0.5, y: 12}
+        - {x: -2.5, y: 11}
+    - name: ImperialRepeaterGun_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 459
+        width: 117
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 98}
+        - {x: -21.5, y: 98}
+        - {x: -52.5, y: 34}
+        - {x: -58.5, y: 8}
+        - {x: -58.5, y: 0}
+        - {x: 58.5, y: 0}
+        - {x: 58.5, y: 77}
+        - {x: 53.5, y: 85}
+    - name: ImperialRepeaterGun_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 459
+        width: 119
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 96}
+        - {x: -59.5, y: 35}
+        - {x: -59.5, y: 0}
+        - {x: 59.5, y: 0}
+        - {x: 59.5, y: 87}
+        - {x: 54.5, y: 96}
+    - name: ImperialRepeaterGun_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 459
+        width: 119
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 96}
+        - {x: -48.5, y: 93}
+        - {x: -59.5, y: 35}
+        - {x: -59.5, y: 0}
+        - {x: 59.5, y: 0}
+        - {x: 59.5, y: 77}
+        - {x: 31.5, y: 96}
+    - name: JeronFusionCutter_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 459
+        width: 301
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 82}
+        - {x: -39.5, y: 79}
+        - {x: -47.5, y: 72}
+        - {x: -49.5, y: 67}
+        - {x: -49.5, y: 63}
+        - {x: -49.5, y: 73}
+        - {x: -52.5, y: 84}
+        - {x: -94.5, y: 84}
+        - {x: -128.5, y: 66}
+        - {x: -150.5, y: 13}
+        - {x: -150.5, y: 0}
+        - {x: 150.5, y: 0}
+        - {x: 150.5, y: 13}
+        - {x: 46.5, y: 73}
+    - name: JeronFusionCutter_Fire1_0
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 459
+        width: 297
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126.5, y: 81}
+        - {x: -129.5, y: 79}
+        - {x: -148.5, y: 8}
+        - {x: -148.5, y: 0}
+        - {x: 148.5, y: 0}
+        - {x: 148.5, y: 31}
+        - {x: 35.5, y: 81}
+    - name: JeronFusionCutter_Fire2_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 369
+        width: 297
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 81}
+        - {x: -51.5, y: 67}
+        - {x: -50.5, y: 64}
+        - {x: -52.5, y: 60}
+        - {x: -51.5, y: 62}
+        - {x: -51.5, y: 70}
+        - {x: -48.5, y: 79}
+        - {x: -54.5, y: 81}
+        - {x: -99.5, y: 81}
+        - {x: -123.5, y: 71}
+        - {x: -148.5, y: 19}
+        - {x: -148.5, y: 0}
+        - {x: 148.5, y: 0}
+        - {x: 148.5, y: 26}
+        - {x: 15.5, y: 81}
+    - name: JeronFusionCutter_Fire3_0
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 370
+        width: 297
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 81}
+        - {x: -44.5, y: 81}
+        - {x: -50.5, y: 69}
+        - {x: -51.5, y: 64}
+        - {x: -51.5, y: 60}
+        - {x: -51.5, y: 70}
+        - {x: -48.5, y: 81}
+        - {x: -128.5, y: 81}
+        - {x: -133.5, y: 80}
+        - {x: -148.5, y: 29}
+        - {x: -148.5, y: 0}
+        - {x: 148.5, y: 0}
+        - {x: 148.5, y: 9}
+        - {x: 55.5, y: 75}
+    - name: JeronFusionCutter_Fire4_0
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 370
+        width: 297
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 81}
+        - {x: -34.5, y: 81}
+        - {x: -50.5, y: 69}
+        - {x: -51.5, y: 64}
+        - {x: -51.5, y: 60}
+        - {x: -51.5, y: 70}
+        - {x: -48.5, y: 81}
+        - {x: -128.5, y: 81}
+        - {x: -133.5, y: 80}
+        - {x: -148.5, y: 29}
+        - {x: -148.5, y: 0}
+        - {x: 148.5, y: 0}
+        - {x: 148.5, y: 9}
+        - {x: 66.5, y: 64}
+    - name: JeronFusionCutter_FireAll_0
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 370
+        width: 297
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 81}
+        - {x: -33.5, y: 81}
+        - {x: -48.5, y: 77}
+        - {x: -51.5, y: 67}
+        - {x: -50.5, y: 64}
+        - {x: -52.5, y: 60}
+        - {x: -51.5, y: 62}
+        - {x: -51.5, y: 72}
+        - {x: -52.5, y: 75}
+        - {x: -59.5, y: 81}
+        - {x: -89.5, y: 81}
+        - {x: -124.5, y: 74}
+        - {x: -145.5, y: 17}
+        - {x: -148.5, y: 9}
+        - {x: -148.5, y: 0}
+        - {x: 148.5, y: 0}
+        - {x: 148.5, y: 9}
+        - {x: 66.5, y: 65}
+    - name: PackeredMortarGun_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 236
+        width: 182
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 117}
+        - {x: -68, y: 107}
+        - {x: -91, y: 11}
+        - {x: -91, y: 0}
+        - {x: 91, y: 0}
+        - {x: 91, y: 85}
+        - {x: 47, y: 117}
+    - name: PackeredMortarGun_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 236
+        width: 194
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 119}
+        - {x: -86, y: 77}
+        - {x: -97, y: 13}
+        - {x: -97, y: 0}
+        - {x: 97, y: 0}
+        - {x: 97, y: 48}
+        - {x: 50, y: 119}
+    - name: PackeredMortarGun_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 236
+        width: 191
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.5, y: 117}
+        - {x: -91.5, y: 76}
+        - {x: -95.5, y: 26}
+        - {x: -95.5, y: 0}
+        - {x: 95.5, y: 0}
+        - {x: 95.5, y: 60}
+        - {x: 46.5, y: 117}
+    - name: PackeredMortarGun_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 237
+        width: 191
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 120}
+        - {x: -37.5, y: 119}
+        - {x: -60.5, y: 103}
+        - {x: -75.5, y: 82}
+        - {x: -95.5, y: 6}
+        - {x: -95.5, y: 0}
+        - {x: 94.5, y: 0}
+        - {x: 95.5, y: 2}
+        - {x: 95.5, y: 70}
+        - {x: 40.5, y: 120}
+    - name: AssaultCannon_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 51
+        width: 169
+        height: 313
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 313}
+        - {x: 11.5, y: 237}
+        - {x: -9.5, y: 205}
+        - {x: -41.5, y: 149}
+        - {x: -74.5, y: 121}
+        - {x: -84.5, y: 111}
+        - {x: -84.5, y: 75}
+        - {x: -82.5, y: 68}
+        - {x: -54.5, y: 38}
+        - {x: -66.5, y: 24}
+        - {x: -69.5, y: 0}
+        - {x: 84.5, y: 0}
+        - {x: 84.5, y: 313}
+    - name: AssaultCannon_FirePlasma_0
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 52
+        width: 167
+        height: 311
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 311}
+        - {x: -1.5, y: 217}
+        - {x: -52.5, y: 127}
+        - {x: -65.5, y: 133}
+        - {x: -83.5, y: 118}
+        - {x: -83.5, y: 88}
+        - {x: -64.5, y: 65}
+        - {x: -56.5, y: 38}
+        - {x: -67.5, y: 4}
+        - {x: -62.5, y: 0}
+        - {x: 83.5, y: 0}
+        - {x: 83.5, y: 311}
+    - name: I.M.Mine_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 131
+        width: 183
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.5, y: 83}
+        - {x: -91.5, y: 64}
+        - {x: -91.5, y: 15}
+        - {x: -52.5, y: 0}
+        - {x: 91.5, y: 0}
+        - {x: 91.5, y: 11}
+        - {x: 63.5, y: 83}
+    - name: I.M.Mine_Throw_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 131
+        width: 183
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.5, y: 83}
+        - {x: -91.5, y: 64}
+        - {x: -91.5, y: 15}
+        - {x: -52.5, y: 0}
+        - {x: 91.5, y: 0}
+        - {x: 91.5, y: 11}
+        - {x: 63.5, y: 83}
+    - name: AssaultCannon_FireRocket_0
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 13
+        width: 151
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 176}
+        - {x: -75.5, y: 165}
+        - {x: -75.5, y: 122}
+        - {x: 9.5, y: 0}
+        - {x: 75.5, y: 0}
+        - {x: 75.5, y: 161}
+        - {x: 37.5, y: 176}
+    - name: AssaultCannon_FireRocket_1
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 10
+        width: 145
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 219}
+        - {x: -71.5, y: 211}
+        - {x: -72.5, y: 204}
+        - {x: -72.5, y: 157}
+        - {x: 16.5, y: 51}
+        - {x: 60.5, y: 0}
+        - {x: 72.5, y: 0}
+        - {x: 72.5, y: 209}
+        - {x: 38.5, y: 219}
+    - name: StoukerConcussionRifle_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 9
+        width: 173
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 105}
+        - {x: -86.5, y: 50}
+        - {x: -86.5, y: 0}
+        - {x: 86.5, y: 0}
+        - {x: 86.5, y: 10}
+        - {x: -1.5, y: 105}
+    - name: StoukerConcussionRifle_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 9
+        width: 100
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 107}
+        - {x: -50, y: 90}
+        - {x: -50, y: 24}
+        - {x: -40, y: 0}
+        - {x: 50, y: 0}
+        - {x: 50, y: 6}
+        - {x: -15, y: 107}
+    - name: StoukerConcussionRifle_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 9
+        width: 95
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 104}
+        - {x: -47.5, y: 30}
+        - {x: -40.5, y: 0}
+        - {x: 47.5, y: 0}
+        - {x: 47.5, y: 49}
+        - {x: -15.5, y: 104}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

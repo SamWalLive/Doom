@@ -1,0 +1,1798 @@
+fileFormatVersion: 2
+guid: 98aa49fa3734d5541a4262703b3e4252
+timeCreated: 1459860437
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cyber Demon_0
+    21300002: Cyber Demon_1
+    21300004: Cyber Demon_2
+    21300006: Cyber Demon_3
+    21300008: Cyber Demon_4
+    21300010: Cyber Demon_5
+    21300012: Cyber Demon_6
+    21300014: Cyber Demon_7
+    21300016: Cyber Demon_8
+    21300018: Cyber Demon_9
+    21300020: Cyber Demon_10
+    21300022: Cyber Demon_11
+    21300024: Cyber Demon_12
+    21300026: Cyber Demon_13
+    21300028: Cyber Demon_14
+    21300030: Cyber Demon_15
+    21300032: Cyber Demon_16
+    21300034: Cyber Demon_17
+    21300036: Cyber Demon_18
+    21300038: Cyber Demon_19
+    21300040: Cyber Demon_20
+    21300042: Cyber Demon_21
+    21300044: Cyber Demon_22
+    21300046: Cyber Demon_23
+    21300048: Cyber Demon_24
+    21300050: Cyber Demon_25
+    21300052: Cyber Demon_26
+    21300054: Cyber Demon_27
+    21300056: Cyber Demon_28
+    21300058: Cyber Demon_29
+    21300060: Cyber Demon_30
+    21300062: Cyber Demon_31
+    21300064: Cyber Demon_32
+    21300066: Cyber Demon_33
+    21300068: Cyber Demon_34
+    21300070: Cyber Demon_35
+    21300072: Cyber Demon_36
+    21300074: Cyber Demon_37
+    21300076: Cyber Demon_38
+    21300078: Cyber Demon_39
+    21300080: Cyber Demon_40
+    21300082: Cyber Demon_41
+    21300084: Cyber Demon_42
+    21300086: Cyber Demon_43
+    21300088: Cyber Demon_44
+    21300090: Cyber Demon_45
+    21300092: Cyber Demon_46
+    21300094: Cyber Demon_47
+    21300096: Cyber Demon_48
+    21300098: Cyber Demon_49
+    21300100: Cyber Demon_50
+    21300102: Cyber Demon_51
+    21300104: Cyber Demon_52
+    21300106: Cyber Demon_53
+    21300108: Cyber Demon_54
+    21300110: Cyber Demon_55
+    21300112: Cyber Demon_56
+    21300114: Cyber Demon_57
+    21300116: Cyber Demon_58
+    21300118: Cyber Demon_64
+    21300120: Cyber Demon_65
+    21300122: Cyber Demon_66
+    21300124: Cyber Demon_67
+    21300126: Cyber Demon_75
+    21300128: Cyber Demon_90
+    21300130: Cyber Demon_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cyber Demon_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1048
+        width: 82
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 108}
+        - {x: -31, y: 108}
+        - {x: -41, y: 91}
+        - {x: -41, y: 48}
+        - {x: -32, y: 0}
+        - {x: 28, y: 0}
+        - {x: 41, y: 17}
+        - {x: 41, y: 69}
+        - {x: 34, y: 105}
+    - name: Cyber Demon_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1048
+        width: 85
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 109}
+        - {x: -42.5, y: 86}
+        - {x: -42.5, y: 15}
+        - {x: -37.5, y: 0}
+        - {x: -17.5, y: 0}
+        - {x: -12.5, y: 4}
+        - {x: -2.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 42.5, y: 19}
+        - {x: 42.5, y: 69}
+        - {x: 34.5, y: 109}
+    - name: Cyber Demon_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1048
+        width: 82
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 90}
+        - {x: 27, y: 110}
+        - {x: -22, y: 110}
+        - {x: -41, y: 93}
+        - {x: -41, y: 19}
+        - {x: -33, y: 0}
+        - {x: 6, y: 0}
+        - {x: 30, y: 4}
+        - {x: 41, y: 32}
+        - {x: 41, y: 74}
+    - name: Cyber Demon_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1048
+        width: 85
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 109}
+        - {x: -42.5, y: 95}
+        - {x: -42.5, y: 14}
+        - {x: -41.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 42.5, y: 6}
+        - {x: 42.5, y: 104}
+        - {x: 41.5, y: 109}
+    - name: Cyber Demon_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1048
+        width: 86
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 110}
+        - {x: -25, y: 110}
+        - {x: -43, y: 78}
+        - {x: -43, y: 44}
+        - {x: -40, y: 40}
+        - {x: -32, y: 46}
+        - {x: -32, y: 53}
+        - {x: -24, y: 64}
+        - {x: -41, y: 22}
+        - {x: -43, y: 1}
+        - {x: -42, y: 0}
+        - {x: 27, y: 0}
+        - {x: 43, y: 2}
+        - {x: 43, y: 95}
+    - name: Cyber Demon_5
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1048
+        width: 99
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 110}
+        - {x: -49.5, y: 73}
+        - {x: -49.5, y: 48}
+        - {x: -46.5, y: 40}
+        - {x: -38.5, y: 46}
+        - {x: -38.5, y: 53}
+        - {x: -30.5, y: 64}
+        - {x: -47.5, y: 22}
+        - {x: -49.5, y: 13}
+        - {x: -49.5, y: 0}
+        - {x: 49.5, y: 0}
+        - {x: 49.5, y: 110}
+    - name: Cyber Demon_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 935
+        width: 87
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 107}
+        - {x: -43.5, y: 69}
+        - {x: -43.5, y: 42}
+        - {x: -40.5, y: 39}
+        - {x: -29.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 43.5, y: 16}
+        - {x: 43.5, y: 92}
+        - {x: 24.5, y: 107}
+    - name: Cyber Demon_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 935
+        width: 74
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 108}
+        - {x: -37, y: 0}
+        - {x: 35, y: 0}
+        - {x: 37, y: 9}
+        - {x: 37, y: 108}
+    - name: Cyber Demon_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 935
+        width: 81
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 109}
+        - {x: -17.5, y: 104}
+        - {x: -16.5, y: 101}
+        - {x: -17.5, y: 92}
+        - {x: -40.5, y: 16}
+        - {x: -40.5, y: 0}
+        - {x: 40.5, y: 0}
+        - {x: 40.5, y: 96}
+        - {x: 27.5, y: 109}
+    - name: Cyber Demon_9
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 935
+        width: 74
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 108}
+        - {x: -37, y: 27}
+        - {x: -25, y: 0}
+        - {x: 27, y: 0}
+        - {x: 37, y: 17}
+        - {x: 37, y: 103}
+        - {x: 34, y: 108}
+    - name: Cyber Demon_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 935
+        width: 83
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 110}
+        - {x: -41.5, y: 99}
+        - {x: -41.5, y: 50}
+        - {x: -35.5, y: 45}
+        - {x: -28.5, y: 46}
+        - {x: -22.5, y: 48}
+        - {x: -40.5, y: 17}
+        - {x: -37.5, y: 0}
+        - {x: 41.5, y: 0}
+        - {x: 41.5, y: 91}
+        - {x: 28.5, y: 110}
+    - name: Cyber Demon_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 935
+        width: 94
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 110}
+        - {x: -47, y: 88}
+        - {x: -47, y: 6}
+        - {x: -43, y: 0}
+        - {x: -10, y: 2}
+        - {x: -7, y: 6}
+        - {x: 6, y: 0}
+        - {x: 47, y: 0}
+        - {x: 47, y: 105}
+        - {x: 38, y: 110}
+    - name: Cyber Demon_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 823
+        width: 79
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 0}
+        - {x: 39.5, y: 9}
+        - {x: 39.5, y: 61}
+        - {x: 19.5, y: 107}
+        - {x: -25.5, y: 107}
+        - {x: -39.5, y: 74}
+        - {x: -39.5, y: 0}
+        - {x: -15.5, y: 0}
+        - {x: -0.5, y: 14}
+        - {x: 5.5, y: 2}
+        - {x: 7.5, y: 0}
+    - name: Cyber Demon_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 823
+        width: 59
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 108}
+        - {x: -24.5, y: 108}
+        - {x: -26.5, y: 52}
+        - {x: -25.5, y: 49}
+        - {x: -29.5, y: 39}
+        - {x: -29.5, y: 12}
+        - {x: -24.5, y: 0}
+        - {x: 11.5, y: 0}
+        - {x: 29.5, y: 7}
+        - {x: 29.5, y: 53}
+        - {x: 27.5, y: 70}
+    - name: Cyber Demon_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 823
+        width: 80
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 107}
+        - {x: -22, y: 107}
+        - {x: -40, y: 59}
+        - {x: -40, y: 0}
+        - {x: 40, y: 0}
+        - {x: 40, y: 58}
+        - {x: 37, y: 86}
+    - name: Cyber Demon_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 823
+        width: 59
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 108}
+        - {x: -29.5, y: 79}
+        - {x: -29.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 29.5, y: 104}
+        - {x: 22.5, y: 108}
+    - name: Cyber Demon_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 823
+        width: 105
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 110}
+        - {x: -52.5, y: 90}
+        - {x: -52.5, y: 41}
+        - {x: -15.5, y: 4}
+        - {x: -10.5, y: 0}
+        - {x: 48.5, y: 0}
+        - {x: 52.5, y: 3}
+        - {x: 52.5, y: 93}
+        - {x: 45.5, y: 110}
+    - name: Cyber Demon_17
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 823
+        width: 121
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 39}
+        - {x: -57.5, y: 27}
+        - {x: -42.5, y: 25}
+        - {x: -11.5, y: 0}
+        - {x: 60.5, y: 0}
+        - {x: 60.5, y: 79}
+        - {x: 45.5, y: 110}
+        - {x: -7.5, y: 110}
+        - {x: -9.5, y: 109}
+        - {x: -60.5, y: 83}
+    - name: Cyber Demon_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 710
+        width: 76
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 110}
+        - {x: -38, y: 87}
+        - {x: -38, y: 1}
+        - {x: -28, y: 0}
+        - {x: -18, y: 0}
+        - {x: -7, y: 17}
+        - {x: 4, y: 0}
+        - {x: 37, y: 0}
+        - {x: 38, y: 4}
+        - {x: 38, y: 74}
+        - {x: 23, y: 110}
+    - name: Cyber Demon_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 710
+        width: 85
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 110}
+        - {x: -42.5, y: 87}
+        - {x: -42.5, y: 2}
+        - {x: -41.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 42.5, y: 17}
+        - {x: 42.5, y: 93}
+        - {x: 36.5, y: 110}
+    - name: Cyber Demon_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 709
+        width: 92
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 111}
+        - {x: -46, y: 77}
+        - {x: -46, y: 33}
+        - {x: -22, y: 0}
+        - {x: 28, y: 0}
+        - {x: 46, y: 10}
+        - {x: 46, y: 100}
+        - {x: 30, y: 111}
+    - name: Cyber Demon_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 710
+        width: 85
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 110}
+        - {x: -42.5, y: 67}
+        - {x: -42.5, y: 8}
+        - {x: -38.5, y: 0}
+        - {x: -8.5, y: 0}
+        - {x: 2.5, y: 11}
+        - {x: 4.5, y: 14}
+        - {x: 6.5, y: 14}
+        - {x: 5.5, y: 14}
+        - {x: 2.5, y: 11}
+        - {x: 1.5, y: 1}
+        - {x: 2.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 42.5, y: 20}
+        - {x: 42.5, y: 93}
+        - {x: 26.5, y: 110}
+    - name: Cyber Demon_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 710
+        width: 106
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 109}
+        - {x: -20, y: 109}
+        - {x: -53, y: 66}
+        - {x: -53, y: 37}
+        - {x: -21, y: 0}
+        - {x: 40, y: 0}
+        - {x: 53, y: 26}
+        - {x: 53, y: 93}
+        - {x: 50, y: 98}
+    - name: Cyber Demon_23
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 710
+        width: 119
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 109}
+        - {x: -59.5, y: 95}
+        - {x: -59.5, y: 41}
+        - {x: -38.5, y: 31}
+        - {x: -22.5, y: 41}
+        - {x: -13.5, y: 0}
+        - {x: 47.5, y: 0}
+        - {x: 59.5, y: 24}
+        - {x: 59.5, y: 93}
+        - {x: 49.5, y: 109}
+    - name: Cyber Demon_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 597
+        width: 82
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 110}
+        - {x: -17, y: 110}
+        - {x: -30, y: 106}
+        - {x: -41, y: 74}
+        - {x: -41, y: 30}
+        - {x: -29, y: 29}
+        - {x: -16, y: 0}
+        - {x: -1, y: 2}
+        - {x: 2, y: 5}
+        - {x: 2, y: 12}
+        - {x: 2, y: 2}
+        - {x: 4, y: 0}
+        - {x: 29, y: 0}
+        - {x: 41, y: 32}
+        - {x: 41, y: 94}
+        - {x: 31, y: 107}
+    - name: Cyber Demon_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 597
+        width: 84
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 108}
+        - {x: -22, y: 108}
+        - {x: -41, y: 91}
+        - {x: -42, y: 81}
+        - {x: -42, y: 24}
+        - {x: -26, y: 0}
+        - {x: 41, y: 0}
+        - {x: 42, y: 3}
+        - {x: 42, y: 84}
+    - name: Cyber Demon_26
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 597
+        width: 83
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 110}
+        - {x: -41.5, y: 96}
+        - {x: -41.5, y: 23}
+        - {x: -35.5, y: 0}
+        - {x: 41.5, y: 0}
+        - {x: 41.5, y: 93}
+        - {x: 24.5, y: 110}
+    - name: Cyber Demon_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 597
+        width: 84
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 109}
+        - {x: -36, y: 108}
+        - {x: -42, y: 95}
+        - {x: -42, y: 20}
+        - {x: -36, y: 0}
+        - {x: 34, y: 0}
+        - {x: 42, y: 22}
+        - {x: 42, y: 101}
+        - {x: 40, y: 109}
+    - name: Cyber Demon_28
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 597
+        width: 85
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: 35}
+        - {x: 42.5, y: 91}
+        - {x: 27.5, y: 110}
+        - {x: -42.5, y: 110}
+        - {x: -42.5, y: 0}
+        - {x: 42.5, y: 0}
+        - {x: 42.5, y: 15}
+        - {x: 36.5, y: 31}
+        - {x: 26.5, y: 51}
+        - {x: 30.5, y: 46}
+    - name: Cyber Demon_29
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 597
+        width: 89
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 51}
+        - {x: 32.5, y: 46}
+        - {x: 43.5, y: 40}
+        - {x: 44.5, y: 44}
+        - {x: 44.5, y: 73}
+        - {x: 39.5, y: 91}
+        - {x: 27.5, y: 110}
+        - {x: -41.5, y: 110}
+        - {x: -44.5, y: 101}
+        - {x: -44.5, y: 0}
+        - {x: 44.5, y: 0}
+        - {x: 44.5, y: 12}
+        - {x: 38.5, y: 31}
+    - name: Cyber Demon_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 83
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 28}
+        - {x: -24.5, y: 0}
+        - {x: 23.5, y: 0}
+        - {x: 41.5, y: 3}
+        - {x: 41.5, y: 110}
+        - {x: -22.5, y: 110}
+        - {x: -41.5, y: 89}
+    - name: Cyber Demon_31
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 484
+        width: 75
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 36}
+        - {x: 23.5, y: 31}
+        - {x: 37.5, y: 41}
+        - {x: 37.5, y: 94}
+        - {x: 36.5, y: 108}
+        - {x: -37.5, y: 108}
+        - {x: -37.5, y: 2}
+        - {x: -24.5, y: 0}
+        - {x: 27.5, y: 0}
+        - {x: 33.5, y: 5}
+        - {x: 32.5, y: 9}
+        - {x: 27.5, y: 16}
+    - name: Cyber Demon_32
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 484
+        width: 80
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 110}
+        - {x: -40, y: 103}
+        - {x: -40, y: 0}
+        - {x: 40, y: 0}
+        - {x: 40, y: 36}
+        - {x: 29, y: 92}
+        - {x: 18, y: 110}
+    - name: Cyber Demon_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 484
+        width: 75
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.5, y: 96}
+        - {x: 36.5, y: 110}
+        - {x: -31.5, y: 110}
+        - {x: -37.5, y: 99}
+        - {x: -37.5, y: 15}
+        - {x: -6.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 22.5, y: 1}
+        - {x: 22.5, y: 13}
+        - {x: 37.5, y: 40}
+    - name: Cyber Demon_34
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 484
+        width: 82
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 110}
+        - {x: -19, y: 110}
+        - {x: -36, y: 90}
+        - {x: -41, y: 48}
+        - {x: -41, y: 0}
+        - {x: -16, y: 0}
+        - {x: -13, y: 13}
+        - {x: 9, y: 0}
+        - {x: 41, y: 0}
+        - {x: 41, y: 76}
+        - {x: 24, y: 109}
+    - name: Cyber Demon_35
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 484
+        width: 93
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 48}
+        - {x: -46.5, y: 0}
+        - {x: -21.5, y: 0}
+        - {x: -18.5, y: 13}
+        - {x: 3.5, y: 0}
+        - {x: 46.5, y: 0}
+        - {x: 46.5, y: 110}
+        - {x: -24.5, y: 110}
+        - {x: -41.5, y: 90}
+    - name: Cyber Demon_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 370
+        width: 84
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 109}
+        - {x: -42, y: 78}
+        - {x: -42, y: 8}
+        - {x: -37, y: 0}
+        - {x: 38, y: 0}
+        - {x: 42, y: 11}
+        - {x: 42, y: 88}
+        - {x: 28, y: 109}
+    - name: Cyber Demon_37
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 370
+        width: 59
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 109}
+        - {x: -29.5, y: 86}
+        - {x: -29.5, y: 12}
+        - {x: -17.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 29.5, y: 109}
+    - name: Cyber Demon_38
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 370
+        width: 74
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 111}
+        - {x: -37, y: 100}
+        - {x: -37, y: 0}
+        - {x: -9, y: 0}
+        - {x: -6, y: 9}
+        - {x: -15, y: 18}
+        - {x: -10, y: 15}
+        - {x: 11, y: 0}
+        - {x: 37, y: 0}
+        - {x: 37, y: 82}
+        - {x: 20, y: 111}
+    - name: Cyber Demon_39
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 370
+        width: 59
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 26}
+        - {x: 29.5, y: 111}
+        - {x: -19.5, y: 111}
+        - {x: -29.5, y: 77}
+        - {x: -29.5, y: 15}
+        - {x: -17.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 23.5, y: 6}
+        - {x: 26.5, y: 13}
+        - {x: 21.5, y: 21}
+    - name: Cyber Demon_40
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 370
+        width: 97
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 110}
+        - {x: -48.5, y: 0}
+        - {x: 34.5, y: 0}
+        - {x: 48.5, y: 43}
+        - {x: 48.5, y: 83}
+        - {x: 20.5, y: 110}
+    - name: Cyber Demon_41
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 370
+        width: 114
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 79}
+        - {x: 40, y: 81}
+        - {x: 5, y: 110}
+        - {x: -47, y: 110}
+        - {x: -57, y: 96}
+        - {x: -57, y: 8}
+        - {x: -54, y: 0}
+        - {x: 9, y: 0}
+        - {x: 3, y: 13}
+        - {x: 46, y: 32}
+        - {x: 57, y: 49}
+    - name: Cyber Demon_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 255
+        width: 75
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 109}
+        - {x: -37.5, y: 81}
+        - {x: -37.5, y: 13}
+        - {x: -36.5, y: 10}
+        - {x: -32.5, y: 0}
+        - {x: 37.5, y: 0}
+        - {x: 37.5, y: 44}
+        - {x: 32.5, y: 109}
+    - name: Cyber Demon_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 255
+        width: 83
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 109}
+        - {x: -41.5, y: 86}
+        - {x: -41.5, y: 6}
+        - {x: -29.5, y: 0}
+        - {x: 38.5, y: 0}
+        - {x: 41.5, y: 6}
+        - {x: 41.5, y: 67}
+        - {x: 24.5, y: 109}
+    - name: Cyber Demon_44
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 255
+        width: 95
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 112}
+        - {x: -47.5, y: 98}
+        - {x: -47.5, y: 26}
+        - {x: -15.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 47.5, y: 28}
+        - {x: 47.5, y: 76}
+        - {x: 33.5, y: 112}
+    - name: Cyber Demon_45
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 255
+        width: 83
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 1}
+        - {x: 41.5, y: 111}
+        - {x: -22.5, y: 111}
+        - {x: -41.5, y: 88}
+        - {x: -41.5, y: 14}
+        - {x: -33.5, y: 0}
+        - {x: -6.5, y: 0}
+        - {x: -4.5, y: 6}
+        - {x: -8.5, y: 11}
+        - {x: 2.5, y: 3}
+    - name: Cyber Demon_46
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 255
+        width: 115
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 88}
+        - {x: 47.5, y: 110}
+        - {x: -30.5, y: 110}
+        - {x: -49.5, y: 98}
+        - {x: -57.5, y: 83}
+        - {x: -57.5, y: 40}
+        - {x: -46.5, y: 42}
+        - {x: -44.5, y: 46}
+        - {x: -44.5, y: 48}
+        - {x: -42.5, y: 51}
+        - {x: -42.5, y: 54}
+        - {x: -42.5, y: 52}
+        - {x: -44.5, y: 45}
+        - {x: -54.5, y: 29}
+        - {x: -49.5, y: 1}
+        - {x: -44.5, y: 0}
+        - {x: -13.5, y: 0}
+        - {x: -13.5, y: 1}
+        - {x: 13.5, y: 3}
+        - {x: 57.5, y: 18}
+    - name: Cyber Demon_47
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 255
+        width: 130
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 28}
+        - {x: 65, y: 76}
+        - {x: 64, y: 76}
+        - {x: 54, y: 71}
+        - {x: 51, y: 69}
+        - {x: 14, y: 110}
+        - {x: -36, y: 110}
+        - {x: -57, y: 98}
+        - {x: -65, y: 83}
+        - {x: -65, y: 40}
+        - {x: -54, y: 42}
+        - {x: -52, y: 46}
+        - {x: -52, y: 49}
+        - {x: -50, y: 52}
+        - {x: -50, y: 54}
+        - {x: -50, y: 52}
+        - {x: -51, y: 45}
+        - {x: -62, y: 29}
+        - {x: -57, y: 1}
+        - {x: -52, y: 0}
+        - {x: -21, y: 0}
+        - {x: -21, y: 1}
+        - {x: 6, y: 3}
+        - {x: 12, y: 10}
+    - name: Cyber Demon_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 142
+        width: 123
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: 75}
+        - {x: 18.5, y: 110}
+        - {x: -52.5, y: 110}
+        - {x: -61.5, y: 86}
+        - {x: -61.5, y: 2}
+        - {x: -60.5, y: 0}
+        - {x: -39.5, y: 0}
+        - {x: -37.5, y: 2}
+        - {x: -34.5, y: 0}
+        - {x: 61.5, y: 0}
+    - name: Cyber Demon_49
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 142
+        width: 91
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 111}
+        - {x: -45.5, y: 80}
+        - {x: -45.5, y: 4}
+        - {x: -40.5, y: 0}
+        - {x: 45.5, y: 0}
+        - {x: 45.5, y: 104}
+        - {x: 23.5, y: 111}
+    - name: Cyber Demon_50
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 142
+        width: 94
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 110}
+        - {x: -47, y: 98}
+        - {x: -47, y: 48}
+        - {x: -30, y: 0}
+        - {x: -4, y: 0}
+        - {x: 7, y: 4}
+        - {x: 10, y: 7}
+        - {x: 14, y: 13}
+        - {x: 9, y: 4}
+        - {x: 9, y: 1}
+        - {x: 10, y: 0}
+        - {x: 36, y: 0}
+        - {x: 47, y: 9}
+        - {x: 47, y: 56}
+        - {x: 27, y: 110}
+    - name: Cyber Demon_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 142
+        width: 118
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 110}
+        - {x: -59, y: 79}
+        - {x: -59, y: 57}
+        - {x: -56, y: 53}
+        - {x: -20, y: 59}
+        - {x: -6, y: 0}
+        - {x: 57, y: 0}
+        - {x: 59, y: 1}
+        - {x: 59, y: 91}
+        - {x: 45, y: 110}
+    - name: Cyber Demon_52
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 142
+        width: 102
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 45}
+        - {x: 38, y: 49}
+        - {x: 33, y: 56}
+        - {x: 38, y: 51}
+        - {x: 38, y: 47}
+        - {x: 42, y: 43}
+        - {x: 47, y: 43}
+        - {x: 51, y: 46}
+        - {x: 51, y: 85}
+        - {x: 25, y: 109}
+        - {x: -17, y: 109}
+        - {x: -51, y: 76}
+        - {x: -51, y: 16}
+        - {x: -48, y: 0}
+        - {x: 49, y: 0}
+        - {x: 51, y: 1}
+        - {x: 51, y: 25}
+        - {x: 49, y: 33}
+    - name: Cyber Demon_53
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 142
+        width: 91
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 110}
+        - {x: -45.5, y: 95}
+        - {x: -45.5, y: 2}
+        - {x: -42.5, y: 0}
+        - {x: 45.5, y: 0}
+        - {x: 45.5, y: 76}
+        - {x: 18.5, y: 110}
+    - name: Cyber Demon_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 142
+        width: 75
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 102}
+        - {x: 20.5, y: 107}
+        - {x: 12.5, y: 110}
+        - {x: -25.5, y: 110}
+        - {x: -37.5, y: 90}
+        - {x: -37.5, y: 8}
+        - {x: -34.5, y: 0}
+        - {x: 32.5, y: 0}
+        - {x: 37.5, y: 45}
+        - {x: 37.5, y: 67}
+        - {x: 29.5, y: 70}
+    - name: Cyber Demon_55
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 142
+        width: 107
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 109}
+        - {x: -41.5, y: 109}
+        - {x: -53.5, y: 104}
+        - {x: -53.5, y: 5}
+        - {x: -48.5, y: 0}
+        - {x: 9.5, y: 0}
+        - {x: 19.5, y: 1}
+        - {x: 53.5, y: 55}
+        - {x: 53.5, y: 69}
+        - {x: 51.5, y: 72}
+    - name: Cyber Demon_56
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 4
+        width: 125
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 124}
+        - {x: -62.5, y: 101}
+        - {x: -62.5, y: 0}
+        - {x: 37.5, y: 0}
+        - {x: 62.5, y: 20}
+        - {x: 62.5, y: 106}
+        - {x: 45.5, y: 124}
+      - - {x: -25.5, y: 5}
+        - {x: -25.5, y: 2}
+        - {x: -24.5, y: 0}
+        - {x: -21.5, y: 0}
+        - {x: -18.5, y: 3}
+        - {x: -19.5, y: 6}
+        - {x: -23.5, y: 6}
+      - - {x: 43.5, y: 0}
+        - {x: 46.5, y: 1}
+        - {x: 46.5, y: 4}
+        - {x: 43.5, y: 5}
+        - {x: 41.5, y: 3}
+      - - {x: 49.5, y: 2}
+        - {x: 50.5, y: 0}
+        - {x: 55.5, y: 0}
+        - {x: 58.5, y: 3}
+        - {x: 58.5, y: 8}
+        - {x: 57.5, y: 9}
+        - {x: 53.5, y: 10}
+        - {x: 50.5, y: 10}
+        - {x: 49.5, y: 8}
+    - name: Cyber Demon_57
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 4
+        width: 136
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 131}
+        - {x: -68, y: 113}
+        - {x: -68, y: 10}
+        - {x: -54, y: 0}
+        - {x: 68, y: 0}
+        - {x: 68, y: 112}
+        - {x: 63, y: 131}
+    - name: Cyber Demon_58
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 4
+        width: 141
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 70}
+        - {x: 64.5, y: 68}
+        - {x: 63.5, y: 71}
+        - {x: 67.5, y: 70}
+        - {x: 70.5, y: 70}
+        - {x: 70.5, y: 122}
+        - {x: 33.5, y: 134}
+        - {x: -62.5, y: 134}
+        - {x: -69.5, y: 116}
+        - {x: -69.5, y: 11}
+        - {x: -68.5, y: 9}
+        - {x: -60.5, y: 6}
+        - {x: -58.5, y: 6}
+        - {x: -56.5, y: 9}
+        - {x: -53.5, y: 8}
+        - {x: -51.5, y: 11}
+        - {x: -51.5, y: 9}
+        - {x: -50.5, y: 8}
+        - {x: -53.5, y: 8}
+        - {x: -58.5, y: 4}
+        - {x: -59.5, y: 2}
+        - {x: -56.5, y: 0}
+        - {x: 61.5, y: 0}
+        - {x: 70.5, y: 7}
+        - {x: 70.5, y: 70}
+      - - {x: -67.5, y: 18}
+        - {x: -64.5, y: 20}
+        - {x: -67.5, y: 25}
+        - {x: -70.5, y: 24}
+        - {x: -70.5, y: 21}
+      - - {x: -67.5, y: 32}
+        - {x: -67.5, y: 35}
+        - {x: -70.5, y: 36}
+        - {x: -70.5, y: 31}
+      - - {x: 0.5, y: 83}
+        - {x: -0.5, y: 81}
+        - {x: -0.5, y: 76}
+        - {x: 4.5, y: 72}
+        - {x: 8.5, y: 73}
+        - {x: 9.5, y: 78}
+        - {x: 9.5, y: 80}
+        - {x: 6.5, y: 83}
+      - - {x: -20.5, y: 134}
+        - {x: -22.5, y: 132}
+        - {x: -20.5, y: 129}
+        - {x: -16.5, y: 130}
+        - {x: -14.5, y: 133}
+        - {x: -14.5, y: 134}
+    - name: Cyber Demon_64
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 122
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 0}
+        - {x: 61, y: 10}
+        - {x: 61, y: 98}
+        - {x: 42, y: 111}
+        - {x: -61, y: 111}
+        - {x: -61, y: 0}
+        - {x: -39, y: 0}
+        - {x: -37, y: 2}
+        - {x: -37, y: 11}
+        - {x: -33, y: 0}
+    - name: Cyber Demon_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 111
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 113}
+        - {x: -31.5, y: 113}
+        - {x: -55.5, y: 84}
+        - {x: -55.5, y: 0}
+        - {x: 45.5, y: 0}
+        - {x: 55.5, y: 40}
+        - {x: 55.5, y: 78}
+        - {x: 28.5, y: 109}
+    - name: Cyber Demon_66
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 4
+        width: 100
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 116}
+        - {x: -50, y: 105}
+        - {x: -50, y: 0}
+        - {x: 5, y: 0}
+        - {x: 41, y: 2}
+        - {x: 50, y: 43}
+        - {x: 50, y: 88}
+        - {x: 33, y: 116}
+      - - {x: -12, y: 19}
+        - {x: -15, y: 14}
+        - {x: -15, y: 11}
+        - {x: -13, y: 9}
+        - {x: -10, y: 9}
+        - {x: -3, y: 15}
+        - {x: -3, y: 19}
+      - - {x: 37, y: 12}
+        - {x: 40, y: 13}
+        - {x: 40, y: 16}
+        - {x: 37, y: 17}
+        - {x: 35, y: 15}
+      - - {x: 34, y: 25}
+        - {x: 33, y: 23}
+        - {x: 33, y: 19}
+        - {x: 37, y: 17}
+        - {x: 39, y: 17}
+        - {x: 41, y: 18}
+        - {x: 41, y: 20}
+        - {x: 37, y: 25}
+      - - {x: 41, y: 21}
+        - {x: 44, y: 22}
+        - {x: 44, y: 25}
+        - {x: 41, y: 26}
+        - {x: 39, y: 24}
+    - name: Cyber Demon_67
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 4
+        width: 113
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.5, y: 117}
+        - {x: -37.5, y: 117}
+        - {x: -56.5, y: 112}
+        - {x: -56.5, y: 0}
+        - {x: 41.5, y: 0}
+        - {x: 56.5, y: 10}
+        - {x: 56.5, y: 107}
+      - - {x: -23.5, y: 4}
+        - {x: -23.5, y: 1}
+        - {x: -22.5, y: 0}
+        - {x: -18.5, y: 0}
+        - {x: -16.5, y: 5}
+        - {x: -16.5, y: 6}
+        - {x: -19.5, y: 7}
+      - - {x: 45.5, y: 0}
+        - {x: 48.5, y: 1}
+        - {x: 48.5, y: 4}
+        - {x: 45.5, y: 5}
+        - {x: 43.5, y: 3}
+      - - {x: 53.5, y: 2}
+        - {x: 55.5, y: 0}
+        - {x: 56.5, y: 0}
+        - {x: 56.5, y: 5}
+        - {x: 54.5, y: 5}
+      - - {x: -13.5, y: 2}
+        - {x: -10.5, y: 3}
+        - {x: -10.5, y: 6}
+        - {x: -13.5, y: 7}
+        - {x: -15.5, y: 5}
+      - - {x: -11.5, y: 8}
+        - {x: -11.5, y: 7}
+        - {x: -9.5, y: 5}
+        - {x: -4.5, y: 7}
+        - {x: -4.5, y: 10}
+        - {x: -6.5, y: 12}
+        - {x: -7.5, y: 12}
+      - - {x: -16.5, y: 7}
+        - {x: -13.5, y: 8}
+        - {x: -13.5, y: 11}
+        - {x: -16.5, y: 12}
+        - {x: -18.5, y: 10}
+      - - {x: 47.5, y: 12}
+        - {x: 47.5, y: 7}
+        - {x: 52.5, y: 7}
+        - {x: 53.5, y: 8}
+        - {x: 53.5, y: 11}
+        - {x: 51.5, y: 13}
+        - {x: 49.5, y: 13}
+      - - {x: -56.5, y: 58}
+        - {x: -55.5, y: 57}
+        - {x: -52.5, y: 58}
+        - {x: -52.5, y: 61}
+        - {x: -55.5, y: 62}
+        - {x: -56.5, y: 61}
+    - name: Cyber Demon_75
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 81
+        width: 5
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Cyber Demon_90
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 4
+        width: 120
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Cyber Demon_59
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 4
+        width: 140
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 15}
+        - {x: 32, y: -4}
+        - {x: 45, y: -7}
+        - {x: 46, y: -7}
+        - {x: 8, y: -16}
+        - {x: 5, y: -29}
+        - {x: 4, y: -37}
+        - {x: 13, y: -43}
+        - {x: 23, y: -46}
+        - {x: 27, y: -46}
+        - {x: 20, y: -46}
+        - {x: 4, y: -38}
+        - {x: -9, y: -35}
+        - {x: -14, y: -39}
+        - {x: -17, y: -43}
+        - {x: -19, y: -35}
+        - {x: -37, y: -33}
+        - {x: -52, y: -50}
+        - {x: -52, y: -51}
+        - {x: -55, y: -49}
+        - {x: -59, y: -46}
+        - {x: -67, y: -44}
+        - {x: -69, y: -46}
+        - {x: -68, y: -67}
+        - {x: 67, y: -67}
+        - {x: 67, y: 13}
+        - {x: 63, y: 15}
+      - - {x: 67, y: -46}
+        - {x: 69, y: -48}
+        - {x: 70, y: -48}
+        - {x: 70, y: -43}
+        - {x: 68, y: -43}
+      - - {x: -69, y: -37}
+        - {x: -70, y: -38}
+        - {x: -70, y: -42}
+        - {x: -69, y: -43}
+        - {x: -67, y: -43}
+        - {x: -65, y: -41}
+        - {x: -65, y: -40}
+        - {x: -68, y: -37}
+      - - {x: -17, y: 23}
+        - {x: -20, y: 24}
+        - {x: -23, y: 21}
+        - {x: -23, y: 20}
+        - {x: -22, y: 24}
+        - {x: -22, y: 29}
+        - {x: -24, y: 32}
+        - {x: -19, y: 36}
+        - {x: -22, y: 31}
+        - {x: -22, y: 28}
+        - {x: -20, y: 26}
+        - {x: -16, y: 23}
+        - {x: -13, y: 25}
+        - {x: -1, y: 38}
+        - {x: -1, y: 41}
+        - {x: -4, y: 42}
+        - {x: -5, y: 41}
+        - {x: -8, y: 41}
+        - {x: -7, y: 41}
+        - {x: -6, y: 42}
+        - {x: 0, y: 42}
+        - {x: 1, y: 40}
+        - {x: 3, y: 38}
+        - {x: 6, y: 38}
+        - {x: 11, y: 43}
+        - {x: 11, y: 47}
+        - {x: -3, y: 58}
+        - {x: -7, y: 58}
+        - {x: -10, y: 55}
+        - {x: -9, y: 52}
+        - {x: -15, y: 61}
+        - {x: -21, y: 65}
+        - {x: -32, y: 65}
+        - {x: -41, y: 56}
+        - {x: -42, y: 48}
+        - {x: -57, y: 34}
+        - {x: -60, y: 16}
+        - {x: -51, y: 7}
+        - {x: -47, y: 7}
+        - {x: -46, y: 3}
+        - {x: -52, y: 2}
+        - {x: -64, y: -7}
+        - {x: -64, y: -10}
+        - {x: -61, y: -11}
+        - {x: -60, y: -13}
+        - {x: -64, y: -10}
+        - {x: -67, y: -11}
+        - {x: -68, y: -23}
+        - {x: -68, y: -33}
+        - {x: -64, y: -42}
+        - {x: -52, y: -42}
+        - {x: -22, y: -15}
+        - {x: -21, y: -7}
+        - {x: -20, y: 3}
+        - {x: -14, y: 20}
+      - - {x: -39, y: -27}
+        - {x: -37, y: -29}
+        - {x: -34, y: -28}
+        - {x: -34, y: -25}
+        - {x: -36, y: -23}
+        - {x: -39, y: -24}
+      - - {x: -30, y: -13}
+        - {x: -30, y: -17}
+        - {x: -28, y: -21}
+        - {x: -18, y: -26}
+        - {x: -15, y: -25}
+        - {x: -15, y: -21}
+        - {x: -26, y: -13}
+      - - {x: 64, y: -13}
+        - {x: 64, y: -16}
+        - {x: 67, y: -19}
+        - {x: 70, y: -18}
+        - {x: 70, y: -13}
+        - {x: 68, y: -11}
+        - {x: 66, y: -11}
+      - - {x: -24, y: 0}
+        - {x: -21, y: -3}
+        - {x: -18, y: -2}
+        - {x: -18, y: 0}
+        - {x: -21, y: 3}
+        - {x: -23, y: 3}
+      - - {x: -62, y: 2}
+        - {x: -59, y: -1}
+        - {x: -56, y: 0}
+        - {x: -56, y: 3}
+        - {x: -59, y: 6}
+        - {x: -62, y: 5}
+      - - {x: -64, y: 17}
+        - {x: -65, y: 15}
+        - {x: -64, y: 12}
+        - {x: -59, y: 8}
+        - {x: -56, y: 9}
+        - {x: -56, y: 13}
+        - {x: -62, y: 17}
+      - - {x: 65, y: 11}
+        - {x: 68, y: 12}
+        - {x: 68, y: 15}
+        - {x: 65, y: 16}
+        - {x: 63, y: 14}
+      - - {x: 65, y: 18}
+        - {x: 67, y: 16}
+        - {x: 70, y: 17}
+        - {x: 70, y: 20}
+        - {x: 68, y: 22}
+        - {x: 65, y: 21}
+      - - {x: 44, y: 49}
+        - {x: 43, y: 48}
+        - {x: 43, y: 43}
+        - {x: 46, y: 42}
+        - {x: 45, y: 29}
+        - {x: 55, y: 17}
+        - {x: 64, y: 17}
+        - {x: 68, y: 24}
+        - {x: 68, y: 45}
+        - {x: 61, y: 49}
+      - - {x: 40, y: 26}
+        - {x: 43, y: 23}
+        - {x: 46, y: 24}
+        - {x: 46, y: 26}
+        - {x: 43, y: 29}
+        - {x: 41, y: 29}
+      - - {x: 23, y: 67}
+        - {x: 8, y: 67}
+        - {x: 8, y: 66}
+        - {x: 6, y: 67}
+        - {x: -12, y: 67}
+        - {x: -12, y: 64}
+        - {x: 1, y: 47}
+        - {x: 30, y: 34}
+        - {x: 38, y: 34}
+        - {x: 42, y: 38}
+        - {x: 42, y: 58}
+        - {x: 29, y: 65}
+      - - {x: -48, y: 50}
+        - {x: -48, y: 45}
+        - {x: -47, y: 42}
+        - {x: -45, y: 42}
+        - {x: -43, y: 44}
+        - {x: -42, y: 49}
+        - {x: -42, y: 51}
+        - {x: -45, y: 52}
+      - - {x: 57, y: 46}
+        - {x: 60, y: 47}
+        - {x: 60, y: 50}
+        - {x: 57, y: 51}
+        - {x: 55, y: 49}
+      - - {x: 38, y: 52}
+        - {x: 41, y: 49}
+        - {x: 44, y: 50}
+        - {x: 44, y: 52}
+        - {x: 41, y: 55}
+        - {x: 39, y: 55}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

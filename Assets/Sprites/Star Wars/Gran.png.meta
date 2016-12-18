@@ -1,0 +1,801 @@
+fileFormatVersion: 2
+guid: d29dd0d3a423df244bc422decc19bd09
+timeCreated: 1460225595
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gran_Front_Walking_0
+    21300002: Gran_Front_Walking_1
+    21300004: Gran_Front_Walking_2
+    21300006: Gran_Front_Walking_3
+    21300008: Gran_FrontSide_Walking_0
+    21300010: Gran_FrontSide_Walking_1
+    21300012: Gran_FrontSide_Walking_2
+    21300014: Gran_FrontSide_Walking_3
+    21300016: Gran_Side_Walking_0
+    21300018: Gran_Side_Walking_1
+    21300020: Gran_Side_Walking_2
+    21300022: Gran_Side_Walking_3
+    21300024: Gran_BackSide_Walking_0
+    21300026: Gran_BackSide_Walking_1
+    21300028: Gran_BackSide_Walking_2
+    21300030: Gran_BackSide_Walking_3
+    21300032: Gran_Back_Walking_0
+    21300034: Gran_Back_Walking_1
+    21300036: Gran_Back_Walking_2
+    21300038: Gran_Back_Walking_3
+    21300040: Gran_Punch_0
+    21300042: Gran_Punch_1
+    21300044: Gran_Death_0
+    21300046: Gran_Death_1
+    21300048: Gran_Death_2
+    21300050: Gran_Death_3
+    21300052: Gran_Death_4
+    21300054: Gran_Death_5
+    21300056: Gran_Front_Idle_0
+    21300058: Gran_FrontSide_Idle_0
+    21300060: Gran_Side_Idle_0
+    21300062: Gran_BackSide_Idle_0
+    21300064: Gran_Back_Idle_0
+    21300066: Gran_Granade_0
+    21300068: Gran_Granade_1
+    21300070: Gran_Granade_2
+    21300072: Gran_Granade_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Gran_Front_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 38
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 71}
+        - {x: -19, y: 64}
+        - {x: -19, y: 19}
+        - {x: -13, y: 0}
+        - {x: 14, y: 0}
+        - {x: 19, y: 16}
+        - {x: 19, y: 68}
+        - {x: 18, y: 71}
+    - name: Gran_Front_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 82
+        width: 41
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 66}
+        - {x: 13.5, y: 72}
+        - {x: -13.5, y: 72}
+        - {x: -20.5, y: 56}
+        - {x: -20.5, y: 41}
+        - {x: -19.5, y: 40}
+        - {x: -16.5, y: 33}
+        - {x: -11.5, y: 2}
+        - {x: -9.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 20.5, y: 23}
+        - {x: 20.5, y: 55}
+    - name: Gran_Front_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 82
+        width: 41
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 64}
+        - {x: 17.5, y: 71}
+        - {x: -14.5, y: 71}
+        - {x: -15.5, y: 70}
+        - {x: -20.5, y: 54}
+        - {x: -20.5, y: 23}
+        - {x: -12.5, y: 0}
+        - {x: 0.5, y: 0}
+        - {x: 13.5, y: 4}
+        - {x: 13.5, y: 14}
+        - {x: 20.5, y: 35}
+    - name: Gran_Front_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 82
+        width: 39
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 71}
+        - {x: -19.5, y: 63}
+        - {x: -19.5, y: 20}
+        - {x: -16.5, y: 0}
+        - {x: 19.5, y: 0}
+        - {x: 19.5, y: 71}
+    - name: Gran_FrontSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 82
+        width: 43
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 72}
+        - {x: -21.5, y: 62}
+        - {x: -21.5, y: 28}
+        - {x: -16.5, y: 0}
+        - {x: 8.5, y: 0}
+        - {x: 17.5, y: 2}
+        - {x: 21.5, y: 12}
+        - {x: 21.5, y: 58}
+        - {x: 9.5, y: 72}
+    - name: Gran_FrontSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 82
+        width: 41
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 72}
+        - {x: -20.5, y: 61}
+        - {x: -20.5, y: 33}
+        - {x: -18.5, y: 17}
+        - {x: -6.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 20.5, y: 6}
+        - {x: 20.5, y: 62}
+        - {x: 16.5, y: 72}
+    - name: Gran_FrontSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 82
+        width: 45
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 70}
+        - {x: -22.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 22.5, y: 44}
+        - {x: 18.5, y: 62}
+        - {x: 5.5, y: 70}
+    - name: Gran_FrontSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 82
+        width: 41
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 72}
+        - {x: -20.5, y: 63}
+        - {x: -20.5, y: 30}
+        - {x: -14.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 20.5, y: 72}
+    - name: Gran_Side_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 82
+        width: 52
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 70}
+        - {x: -26, y: 67}
+        - {x: -26, y: 0}
+        - {x: 26, y: 0}
+        - {x: 26, y: 13}
+        - {x: 25, y: 15}
+        - {x: 15, y: 50}
+        - {x: 2, y: 70}
+    - name: Gran_Side_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 82
+        width: 37
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 73}
+        - {x: -18.5, y: 30}
+        - {x: -13.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 18.5, y: 73}
+    - name: Gran_Side_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 82
+        width: 51
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 69}
+        - {x: -25.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 25.5, y: 27}
+        - {x: 18.5, y: 56}
+        - {x: 3.5, y: 69}
+    - name: Gran_Side_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 82
+        width: 36
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 72}
+        - {x: -18, y: 66}
+        - {x: -18, y: 28}
+        - {x: -14, y: 0}
+        - {x: 15, y: 0}
+        - {x: 18, y: 4}
+        - {x: 18, y: 58}
+        - {x: 11, y: 72}
+    - name: Gran_BackSide_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 82
+        width: 45
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 67}
+        - {x: -22.5, y: 59}
+        - {x: -22.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 22.5, y: 20}
+        - {x: 15.5, y: 54}
+        - {x: 0.5, y: 67}
+    - name: Gran_BackSide_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 82
+        width: 37
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 5}
+        - {x: -15.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 18.5, y: 62}
+        - {x: 16.5, y: 71}
+        - {x: -15.5, y: 71}
+        - {x: -18.5, y: 66}
+    - name: Gran_BackSide_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 82
+        width: 36
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 69}
+        - {x: -18, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 55}
+        - {x: 10, y: 69}
+    - name: Gran_BackSide_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 82
+        width: 33
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 70}
+        - {x: -16.5, y: 12}
+        - {x: -14.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 16.5, y: 64}
+        - {x: 9.5, y: 70}
+    - name: Gran_Back_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 82
+        width: 37
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 68}
+        - {x: -10.5, y: 68}
+        - {x: -14.5, y: 63}
+        - {x: -14.5, y: 61}
+        - {x: -18.5, y: 58}
+        - {x: -18.5, y: 9}
+        - {x: -10.5, y: 0}
+        - {x: 15.5, y: 0}
+        - {x: 18.5, y: 19}
+        - {x: 18.5, y: 55}
+        - {x: 13.5, y: 65}
+    - name: Gran_Back_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 82
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 71}
+        - {x: -18, y: 71}
+        - {x: -20, y: 61}
+        - {x: -20, y: 25}
+        - {x: -13, y: 1}
+        - {x: -11, y: 0}
+        - {x: 17, y: 0}
+        - {x: 20, y: 20}
+        - {x: 20, y: 69}
+    - name: Gran_Back_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 82
+        width: 39
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 69}
+        - {x: -19.5, y: 59}
+        - {x: -19.5, y: 8}
+        - {x: -14.5, y: 0}
+        - {x: 13.5, y: 0}
+        - {x: 19.5, y: 9}
+        - {x: 19.5, y: 67}
+        - {x: 18.5, y: 69}
+    - name: Gran_Back_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 82
+        width: 40
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 70}
+        - {x: -20, y: 64}
+        - {x: -20, y: 3}
+        - {x: -19, y: 0}
+        - {x: 14, y: 0}
+        - {x: 20, y: 10}
+        - {x: 20, y: 68}
+        - {x: 19, y: 70}
+    - name: Gran_Punch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 36
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 71}
+        - {x: -16, y: 69}
+        - {x: -18, y: 59}
+        - {x: -18, y: 2}
+        - {x: -11, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 71}
+    - name: Gran_Punch_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 10
+        width: 36
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 63}
+        - {x: -18, y: 57}
+        - {x: -18, y: 19}
+        - {x: -15, y: 4}
+        - {x: -11, y: 1}
+        - {x: -6, y: 1}
+        - {x: -1, y: 6}
+        - {x: -1, y: 9}
+        - {x: 0, y: 10}
+        - {x: 0, y: 18}
+        - {x: 0, y: 7}
+        - {x: -1, y: 6}
+        - {x: -1, y: 3}
+        - {x: 2, y: 0}
+        - {x: 16, y: 0}
+        - {x: 18, y: 17}
+        - {x: 18, y: 51}
+        - {x: 10, y: 63}
+    - name: Gran_Death_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 48
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 71}
+        - {x: -6, y: 67}
+        - {x: -5, y: 64}
+        - {x: -4, y: 62}
+        - {x: -7, y: 64}
+        - {x: -11, y: 64}
+        - {x: -22, y: 63}
+        - {x: -24, y: 62}
+        - {x: -24, y: 10}
+        - {x: -17, y: 0}
+        - {x: 18, y: 0}
+        - {x: 24, y: 32}
+        - {x: 24, y: 63}
+        - {x: 19, y: 71}
+    - name: Gran_Death_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 10
+        width: 36
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 69}
+        - {x: -18, y: 63}
+        - {x: -18, y: 4}
+        - {x: -14, y: 2}
+        - {x: -1, y: 3}
+        - {x: 1, y: 7}
+        - {x: 1, y: 12}
+        - {x: -2, y: 18}
+        - {x: 0, y: 22}
+        - {x: 1, y: 8}
+        - {x: 3, y: 4}
+        - {x: 6, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 69}
+    - name: Gran_Death_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 10
+        width: 59
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 49}
+        - {x: -26.5, y: 49}
+        - {x: -29.5, y: 38}
+        - {x: -29.5, y: 4}
+        - {x: -27.5, y: 0}
+        - {x: 16.5, y: 0}
+        - {x: 29.5, y: 19}
+        - {x: 29.5, y: 47}
+        - {x: 28.5, y: 48}
+    - name: Gran_Death_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 10
+        width: 65
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 15}
+        - {x: 32.5, y: 33}
+        - {x: 25.5, y: 35}
+        - {x: 21.5, y: 36}
+        - {x: -21.5, y: 36}
+        - {x: -32.5, y: 28}
+        - {x: -32.5, y: 10}
+        - {x: -21.5, y: 0}
+        - {x: -16.5, y: 1}
+        - {x: -8.5, y: 0}
+        - {x: 22.5, y: 0}
+        - {x: 22.5, y: 2}
+        - {x: 20.5, y: 6}
+        - {x: 29.5, y: 11}
+    - name: Gran_Death_4
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 10
+        width: 79
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gran_Death_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 10
+        width: 81
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gran_Front_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4
+        width: 36
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 15}
+        - {x: -1, y: 4}
+        - {x: 1, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 74}
+        - {x: -18, y: 74}
+        - {x: -18, y: 0}
+        - {x: -7, y: 0}
+        - {x: -5, y: 2}
+        - {x: -2, y: 15}
+        - {x: -2, y: 25}
+    - name: Gran_FrontSide_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 4
+        width: 34
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 77}
+        - {x: -17, y: 66}
+        - {x: -17, y: 0}
+        - {x: 17, y: 0}
+        - {x: 17, y: 68}
+        - {x: 15, y: 77}
+    - name: Gran_Side_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 4
+        width: 29
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Gran_BackSide_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 4
+        width: 37
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 75}
+        - {x: -18.5, y: 67}
+        - {x: -18.5, y: 23}
+        - {x: -14.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 18.5, y: 68}
+        - {x: 17.5, y: 75}
+    - name: Gran_Back_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4
+        width: 36
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 75}
+        - {x: -18, y: 67}
+        - {x: -18, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 70}
+        - {x: 14, y: 75}
+    - name: Gran_Granade_0
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 4
+        width: 37
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 68}
+        - {x: -18.5, y: 44}
+        - {x: -18.5, y: 2}
+        - {x: -0.5, y: 4}
+        - {x: 4.5, y: 8}
+        - {x: 3.5, y: 20}
+        - {x: 5.5, y: 6}
+        - {x: 7.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 18.5, y: 57}
+        - {x: 13.5, y: 68}
+    - name: Gran_Granade_1
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 4
+        width: 36
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 70}
+        - {x: -18, y: 4}
+        - {x: -14, y: 2}
+        - {x: -8, y: 2}
+        - {x: 0, y: 4}
+        - {x: 4, y: 8}
+        - {x: 4, y: 18}
+        - {x: 5, y: 6}
+        - {x: 7, y: 0}
+        - {x: 18, y: 0}
+        - {x: 18, y: 57}
+        - {x: 3, y: 70}
+    - name: Gran_Granade_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4
+        width: 56
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 68}
+        - {x: -9, y: 68}
+        - {x: -28, y: 36}
+        - {x: -28, y: 20}
+        - {x: -8, y: 0}
+        - {x: 22, y: 0}
+        - {x: 23, y: 4}
+        - {x: 28, y: 26}
+        - {x: 28, y: 55}
+    - name: Gran_Granade_3
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 4
+        width: 46
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 67}
+        - {x: -23, y: 66}
+        - {x: -23, y: 0}
+        - {x: 13, y: 0}
+        - {x: 23, y: 33}
+        - {x: 23, y: 66}
+        - {x: 22, y: 67}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
