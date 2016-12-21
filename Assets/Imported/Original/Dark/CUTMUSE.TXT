@@ -1,0 +1,251 @@
+//
+//      YO YO YO --- HEAR YE, HEAR YE -- ATTENTION
+//       ****  FOR ALL CHUNK NAMES, USE CAPITAL LETTERS A,B,C... ****
+//
+//
+//      The sequence # here corresponds to the sequence # in CUTSCENE.LST
+//
+SEQUENCE: 1
+
+// cue 1
+CUE: star-thm
+0 0 0 0    // LucasArts !
+
+// cue 2
+CUE: star-thm
+B 2 B 2         // star wars !, jhk 1
+
+// cue 3
+CUE: star-thm
+1 0 0 0 // Y=beginning of kyle ship scene
+
+// cue 4
+CUE: star-thm       //space bar safety
+C 7 D 2  //
+
+// cue 5
+CUE: star-thm  // moment of flyby
+1 0 0 0
+
+// cue 6
+CUE: star-thm   //credits, darklogo
+1 0 0 0
+
+// cue 7
+CUE: star-thm  //spacebar safety
+E 4 F 2
+
+// cue 8
+//CUE: star-thm
+//1 0 0 0
+
+// cue 9
+//CUE: star-thm
+//Z 0 0 0       // CREDITS
+
+
+SEQUENCE: 2
+
+// cue 1
+CUE: execmus
+0 0 0 0    // Voice over
+
+// cue 2
+CUE: execmus
+1 0 0 0
+
+// cue 3
+CUE: execmus
+A 8 B 2
+
+// cue 4
+CUE: execmus
+1 0 0 0
+
+// cue 5
+CUE: execmus
+B 6 C 2
+
+// cue 6
+CUE: execmus
+1 0 0 0
+
+// cue 7
+CUE: execmus
+C 17 D 6
+
+// cue 8
+CUE: execmus
+1 0 0 0
+
+// cue 9
+CUE: execmus
+D 7 E 2
+
+// cue 10
+CUE: execmus
+1 0 0 0
+
+// cue 11
+CUE: execmus
+F 2 F 8
+
+// cue 12
+CUE: frigmus
+A 1 A 1
+
+// cue 13
+CUE: frigmus
+A 4 A 8
+
+// cue 14
+CUE: frigmus
+A 11 A 11
+
+// cue 15
+CUE: frigmus
+B 2 B 2
+
+// cue 16
+CUE: frigmus
+B 2 B 5
+
+// cue 17
+CUE: frigmus
+1 0 0 0
+
+// cue 18
+CUE: frigmus
+1 0 0 0
+
+// cue 19
+CUE: frigmus
+C 2 C 2
+
+
+SEQUENCE: 3
+	// before gromas
+	// cue 1
+CUE: gromas1
+A 1 A 1
+
+SEQUENCE: 4
+	// end gromas
+	// cue 1
+CUE: gromas2
+A 1 A 1
+
+SEQUENCE: 5 
+// before dtention
+// cue 1
+CUE: crixmus
+A 1 A 1
+
+// cue 2
+CUE: crixmus
+B 2 B 2 
+
+// cue 3
+CUE: crixmus
+C 2 C 2
+
+
+SEQUENCE: 6 
+// before robotics
+// cue 1
+CUE: robot1
+A 1 A 1
+
+SEQUENCE: 7 
+// after robotics
+// cue 1
+CUE: robot2
+A 1 A 1
+
+SEQUENCE: 8
+// before jabba
+// cue 1
+CUE: jabbamus
+A 1 A 1
+
+// cue 2
+CUE: jabbamus
+A 2 A 2
+
+// cue 3
+CUE: jabbamus
+A 18 A 18
+
+// cue 4
+CUE: jabbamus
+A 40 A 40
+
+SEQUENCE: 9
+// after jabba
+// cue 1
+CUE: robot1
+A 1 A 1
+
+SEQUENCE: 10
+// after executor
+// cue 1
+CUE: cargo
+A 1 A 1
+
+// cue 2
+CUE: cargo
+. 0 0 0
+
+SEQUENCE: 11
+// cue 1
+CUE: victory
+A 1 A 1
+
+// cue 2
+CUE: victory
+1 0 0 0
+
+// cue 3
+CUE: victory   // darth scene
+C 2 C 2
+
+// cue 4
+CUE: victory
+C 7 C 7
+
+// cue 5
+CUE: victory   // rebel fleet
+D 2 D 2
+
+// cue 6
+CUE: victory   // cut to medal ceremont, space bar
+D 4 D 6
+
+// cue 7
+CUE: victory //exits ship,. unnecessary
+D 7 D 10
+
+// cue 8
+CUE: victory //endfly, for trail off, to chk E
+1 0 0 0
+
+// cue 9
+CUE: victory // spacebar safety net
+D 12 E 2
+
+// cue 10
+CUE: victory
+. 0 0 0
+
+// cue 11
+//CUE: victory
+//1 0 0 0
+//E 2 E 3
+
+SEQUENCE: 12
+// end game credits
+// cue 1
+CUE: closcred
+A 1 A 1
+
+

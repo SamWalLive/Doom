@@ -1,0 +1,55 @@
+
+		Container Manager, version 0.9
+
+	ConMan (which stands for Container Manager, sorry for a bad pun) is a 
+utility to browse and edit various container files used by 3D games. Just run 
+it and select "Open Container" or associate container files with container 
+manager and just double-click the file you want in Explorer.
+
+History:
+ver 0.5:
+- "New container" function
+- Add/Delete files function
+- Copy&Paste support (copy/paste files directly from/to Windows Explorer)
+- Drag&Drop support (drag&drop files from/to Windows Explorer)
+
+Ver 0.51
+- Does not any longer create duplicates when adding files
+- Paste bug fixed
+- More correct detection of drag initiation
+- Added Help
+
+Ver 0.6
+- Read-Only support for Jedi Knight GOB files
+
+Ver 0.7
+- Added editing operations on JK GOBs and GOOs (creating, 
+  adding/deleting files).
+- Fixed bug in JK GOB reading when it might miss some directories
+  in the file.
+
+Ver 0.7a
+- Fixed bug in adding .KEY files to GOB/GOOs.
+
+Ver 0.9
+- Fixed a bug giving an error when you double-click a file in 
+  Explorer to open it, and the file happens to have a space
+  somewhere in the path.
+- Improved drag n' drop code so that now file operations only start
+  when you drop files, not when you pick them up as before.
+- You can now drop directories on ConMan - they will be .GOB/.GOOed
+  with retention of their structure (that is, if target container
+  supports directories - i.e. JK .GOB or MOTS .GOO).
+- If container file doesn't have identifying extension, ConMan
+  now tries to identify it by file header (so, you can for instance
+  open .MUS files in Grim Fandango demo without renaming them to .LABs).
+- Fixed a bug in .LFD handling.
+
+Ver 0.9a
+- Fixed a bug in command line handling yet again and added 
+  "Associate containers with ConMan" menu item in "Help".
+  If you're getting errors when double clicking on files,
+  use this menu to associate container files correctly
+  with ConMan.
+
+Alex.

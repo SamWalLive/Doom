@@ -1,0 +1,5 @@
+GOL 1.0
+  GOAL: 0 	TRIG:   0
+  GOAL: 1       ITEM:   5	# DT weapon
+  GOAL: 2       TRIG:   1       # Return to your ship for immediate evacuation.
+

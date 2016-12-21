@@ -1,0 +1,78 @@
+#sample make file
+
+Message
+Sample makefile
+
+# Place comments after #
+
+set indir c:\work\textures
+set outdir c:\dfuse\textures
+set paldir c:\dfuse\dark
+
+SIMPLE A.BM
+1.bmp /T #transparent
+
+ANIMATED B.BM 3 255     #number of frames is 3, speed of animation is 255
+1.bmp dfuse.pal
+2.bmp dfuse.pal
+1.bmp dfuse.pal
+
+SWITCH C.BM
+1.bmp  dfuse.pal
+2.bmp  dfuse.pal
+
+set indir c:\work\frames
+set outdir c:\dfuse\sprites
+
+Frame F.FME
+1.bmp dfuse.pal
+
+
+frame f1.fme -146 -150
+c:\windows\256color.bmp dfuse.pal /u #uncompressed
+
+DELT secbase.dlt
+secbase.bmp brf-jan.plt
+
+LFD dfbrief.lfd 4
+brf-jan.anm
+secbase.dlt
+brf-jan.plt
+about.txt TEXT #Non standard extension, tag needed
+
+FILM ftextcra.FLM
+89.9 Seconds
+>VIEW untitled
+END
+>PLTT tcrwlpal
+*TIME* Start  # Start=0
+PALETTE 0     # set tcrwlpal palette at the start of the cutscene
+END
+>PLTT 1eplan
+*TIME* 89.0
+PALETTE 0     # set palette 1eplan after 89 seconds from the beginning
+END
+>DELT starbc1x
+*TIME* Start
+SWITCH On
+LAYER 15
+"3" 88.9  # the code 3 corresponds to *TIME* command.
+SWITCH On
+END
+>DELT textcraw
+*TIME* Start
+MOVE -1 34 0 0
+SPEED 0 -3 0 0
+SWITCH On
+*TIME* 88.6
+SWITCH Off
+END
+>END UNTITLED
+
+GMD star-thm.GMD
+star-t00.mid
+star-t01.mid
+star-t02.mid
+star-t03.mid
+star-t04.mid
+star-t05.mid

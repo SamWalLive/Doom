@@ -1,0 +1,731 @@
+
+				BMP<->DF package 1.1a
+
+				   DARK FORCES
+				is copyright of
+			 LucasArts Entertainment Company.
+
+	This package allows you to interconvert Dark Forces formats FME, BM,
+DELT, ANIM, WAX and 256 color uncompressed RGB encoded Windows BMP or
+256 color PCX files (You can also assemble/disassemble Dark Forces LFD resource
+files and create/edit cutscene scripts). So, you can use the power of any Windows
+based graphics editor (Paint Shop Pro for instance) to create/modify textures,
+objects and briefings of Dark Forces. I guess it's a great possibility.
+
+The package consist of the following programs:
+
+DF2.EXE 	- 	FME, BM, DELT, ANIM->BMP,PCX; disassemble LFD,FILMs
+2DF.EXE 	- 	BMP,PCX->FME, BM, DELT, ANIM; assemble LFD, FILMs
+WAX2.EXE	-	WAX->BMPs,PCXs
+2WAX.EXE	-	BMPs,PCXs->WAX
+BMP2PLT.EXE	-	extract palette from BMP files
+
+BM files	are textures, weapon and status graphics, switches
+FME files	are static one-view objects in the game (keys, weapons, mines)
+DELTs		are not files. DELTs are resources contained in LFD files.
+		They are extracted to .dlt files by DF2. You can put them
+		back to LFD using 2DF. DELT files are used for static
+		pictures in the cutscenes, mouse cursors, and, the most
+		important, mission briefings.
+ANIMs		are not files either. They are similar to DELTs, but usually
+		used for moving pictures in cutscenes and also used for the
+		briefing background.
+FILMs		are yet no files. They're LFD resources containing command
+		for what to do in the cutscene.
+WAXes		are files that store sprites used in the game. Sprites are
+		not only enemies, but also scenery, most of projectiles,
+		some mission objects - anything that requires animation
+		and/or several views.
+
+All programs have high limits on image size: it can't be over 6000 points
+in either x or y dimension or it should fit into the free conventional
+memory. This limit may be critical only for briefings. This limits us to
+630,000(could you free more memory?)/198=3181 line. This is 3181/200=15.9
+pages. I hope that's enough.
+
+Because of the complexity of DF formats, some information gets lost during
+DF->BMP,PCX conversion. To avoid this, you can ask (/m switch) DF2 or
+WAX2 program to create additional files with this extra information.
+These files, further called "makefiles", are simple text files, so you
+can modify them easily. Even more - you can create them from scratch.
+
+Ok, enough for the intro,
+Now:
+
+				DF2 1.0
+
+     It's not Dark Forces 2. Dark Forces 2 is still under development.
+This stands for "Dark Forces to". Initially it was DF2BMP, but support
+for PCX was added and I thought that typing "DF2BMP" was to weary. Besides, I
+often couldn't decide what I should type for a conversion. This shortened
+variation is more intuitive in my opinion. Well, I could be wrong. But you can
+always rename it to whatever you want. Anyway, It can convert BM, FME, ANIM
+and DELT files to BMP or PCX files or sequence of them. You can also disassemble
+LFD and FILM files.
+
+DF2 is capable of handling:
+ BM (Textures, weapon/status display) -  simple, transparent, switch, animated,
+					 compressed.
+ FME (One-view objects)		-	compressed/uncompressed
+ DELT (Static graphics in custscenes, briefings, mouse cursors)
+ ANIM (Moving graphics in custscenes, briefing backgrounds)
+ FILM (Cutscene script)
+ LFD  (Data file containers)
+
+			Command line
+
+ To use DF2, type:
+
+ DF2 [switches] file1 [file2] [file3]
+
+ fileN is file names.
+ [file1] is the file you want to process.
+ [file2] is the output file BMP or PCX file.
+ [file3] is the palette file.
+
+ If you omit [file2], program uses the name of your input file, but
+ replaces the extension to .bmp(.pcx).
+ If you specify the palette file [file3], the palette from this file is put
+ into BMP. Otherwise, the default palette is used. The default palette is
+ the same as the one contained in the file dfuse.pal.
+
+ Switches is one or combination of the following:
+  /F - assume FME input
+  /D - assume DELT(dlt) input
+  /B - assume BM input
+  /L - assume LFD input
+  /A - assume ANIM(anm) input
+  /Z - assume FILM(flm) input
+  /X - Force PCX output
+  /M - generate makefile for 2DF
+	if you specify this parameter, the file with the same name as your
+	input file, but with the extension .txt is created. You can submit
+	this file to 2DF as a makefile to convert your extracted BMP
+	file(s) back to initial format. You may as well, browse/modify it-
+	it is in simple and understandable text format.
+
+  /0=# - use color # as a background(transparent) color for DELT and ANIM.
+  /S - show loaded files
+  /V - show loaded files and do not perform any conversion (View)
+	Use this switch just to view DF graphics.
+
+  Specific details:
+			BM->BMP,PCX conversion
+
+	Use the following command line for this:
+
+  DF2 BMfile [BMPfile] [PALfile] [/b] [/v] [/s] [/m] [/x]
+
+	If the BM is multiple(switch or animated), the first 6 characters
+of the output file are taken as template, and the remaining two characters
+are 00 for first bitmap, 01 for second, 02 for third... and so on.
+ Examples:
+  df2 zaswit01.bm /m (generate makefile)
+  df2 zaspin.bm /v (view)
+  df2 cesunset.bm sky.bmp secbase.pal /x
+
+  FME and DELT->BMP,PCX conversion is generally the same, only you should
+  use .plt files (LFD style palette) for DELTs. The background of DELT is
+  filled with color 0 or the color specified in /0=# parameter.
+
+			ANIM->BMP,PCX conversion
+
+  DF2 ANIMfile [BMPfile] [PLTfile] [/a] [/v] [/s] [/m] [/x] [/0=#]
+
+	The BMPfile is 6 character template, and the remaining two characters
+are 00 for first bitmap, 01 for second, 02 for third... and so on.
+
+ Examples:
+  df2 starta.anm /x/m (generate makefile)
+  df2 darklog2.anm darklgbc.plt /v (view)
+
+			"Disassembling" FILMs
+  Use:
+
+  DF2 FILMname [MAKEFILEname] [/Z]
+
+	The program produces makefile with MAKEFILEname if you specify it.
+ If you don't the name of makefile is the name of the FILM file with the
+ .txt extension. Add /Z if the extension of the input file isn't .flm.
+
+
+			Disassembling LFD
+
+	Use:
+
+ DF2 file.lfd [/L] [directory]
+
+ Directory is the directory where the content of LFD will be stored.
+ Examples:
+  df2 dfbrief.lfd brief/m (output to brief\, generate makefile)
+  df2 holocu.lfd /v (list the LFD directory)
+
+
+Now, when we're through with this one,
+
+
+				2DF 1.1
+
+     And this stands for "to Dark Forces". It converts 256 color uncompressed
+RGB encoded Windows BMP (or 256 color PCX) files to BM, FME, ANIM and DELT -
+file formats used by Dark Forces. It can also create FILM resources and
+LFD resource files.
+
+Using 2DF you can create:
+ BM (Textures, weapon/status display) -  simple,compressed,transparent, switch, animated.
+ FME (One-view objects)		-	compressed/uncompressed
+ DELT (Static graphics in custscenes, briefings, mouse cursors)
+ ANIM (Moving graphics in custscenes, briefing backgrounds)
+ FILM (Cutscene script)
+ LFD  (Data file containers)
+
+ Command line format:
+2DF [switches] [file1] [file2] [file3]
+File1 - BMP or PCX file, File2 - FME or BM file. File2 - PAL file
+If you omit File3 (PAL file), no palette conversion is performed
+Switches:
+/U -	uncompressed (FME).
+/1,/2 -	use compression scheme 1,2 (BM). The DF engine (the Jedi(tm) Engine)
+	seem to support these codings, but none of the BMs in the game is
+	compressed by either of them. So, be careful when you use them.
+	Coding 1 is RLE coding simlimar to PCX coding - it's good for bitmaps
+	with the areas of the same color.
+	Coding 2 is similar to FME coding and useful for BMs with transparent
+	or black areas.
+
+/F -	force FME output
+/D -	force DELT (DLT) output
+/B -	force BM output
+/T -	transparent (BM)
+/M -	Load and process a makefile (see below).
+	File1 is a makefile
+/L -	allow to use light-in-the-dark colors in palette conversion.
+	Colors 1..32 in DF palette are bright even if ambient lighting
+	in the sector is 0. This switch allows to use these colors in
+	palette conversion, so that you to create textures with the areas
+	glowing in the dark. Default value is disable this feature. This
+	switch is ignored if you're performing BMP,PCX->DELT or BMP,PCX->ANIM
+	conversion.
+
+/0=# -	set color # (in the range 0..255) to be transparent in DELT and
+	ANIM. This setting has no effect on BM and FME that always have
+	color 0 transparent.
+/S -	solid bitmap - no transparent areas.
+	Color 0 can be transparent (in transparent textures, FMEs, DELTS).
+	This color is usually black. So if you're using the palette
+	conversion and have black areas in your bitmap, they all become
+	transparent. By using this switch you force the black color become
+	non-transparent. So, you bitmap won't have any transparent areas.
+
+Notice, that /S and /L switches have effect ONLY if you specify a palette
+	file.
+
+Examples:
+ 2df brick.bmp brick.bm dfuse.pal /s
+ 2df /t bars.bmp bars.bm
+ 2df /f vader01.pcx vader01.fme /l
+ 2df /f/u redkey.bmp redkey.fme
+ 2df /d brief01.bmp secbase.dlt brf-jan.plt
+ 2df /m switches.txt
+
+
+		   Simple command line operations
+
+1)   To convert BMP or PCX to simple or transparent BM, type
+
+2DF BMPFILE BMFILE [PALFILE] [/T][/B][/L][/S][/1][/2]
+
+BMPFILE - 256 color Windows BMP or 256 color PCX file. BMFILE - the name of
+the resulting .BM file. [PALFILE] - normal DF .PAL file. If you omit extensions
+they're assigned automatically.
+
+Add /B to force BM conversion disregarding the extension of output file.
+If you add /T BM will be transparent (i.e. - if you assign it to a
+middle texture you'll be able to see through the areas drawn in black).
+Add /1 and /2 to use coding 1 and 2 instead of default 0.
+
+If you use [PALFILE] the BMP(PCX) will be converted to given palette. If
+you don't, no palette conversion will be performed.
+
+
+2)   To convert BMP(PCX) file to DELT (.dlt), type
+
+2DF BMPFILE DELTFILE [PALFILE] [/D][/S][/0=#]
+
+Add /D to force BMP,PCX->DELT conversion disregarding the extension of output
+file. Remember, that you should use .plt files (LFD style palette) instead of
+.pal files if you're replacing LFD graphics resources.
+
+
+3)   To convert BMP(PCX) file to compressed or uncompressed FME, type
+
+2DF BMPFILE FMEFILE [PALFILE] [/F] [/U][/S][/L]
+Add /F to force BMP(PCX)->FME conversion disregarding the extension of
+output file. Add /U if you want uncompressed FME.
+
+		     Makefile operations
+
+     Now, to the harder part: animated BMs, Switches and manipulating
+xshift and yshift values in FME (the default xshift and yshift values are
+xshift=-(width/2), yshift=-height) and creating LFD files. To do  these,
+you need to use makefiles. You can make simple Bms, FMEs  and DELTs
+via makefiles as well. To use a makefile, type:
+
+2DF [/M] MAKEFILE.TXT
+
+Add /M to force makefile mode if the extension of a makefile isn't .txt or .mak.
+
+     Now, what are makefiles? They are simple text files. Besides that you
+can generate them with DF2, you can simply create them using any text
+editor. Each entry of a makefile begins with a keyword followed by parameters
+(filenames, numbers),then follow varied number or lines, containing file names
+and command line parameters. The entry ends with an empty line. You can use
+comments in a makefile (everything after # is ignored).
+
+1)   To create a multiple BM file, you need to include the following
+in the makefile:
+
+Animated BMFILE NUMBER_OF_FRAMES ANIMATION_SPEED
+BMPFILE1 [PALFILE] [/T][/S][/L]
+BMPFILE2 [PALFILE] [/T][/S][/L]
+.
+.
+BMPFILE [PALFILE] [/T][/S][/L]
+
+
+Warning! It seems like multiple BM files can't be over 64Kb in size. Be
+aware of that.
+
+Warning! speed must be 0 or above , -#`s are not valid. Default speed is 5.
+
+For example:
+
+Animated radar.bm 3 10     #3 frames, speed 10
+rdr01.bmp   c:\dfuse\dfuse.pal
+rdr02.pcx   c:\dfuse\dfuse.pal
+rdrlast.bmp c:\dfuse\dfuse.pal
+
+
+2)   To make switch, use:
+
+Switch BMFILE
+BMPFILE1 [PALFILE] [/T][/S][/L][/1][/2]
+BMPFILE2 [PALFILE] [/T][/S][/L][/1][/2]
+
+Switch button.bm
+button1.bmp c:\dfuse\dark\secbase.pal /L
+button2.pcx c:\dfuse\dark\secbase.pal /L
+
+
+3) To manipulate xshift and yshift values in FME, use:
+
+Frame FMEFILE [-XSHIFT] [-YSHIFT]
+BMPFILE [PALFILE] [/U][/S][/L]
+
+	Xshift and Yshift seem to mean the shift of left upper(?) corner of
+FME from the position of the object. But with preceding "-".
+
+For example:
+
+Frame nava.fme -10 -15
+nava.bmp  c:\dfuse\dark\secbase.pal   /u    #uncompressed
+
+4) To create LFD, use:
+
+LFD file.lfd N
+file1.ext [TAG]
+file2.ext [TAG]
+.
+.
+.
+fileN.ext [TAG]
+
+N is the number of files you want to put into LFD. optional
+[TAG] parameter is the LFD tag for the file.
+The known tags are:
+ANIM - moving pictures
+DELT - static pictures
+FILM - cutscene script
+VOIC - VOC file (sound)
+GMID - GMD file (music)
+FONT - font file
+PLTT - palette
+
+if you use default extensions:
+ANIM - .anm
+DELT - .dlt
+FILM - .flm
+VOIC - .voc
+GMID - .gmd
+FONT - .fnt
+PLTT - .plt
+you don't need to specify [TAG] parameter.
+
+5) To create ANIM, use:
+
+ANIM file.anm N
+file1.bmp [PLTfile] [/S] [/0=#]
+file2.bmp [PLTfile] [/S] [/0=#]
+.
+.
+.
+fileN.bmp(pcx) [PLTfile] [/S]
+
+	N is the number of images in ANIM. PLTfile is the LFD style palette
+file (.plt). Add /S parameter if you don't want any transparent areas in
+your picture in case you also specified PLTfile.
+
+6) To create FILMs use FILM statement:
+FILM file.flm
+>VIEW untitled
+Command1 parameters
+Command2 parameters
+.
+.
+END
+>BLOCK1
+Command1 parameters
+Command2 parameters
+.
+.
+END
+>BLOCK2
+Command1 parameters
+Command2 parameters
+.
+.
+END
+>END untitled
+
+  The first block always must be >VIEW block. Last block - >END block.
+  The format of the FILM statement is basically equal to the format of
+  text files used by Carl Kenner's GOBDOS (read FILM.TXT for description)
+  with the following modification: the FILM keyword is used instead of
+  FILENAME keyword, no blank lines is allowed between the end of one block
+  and the beginning of another and you can specify a command by code if you
+  put it in quotes. Say "3" corresponds to the *TIME* command. Read FILM.TXT
+  for the list of commands and the explanation of the FILMs.
+
+7)   And, you still can make simple BM and DELT files:
+
+Simple BMFILE
+BMPFILE [PALFILE] [/T][/S][/L]
+
+For DELT files:
+
+DELT deltfile
+BMPFILE [PALFILE][/S] [/0=#]
+
+			Miscellaneous
+
+1)   There's also two service keywords.
+
+SET VARIABLE VALUE
+
+and
+
+MESSAGE
+message line 1
+message line 2
+.....
+
+     Variable is SET statement can be INDIR - directory, where
+program looks for BMP,PCX and PAL files, OUTDIR - directory, to which
+program will save the resulting BM, FME, LFD, ANIM, DELT files,
+PALDIR - directory, where program will look for palette files.
+Default setting is current directory for everything. If PALDIR isn't
+set, but INDIR is, INDIR is used to look for palettes. Files with complete
+path (like c:\dfuse\dark\secbase.pal) are not affected by this variables.
+You can reset any of these by adding:
+
+SET VARIABLE
+
+     MESSAGE keyword leads to printing the message on the screen. May be of some use.
+
+     Look at makefile.txt for an example of a makefile.
+
+
+				WAX2 1.0
+
+	Because of sophisticated structure, I separated WAX<->BMP(PCX) conversion
+into different programs WAX2 and 2WAX.
+The command line is simple:
+
+WAX2 WAXfile [BMPfile] [PALfile] [/S] [/V] [/M]
+
+WAXfile		is the name of the WAX file you want to convert.
+BMPfile		is the template (>=5 characters, if more - truncated) for
+		BMP files. If you omit this, first 5 characters of input
+		file are used as a template.
+PALfile		Normal DF palette file. If you omit this file, default
+		palette is used.
+Switches:
+
+	/S	show files before saving
+	/X	Force PCX output
+	/V	View WAX
+	/M	generate makefile for 2WAX . 2WAX makefile is somewhat
+		similar to 2DF makefile, but it's more complicated. See
+		description of 2WAX for details.
+
+Examples:
+
+WAX2 phase3x.wax /v
+WAX2 kell.wax kell /m/s/x jabship.pal
+WAX2 reeyees.wax
+
+	Not much to add here.
+
+One more thing:
+
+				2WAX	1.0 beta
+	This program serves the noble cause - converting sequence of BMP(PCX)
+files to WAX. The command line is perfectly simple:
+
+2WAX makefile
+
+	makefile is 2WAX makefile. Now this file is not as simple. Its
+structure is basically a bit simplified WAX structure. The follwoing keywords
+are supported:
+
+SET {INDIR | OUTDIR | PALDIR} DIRECTORY
+
+MESSAGE
+Line1
+Line2
+.
+.
+LineN
+
+Which have absolutely the same meaning and format as in 2DF makefiles. The
+new keyword is WAX. It has pretty complicated format:
+
+WAX WAXNAME
+PAL PALNAME
+WAXES N
+id1: SEQ8=#,#,#.... or SEQ32=#,#,#,#.... WH=# WW=# FR=#
+.
+.
+idN: SEQ8=#,#,#.... or SEQ32=#,#,#,#.... WH=# WW=# FR=#
+SEQS N
+id1: FRAMES=#,#,#....
+.
+.
+idN: FRAMES=#,#,#....
+FRAMES N
+id1: CELL=# FLIP=# X=-# Y=-#
+.
+.
+idN: CELL=# FLIP=# X=-# Y=-#
+CELLS N
+id1: BMP=BMPNAME or PCX=PCXNAME PAL=# C=#
+.
+.
+idN: BMP=BMPNAME or PCX=PCXNAME PAL=# C=#
+
+	PAL section is optional, others are obligatory. CELLS section MUST be
+the last section in WAX, the others may go in any order. id1..idN for all
+sections is a number 0..254 which is the IDENTIFIER of the entry. So they
+don't need to be ordered, i.e. if you delete on line you don't need to
+renumber everything. Entries are referenced by these identifiers.
+
+PAL section:
+	Indicates the palette for this WAX. If omited the default palette is
+	used. Note that it has an effect only if you use palette conversion.
+	WAX files don't contain palette information.
+WAXES section:
+	WAX is WAX file structure corresponds to some enemy state: walking,
+	firing, dying, lying dead and so on. Usual assignments are:
+	(No .WAX file contains more than 14 WAXES out of 32 possible). WAXES entry
+	number (number, not tag!):
+	0 -	walking
+	1 -	attacking (primary)
+	2 -	dying
+	3 -	dying from strong hit (mine, TD, repeater, so on)
+	4 -	lying dead
+	5 -	staying still
+	6 -	? (Usually walking)
+	7 -	special attack (TD for reeyees, green junk int. droid)
+	8 -	? (Usually walking)
+	9 -	? (Usually walking)
+	10 -	? (Usually walking)
+	11 -	? (Usually walking)
+	12 -	getting hit
+	13 -	special action (Using shield for D_TROOP1, flying up for
+		D_TROOP2 and D_TROOP3)
+	This pattern may vary (see dianoga for instance).
+
+	.WAX files for SCENERY logic have structure:
+	2 WAXES
+	0 - normal
+	1 - broken.
+
+	Projectiles have only one WAXES entry.
+
+	Every WAXES entry MUST contain
+	SEQ8= or SEQ32= statement which references to the SEQS in this WAX.
+	SEQ8= must contain 8 numbers after it separated by comma, SEQ32 - 32.
+	These numbers are identifiers of the corresponding SEQS. in SEQ8=
+	the first number corresponds to the face view of the enemy, 2nd -
+	view from 45 degrees from the left, 3rd - 90 degrees from the left
+	and so on. SEQ32= is more complex. The first number corresponds to
+	the view from 5.6 degrees, next - 16.8 degrees and so on up to 32
+	that corresponds to view from 354 degrees. SEQ32= is how it's really
+	done in WAX. No WAX uses all 32 view. Usually only 8 are used -
+	each 4 successive view are same. SEQ8= is just the abbreviation for
+	that. The other statements are optional. WW=, WH= and FR=. WW stands
+	for WorldWidth, WH for WorldHeight. I'm not sure what they mean, but
+	they are usually 65536 (this value is set if you omit them). FR=
+	is the framerate for this WAX (default is 8).
+SEQS section:
+	SEQS corresponds to the animation cycle for one point of view. Only
+	FRAMES= statement is allowed here. It contains references to FRAMES
+	forming the animation sequence. The animation sequence may be up to
+	32 frames.
+FRAMES section:
+	FRAMES are references to an actual image with some modifiers.
+	CELL= statement indicated the identifier of the cell this FRAME points
+	to. The modifiers are FLIP=, X=, Y=. FLIP= can be 0,1,2. 0(default)
+	- no flip. 1 - flip horizontally, 2 - flip vertically. X= and Y= are
+	shifts of starting point of the image with "-" sign. They have the
+	same meaning as XSHIT and YSHIFT in FME. If you omit them they are set
+	X=-(width of image/2) Y=-(height of image)
+CELLS section:
+	CELLS section contains pointers to BMP(PCX) files to use as images.
+	BMP=(PCX=) indicates the name of BMP(PCX) file to put in this cell.
+	C= can be 0 or 1(default). 0 means the cell is uncompressed, 1 - rle
+	compressed. PAL= can be 0,1,2,3. Describes the type of palette
+	conversion. 0 - use only colors 32-255 in palette conversion (no
+	bright or trasparent areas),1 - use color 0 and 32-255, 2 - use
+	colors 1-255 (bright ares, but no transparent), 3 - use all colors
+	(bright and transparent areas).
+
+	No example of WAX makefile is enclosed. You can generate WAX makefiles
+with WAX2 program. In fact I highly recommend to create new waxes starting
+from existing ones.
+
+				BMP2PLT
+
+	That's a quickie to patch a hole in a BMPDF package: inability to generate
+.PAL and .PLT files. While you probably won't want to create .PAL file, making .PLT
+files is neccessity. So here's the program for it. It extracts the palette from the
+BMP file and saves it in .PLT or .PAL files.
+
+usage:
+
+BMP2PLT BMPFile [PLTFile] [/p]
+
+BMPFile	is the BMP file you want to extract the palette from
+PLTFile	is the name of .PLT (or .PAL) file to create. If omitted, the file
+	with the same name as BMP and extension .PLT (.PAL) is created.
+
+Add /p if you want to generate .PAL file instead of .PLT.
+
+
+And now:
+			Tips and tricks
+
+	I can give you a few recommendations. Some of them can be applied not
+only to working with this program, but to DF editing in general. Some of them
+may be bad. But they all work.
+
+Tip 1)	The best way to use the package, especially in case of sophisticated
+	formats like WAX, in my opinion is:
+	First use DF2 or WAX2 with the /m parameter on the file you want
+	to modify/use as a base. Place BMP(PCX) files into the separate directory
+	Then specify this directory in the SET INDIR (SET INDIR Directory)
+	statement in the makefile. Specify directory with palette files in
+	SET PALDIR and the output directory in the SET OUTDIR statement. Then
+	just modify/replace BMP(PCX) files, modify makefiles and run 2DF or
+	2WAX on your makefiles. Here's an example:
+	Say you want to create/modify animated BM starting from zaspin.bm.
+
+	df2 zaspin.bm /m
+	Creates zaspin##.bmp files containing frames of the animated bitmap
+	and makefile zaspin.txt. Move all bmp files to the directory
+	c:\project\bmps and zaspin.txt to c:\project. Add the lines:
+
+	SET INDIR c:\projects\bmps
+	SET OUTDIR c:\dfuse\textures
+	SET PALDIR c:\dfuse\dark
+
+	into the makefile zaspin.txt. After you've made all the modifications,
+	generate the new zaspin.bm using the command:
+
+	2df c:\project\zaspin.txt
+
+
+Tip 2)
+	When you create textures, use bitmaps with 2^N height (2,4,16,32,64...).
+	Otherwise you'll get distorted textures with shifted columns.
+
+Tip 3)
+	Briefings are contained in dfbrief.lfd file. To create a briefing, you
+	first need to extract dfbrief.lfd file with DF2 using /m parameter
+	to generate dfbrief.txt makefile. Then modify/create necessary .dlt/.anm
+	files (they are named after level name) and reassamble the lfd using
+	2DF with dfbrief.txt makefile. Put new dfbrief.lfd into your DF
+	install directory. Or give dfbried.lfd whatever name you want and
+	change the briefings.lst file (recommended). You need to include DELTs
+	only for levels you use. However you also need to include resources:
+	brf-jan.plt, and levelname.anm, brf-jan.anm or brf-mon.anm or brf-nil.anm
+	depending on what briefing you're replacing (Secbase - brf-mon.anm,
+	Jabship - brf-nil.anm, all others - brf-jan.anm. Besides, you can
+	change it in briefings.lst file contained in DARK.GOB).
+
+Trick 1)
+	Although 2DF can convert the palette for you, it's best not to use
+this feature, because DF palette has many special colors:
+	Color 0 is transparent
+	Colors 1..24 never fade. That's how lighting in the dark is done
+	Colors 24-31 are unused. Even if you modify them in the palette, it
+	has no effect. Besides, although they're magenta in palette, DF
+	displays them as bright green.
+
+I recommend that you draw your pictures in DF palette. To convert DF palette
+into something compatible with Windows, just convert some simple BM file into
+BMP(PCX) using this palette. The palette will be stored into BMP(PCX).
+	The suitable way is also to create a picture in whatever palette you
+want, convert it to BM using palette conversion, and the convert it back to
+BMP(PCX). Than you just need to check if some important areas became transparent
+or you have non-fading colors in inappropriate places. Just use color replacer
+tool to replace them with the fading equivalent. After that, you can convert
+your BMP(PCX) file without touching the palette.
+
+
+Trick 2)
+	When you create briefings, use standard width - 198 pixels - to avoid
+problems. Be aware that color 0 (or any other color you specify in /0=
+parameter) is considered transparent.
+
+
+     I hope that these programs will help you in developing new
+levels for Dark Forces and encourage to do so.
+
+[--------------------------------------------------------------------------]
+     Oh, yes, the program is free, author can't be responsible for any harm
+to hardware/software caused by this program and so on. If you want the source
+texts of this program, just e-mail me.
+[--------------------------------------------------------------------------]
+
+ Additional credits to:
+David Lovejoy (lovejoyd@cia.com)
+Yves Borckmans (Yves.Borckmans@ping.be)
+ for testing and valuable advices.
+
+Don Sielke (sielked@yk3500.mwe.navy.mil)
+ for essential corrections.
+
+Carl Kenner (andrew.kenner@unisa.edu.au)
+ for the structure of the FILM resource.
+
+All the DF team for the great game.
+
+***************************************************************************
+The programs in the package are more or less tested, but due to the large
+scope of files the program works with the testing couldn't have been
+comprehnsive. So don't be surprized if you run into a bug.
+***************************************************************************
+
+Alex.
+anoviko@emory.edu

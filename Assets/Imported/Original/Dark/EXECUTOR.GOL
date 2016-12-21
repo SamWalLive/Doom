@@ -1,0 +1,5 @@
+GOL 1.0
+  GOAL: 0	TRIG:	0	# Reach the cargo shuttle bay.
+  GOAL: 1 	TRIG: 	1	# Activate the cargo shuttle system.
+  GOAL: 2 	TRIG: 	2	# Prepare container for launch to Arc Hammer.
+

@@ -1,0 +1,58 @@
+MSG 1.0
+MSGS 33
+
+# AGENT menu
+	100 0:  "nN"		# new agent
+	110 0:  "rR"		# remove agent
+	120 0:  "dD<27>"	# quit to dos
+	130 0:  "bB<13>"	# begin mission
+
+	# enter new agent name
+	140 0:	"<13>"	# OK
+	150 0:	"<27>"	# cancel
+	# remove agent?
+	160 0:	"yY"	# yes
+	170 0:	"nN<13><27>"	# no
+	# quit to dos?
+	180 0:	"yY"
+	190 0:	"nN<13><27>"
+
+# BRIEFING screen
+	200 0:	"Oo<13>"	# accept mission
+	210 0:	""		# line up
+	220 0:	""		# line down
+	230 0:	"cC<27>"	# cancel
+	240 0:	"eE"		# easy
+	250 0:	"mM"		# medium
+	260 0:	"hH"		# hard
+
+# ESC menu
+	310 0:	"Aa"	# Abort mission
+	320 0:	"nN"	# Next mission
+	330 0:	"rR<27><13>"	# Return to mission
+	340 0:	"cC"	# Configuration	
+	350 0:	"qQ"	# Quit to dos
+
+# ESC dialogs
+	# Next mission?
+	400 0:	"nN<27>"
+	410 0:	"yY<13>"
+	# Abort Mission?
+	420 0:	"nN<13><27>"
+	430 0:	"yY"
+	# Quit to dos? - from esc menu
+	440 0:	"nN<13><27>"
+	450 0:	"yY"
+
+# Configuration
+	500 0:	"Oo<13><27>"	# OK
+	510 0:	"Jj"		# calib joystick?
+
+# Okay message box
+	600 0:	"oO<13><27>"	# Okay button
+
+# Critical Disk error dialog
+	700 0: "rR<13><27>"	# Retry
+	710 0: "aA"		# Abort - quit program
+END
+

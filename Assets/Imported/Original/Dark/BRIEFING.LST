@@ -1,0 +1,19 @@
+BRF 1.0
+BRIEFS 14
+LEV: SECBASE    LFD: dfbrief.lfd ANI: brf-mon PAL: brf-jan
+
+LEV: TALAY      LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: SEWERS     LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: TESTBASE   LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: GROMAS     LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: DTENTION   LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: RAMSHED    LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: ROBOTICS   LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: NARSHADA   LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: JABSHIP    LFD: dfbrief.lfd ANI: brf-nil PAL: brf-jan
+LEV: IMPCITY    LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: FUELSTAT   LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: EXECUTOR   LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: ARC        LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+LEV: TESTLEVL   LFD: dfbrief.lfd ANI: brf-jan PAL: brf-jan
+

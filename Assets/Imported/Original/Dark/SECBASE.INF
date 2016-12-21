@@ -1,0 +1,569 @@
+INF 1.0
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ      This file contains information definitions for a single level    ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+
+LEVELNAME secbase
+items 60
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                   Complete elevator and Level Goals                   ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: complete
+		seq
+			class: elevator move_floor
+			stop: 55 hold
+			stop: 56 hold
+				page: 1 m01kyl01.voc
+				message: 1 rickenbacker master_on
+			stop: 56 4
+			stop: 56.5 2
+				message: 3 parking_space wakeup
+			stop: 57 0
+				message: 4 text_boy m_trigger
+			stop: 57 complete
+			speed: 0
+		seqend
+	item: sector		name: text_boy
+		seq
+			class: elevator move_floor
+			stop: 0 hold
+			stop: 1 2
+			stop: 2 2
+				page: 2 landing1.voc
+  			stop: 3 0
+ 			stop: 4 terminate
+   		seqend
+	item: sector            name: marr
+		seq
+			class: trigger
+			client: rickenbacker
+				message: next_stop
+			event_mask: 4
+			sound: 1 0
+			sound: 2 0
+			sound: 3 0
+		seqend
+	item:   sector          name:   rickenbacker
+		seq
+			class: elevator move_floor
+			master: off
+			stop: 0 hold
+			stop: 1 0
+				message: 1 complete complete 1
+				message: 1 complete next_stop
+			stop: 2 terminate
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                         Landing Area Vue File                         ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                   Entrance Duct and Bars                              ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+/*      item: line      name: bartrig num: 0
+		seq
+			class: trigger
+			client: bar1
+			client: bar2
+			client: bar3
+			client: bar4
+			event_mask: 1
+		seqend*/
+	item: sector    name: bar1
+		seq
+			class:  elevator inv
+			event_mask: 0
+			stop: 8 hold
+			stop: 16 terminate
+		seqend
+	item: sector    name: bar2
+		seq
+			class:  elevator inv
+			event_mask: 0
+			stop: 8 hold
+			stop: 16 terminate
+		seqend
+	item: sector    name: bar3
+		seq
+			class:  elevator inv
+			event_mask: 0
+			stop: 8 hold
+			stop: 16 terminate
+		seqend
+	item: sector    name: bar4
+		seq
+			class:  elevator inv
+			event_mask: 0
+			stop: 8 hold
+			stop: 16 terminate
+		seqend
+	item: sector    name: bartrig
+		seq
+			class:  trigger
+			event_mask: 512
+			client: bar1
+			client: bar2
+			client: bar3
+			client: bar4
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                              Red Key Door                             ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector    name: red_door
+		seq
+			class: elevator inv
+			key: red
+			speed: 40
+			stop: @0 hold
+			stop: @8 2
+				message: 1 elev3-5 goto_stop 0
+                seqend
+	item: sector    name: blocker1
+		seq
+			class: elevator basic
+			stop: @15.97 hold
+			stop: @0 hold
+			event_mask: 0
+		seqend
+	item: sector    name: blocker2
+		seq
+			class: elevator basic
+			stop: @15.97 hold
+			stop: @0 hold
+			event_mask: 0
+		seqend
+	item: line      name: blocker_panel     num: 2
+		seq
+			class: trigger switch1
+			client: blocker1
+			client: blocker2
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                        Double Super Secret Duct                       ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector    name: duct
+		seq
+			class: elevator move_floor
+			stop: 32 hold
+			stop: 20 hold
+			event_mask: 0
+		seqend
+	item: line      name: westwing  num: 4
+		seq
+			class: trigger toggle
+			client: duct
+			event_mask: 0048
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                         Death Star Plans Area                         ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: projector
+		seq
+			class: elevator change_light
+			event_mask: 0
+			stop: 32 0
+			stop: 9 0
+		seqend
+	item: sector            name: cagedoor1
+		seq
+			class: elevator move_ceiling
+			event_mask: 0
+			speed: 1
+			stop: -20 hold
+			stop: -12 terminate
+			sound: 1 0
+			sound: 2 0
+			sound: 3 0
+		seqend
+	item: sector            name: cagedoor2
+		seq
+			class: elevator move_ceiling
+			event_mask: 0
+			speed: 1
+			stop: -20 hold
+			stop: -12 terminate
+			sound: 1 door1-1.voc
+			sound: 2 door1-2.voc
+			sound: 3 door1-3.voc
+		seqend
+	item: sector            name: cagedoor3
+		seq
+			class: elevator move_ceiling
+			event_mask: 0
+			speed: 1
+			stop: -20 hold
+			stop: -12 terminate
+			sound: 1 0
+			sound: 2 0
+			sound: 3 0
+		seqend
+	item: line              name: cagepanel num: 11
+		seq
+			class: trigger switch1
+			event_mask: 48
+			client: cagedoor1
+			client: cagedoor2
+			client: cagedoor3
+			message: next_stop
+		seqend
+	item: sector            name: plan_spot
+		seq
+			class: elevator change_light
+			event_mask: 0
+			stop: 30 0
+			stop: 10 0
+			slave: watchthis
+		seqend
+	item: sector            name: watchwhat
+		seq
+			class: elevator change_light
+			event_mask: 0
+			stop: 32 0
+			stop: 6 0
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                         Floor3-Floor1 elevator                        ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: floor3edoor
+		seq
+			class: elevator morph_spin1
+			stop: 0 hold
+			stop: 1 0
+				message: 1 elev3-1 goto_stop 0
+			stop: 90 10
+			speed: 30
+			center: 176 332
+			event_mask: 52
+			sound: 1 door2-1.voc
+			sound: 2 door1-2.voc
+			sound: 3 door2-1.voc
+		seqend
+	item: sector            name: floor1edoor
+		seq
+			class: elevator morph_spin1
+			stop: 0 hold
+			stop: 1 0
+				message: 1 elev3-1 goto_stop 1
+			stop: -90 10                                            speed: 30
+			center: 176 332
+			event_mask: 052
+			sound: 1 door2-1.voc
+			sound: 2 door1-2.voc
+			sound: 3 door2-1.voc
+		seqend
+	item: sector            name: elev3-1
+		seq
+			class: elevator move_floor
+			stop: 0.07 hold
+				message: 0 elev_block goto_stop 0
+				message: 0 floor3edoor goto_stop 2
+				message: 0 elev3-1_panel2(2) done
+			stop: 20 hold
+				message: 1 elev_block goto_stop 1
+				message: 1 floor1edoor goto_stop 2
+				message: 1 elev3-1_panel1(2) done
+			event_mask: 0
+			sound: 1 elev3-1.voc
+			sound: 2 elev3-2.voc
+			sound: 3 elev3-3.voc
+		seqend
+	item: sector            name: elev_block
+		seq
+			class: elevator move_ceiling
+			speed: 0
+			stop: -9 hold
+			stop: 12 hold
+			event_mask: 0
+		seqend
+	item: line              name: elev3-1_panel1    num: 2
+		seq
+			class: trigger switch1
+			client: elev3-1
+			message: goto_stop 1
+		seqend
+	item: line              name: elev3-1_panel2    num: 2
+		seq
+			class: trigger switch1
+			client: elev3-1
+			message: goto_stop 0
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                         floor4-floor2 elevator                        ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: floor4edoor
+		seq
+			class: elevator morph_spin1
+			stop: 0 hold
+			stop: 1 0
+				message: 1 elev4-2 goto_stop 0
+			stop: -90 10
+			speed: 30
+			center: 312 332
+			event_mask: 052
+			sound: 1 door2-1.voc
+			sound: 2 door1-2.voc
+			sound: 3 door2-1.voc
+		seqend
+	item: sector            name: floor2edoor
+		seq
+			class: elevator morph_move1
+			angle: 135
+			stop: -0.1 hold
+			stop: 1 0 message: 1 elev4-2 goto_stop 1
+			stop: 16 10
+			speed: 30
+			event_mask: 52
+			sound: 1 door2-1.voc
+			sound: 2 door1-2.voc
+			sound: 3 door2-1.voc
+		seqend
+	item: sector            name: elev4-2
+		seq
+			class: elevator move_floor
+			event_mask: 0
+			speed: 20
+			stop: -20 hold
+				message: 0 floor4edoor goto_stop 2
+				message: 0 elev4-2_panel2(2) done
+			stop: 42 hold
+				message: 1 floor2edoor goto_stop 2
+				message: 1 elev4-2_panel1(2) done
+			sound: 1 elev3-1.voc
+			sound: 2 elev3-2.voc
+			sound: 3 elev3-3.voc
+		seqend
+	item: line              name: elev4-2_panel1    num: 2
+		seq
+			class: trigger switch1
+			client: elev4-2
+			message: goto_stop 1
+		seqend
+	item: line              name: elev4-2_panel2    num: 2
+		seq
+			class: trigger switch1
+			client: elev4-2
+			message: goto_stop 0
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                      Floor 3 to floor 5 elevator                      ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: elev3-5
+		seq
+			class: elevator move_floor
+			stop: 1 hold
+			stop: 21 hold
+			event_mask: 52
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                               Front Door                              ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: frontdoor
+		seq
+			class: elevator inv
+			speed: 10
+			event_mask: 0
+			stop: 0 hold
+				message: 0 ext(6) done
+				message: 0 enthall(21) done
+			stop: 12.5 10
+			sound: 2 door1-2.voc
+		seqend
+	item: line              name: ext       num: 6
+		seq
+			class: trigger switch1
+			client: frontdoor
+			event_mask: 0048
+		seqend
+	item: line              name: enthall   num: 21
+		seq
+			class: trigger switch1
+			client: frontdoor
+			event_mask: 0048
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                      Extra Secret Areas for Demo                      ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: switch_cover
+		seq
+			class: elevator move_ceiling
+			stop: @0 hold
+			stop: @8 terminate
+			event_mask: 52
+		seqend
+	item: line              name: biggie_switch     num: 1
+		seq
+			class: trigger switch1
+			client: biggie_door
+		seqend
+	item: sector            name: biggie_door
+		seq
+			class: elevator inv
+			stop: @0 hold
+			stop: @8 terminate
+			event_mask: 0
+		seqend
+	item: sector            name: gigantaur
+		seq
+			class: elevator move_floor
+			event_mask: 0
+			stop: @0 hold
+			stop: @-36 hold
+		seqend
+	item: line              name: gigantaur_switch  num: 7
+		seq
+			class: trigger switch1
+			client: gigantaur
+		seqend
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                              command post                             ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: post_elev_e
+		seq
+			class: elevator move_floor
+			stop: -3 hold
+			stop: 24 hold
+			speed: 20
+			event_mask: 52
+		seqend
+	item: sector            name: post_elev_w
+		seq
+			class: elevator move_floor
+			stop: -3 hold
+			stop: 24 hold
+			speed: 20
+			event_mask: 52
+		seqend
+	item: sector            name: post_top
+		seq
+			class: trigger standard
+			event_mask: 04
+			client: post_elev_w
+			client: post_elev_e
+			message: goto_stop 1
+		seqend
+	item: sector            name: big_mid
+		seq
+		class: elevator move_floor
+			event_mask: 0
+			speed: 10
+			stop: -1 hold
+			stop: -9 hold
+		seqend
+	item: sector            name: big_mid
+		seq
+		class: elevator inv
+			event_mask: 0
+			speed: 10
+			stop: -1 hold
+			stop: 7 hold
+		seqend
+	item: sector            name: slider_sw
+		seq
+			class: elevator morph_move1
+			speed: 10
+			event_mask: 0
+			stop: -.1 hold
+/*				message: 0 dumb_door1 m_trigger*/
+			stop: 10 hold
+			angle: 224
+		seqend
+	item: sector            name: slider_ne
+		seq
+			class: elevator morph_move1
+			speed: 10
+			event_mask: 0
+			angle: 44
+			stop: -.1 hold
+				message: 0 dumb_door2 goto_stop 0 
+			stop: 10.5 hold
+		seqend
+	item: sector            name: big_dummy
+		seq
+			class: elevator move_floor
+			stop: 0 hold
+			stop: 1 0
+				message: 1 b_switch1(2) m_trigger
+				message: 1 b_switch2(2) m_trigger
+				message: 1 dumb_door2 goto_stop 1
+			stop: 1 0
+				message: 2 big_mid goto_stop 1
+			stop: 2 0
+				message: 3 slider_ne goto_stop 1
+				message: 3 slider_sw goto_stop 1
+			stop: 3 5
+			stop: 4 0
+				message: 5 big_mid goto_stop 0
+			stop: 5 0
+				message: 6 slider_ne goto_stop 0
+				message: 6 slider_sw goto_stop 0
+				message: 6 b_switch1(2) done
+				message: 6 b_switch2(2) done
+		seqend
+/*	item: sector		name: dumb_door1
+		seq
+			class: elevator move_floor
+			stop: 0 hold
+			stop: 1 hold
+			stop: 2 0.1
+				message: 2 dumb_door2 goto_stop 0 
+			speed: 0
+		seqend*/
+	item: sector		name: dumb_door2
+		seq
+			class: elevator move_floor
+			stop: 0 hold
+			stop: 1 10
+			stop: 2 1
+			stop: 3 0 
+				message: 3 big_dummy goto_stop 1
+    		seqend
+	item: line              name: b_switch1 num: 2
+		seq
+			class: trigger switch1
+			client: big_dummy
+		seqend
+	item: line              name: b_switch2 num: 2
+		seq
+			class: trigger switch1
+			client: big_dummy
+		seqend		  
+/*ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÚÄÙ                                 armory                                ÚÄÙ                                                                                                                                                     ;
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ*/
+	item: sector            name: armor_light_n
+		seq
+			class: elevator change_light
+			stop: 8 0
+			stop: 32 0
+		seqend
+	item: sector            name: armor_light_s
+		seq
+			class: elevator change_light
+			stop: 8 0
+			stop: 32 0
+		seqend
+	item: sector            name: spinner
+		seq
+			class: elevator morph_spin2
+			event_mask: 0
+			center: 350 350
+			speed: 60
+			stop: 0 hold
+			stop: 180 hold
+		seqend
+	item: line              name: spinner   num: 0
+		seq
+			class: trigger standard
+			client: spinner
+		seqend
+	item: line              name: spinner   num: 2
+		seq
+			class: trigger standard
+			client: spinner
+		seqend
+
+
+
+
+
+
+

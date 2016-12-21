@@ -1,0 +1,63 @@
+                                                           CYRA  CarGo 95
+
+
+                    Welcome fellow wax makers, let's begin.
+
+    First of all, you may be wondering what Cyra is and what Cyra can do.
+    Cyra is the culmination of all of my work in hacking waxes over the
+    summer. It's been a real ride.
+    
+    Cyra is a sequencer/editor/viewer for DF's animated cells and frames
+    and sequences and waxes. Yes there is a grouping of "waxes" within
+    most wax files. Everything in a wax file is based around the cell.
+    Waxes point to sequences, sequences point to frames and frames point
+    to cells. You won't need to know any of that stuff cause Cyra has
+    been written as a GUI of sorts and keeps track of that stuff for you.
+
+    Cyra also knows Fmecad. That means you can convert DF's Wax files
+    into Fmecad's Pac files for editing/drawing and load a group of Pac
+    files for conversion to Wax format. Also, you can view any Pac file
+    through Cyra's Pacview routine. Sound interesting?
+
+    Well, well, well... Through Cyra's Config section, you can change
+    PacDir and WaxDir and PalDir on the fly assuming they are set
+    up properly beforehand. A valid PalDir must have a 768 byte file
+    named Bemypal.pal in it and a valid PacDir must have at least one
+    valid Pac file, from 1.pac to 200.pac, in it and a valid WaxDir must
+    have at least one Wax file in it. Need a Bemypal.pal file? Either
+    rename one of DF's or download BEMYPAL CarGo 95. Need a Pac file?
+    Download FMECAD CarGo 95 or the shareware FRAMED CarGo 95.
+    Here is my directory structure on my puter.
+    c:\
+       DF\
+          FMECAD\
+                 FMECAD.EXE
+                 PACFILES.PAC
+                 BEMYPAL.PAL
+          WAX\
+                 DFWAXES.WAX
+
+
+
+                                Start up
+
+    Some first time directory setup needs to be performed by you before
+    firing it up for the first time. Reread the previous paragraph and
+    come back here when you are finished.
+    When editing directorys in Cyra's Config section, a backslash MUST
+    end the line. So.. "PACDIR:c:\df\fmecad" will not work while
+    "WAXDIR:c:\df\wax\" will be accepted.
+
+                               
+                              Windows 95
+    
+    Works very well. Try loading several occurances of Cyra then 
+    ALT-TAB yourself around. Cyra uses no extended memory and loads waxes
+    and pacs individually from the hard drive. Since that is the case, each
+    cell in a wax will be decompressed then displayed simultaneously. And
+    you will notice that Pac frames display much faster since there is no
+    compression to deal with and the Pac frames are shot to the screen
+    as one picture instead of pixel by pixel.
+ 
+    Cyra is keyboard controlled and displays in either text mode for editing
+    or graphics mode 320 x 200 x 256 for showing the pics.

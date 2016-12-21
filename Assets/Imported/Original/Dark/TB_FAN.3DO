@@ -1,0 +1,58 @@
+3DO 1.2
+#
+# This file has been converted from 3d Studio file 'tb_fan.ASC'.
+# The scale factor used was: 1.000000
+#
+3DONAME tb_fan
+OBJECTS 00002
+VERTICES 00012
+POLYGONS 00012
+PALETTE l:\levels\palettes\testbase.pal
+
+#-------------------------------------------------------
+TEXTURES 0
+
+
+
+#---------------------------------------------------------------------------
+OBJECT "blade01"
+TEXTURE -1  # 
+VERTICES 6
+#    num:        x           y           z
+      0:       6.000      -6.000      -2.500
+      1:      -6.000      -6.000       2.500
+      2:       6.000       0.000      -0.500
+      3:       6.000       0.000       0.500
+      4:      -6.000       0.000       0.500
+      5:      -6.000       0.000      -0.500
+
+TRIANGLES 6
+#    num:    < a >  < b >  < c > <color> <shading> #<material>
+      0:      3      2      0     62   gouraud      # GRAY7
+      1:      4      3      0     51   gouraud      # GRAY5
+      2:      1      4      0     51   gouraud      # GRAY5
+      3:      5      4      1     62   gouraud      # GRAY7
+      4:      2      5      1     42   gouraud      # GRAY3
+      5:      0      2      1     42   gouraud      # GRAY3
+
+#---------------------------------------------------------------------------
+OBJECT "blade02"
+TEXTURE -1  # 
+VERTICES 6
+#    num:        x           y           z
+      0:       6.000       6.000       2.500
+      1:      -6.000       6.000      -2.500
+      2:       6.000       0.000       0.500
+      3:       6.000       0.000      -0.500
+      4:      -6.000       0.000      -0.500
+      5:      -6.000       0.000       0.500
+
+TRIANGLES 6
+#    num:    < a >  < b >  < c > <color> <shading> #<material>
+      0:      3      2      0     62   gouraud      # GRAY7
+      1:      4      3      0     51   gouraud      # GRAY5
+      2:      1      4      0     51   gouraud      # GRAY5
+      3:      5      4      1     62   gouraud      # GRAY7
+      4:      2      5      1     42   gouraud      # GRAY3
+      5:      0      2      1     42   gouraud      # GRAY3
+

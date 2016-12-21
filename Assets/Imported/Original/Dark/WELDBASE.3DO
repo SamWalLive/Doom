@@ -1,0 +1,48 @@
+3DO 1.2
+#
+# This file has been converted from 3d Studio file 'weldrbm.ASC'.
+# The scale factor used was: 1.000000
+#
+3DONAME weldrbm
+OBJECTS 00001
+VERTICES 00012
+POLYGONS 00012
+PALETTE DEFAULT.PAL
+
+#-------------------------------------------------------
+TEXTURES 0
+
+
+
+#---------------------------------------------------------------------------
+OBJECT "stand"
+TEXTURE -1  # 
+VERTICES 12
+#    num:        x           y           z
+      0:      -0.140      -7.591       0.229
+      1:      -0.761      -7.591       0.808
+      2:       0.050      -7.591       0.559
+      3:       0.862      -7.591       0.808
+      4:       0.241      -7.591       0.229
+      5:       0.050      -7.591      -0.598
+      6:      -0.689       0.000      -0.088
+      7:      -3.040       0.000       2.104
+      8:       0.033       0.000       1.163
+      9:       3.107       0.000       2.104
+     10:       0.756       0.000      -0.088
+     11:       0.033       0.000      -3.220
+
+TRIANGLES 12
+#    num:    < a >  < b >  < c > <color> <shading> #<material>
+      0:      7      1      0     51   FLAT      # DWHITEF
+      1:      6      7      0     51   FLAT      # DWHITEF
+      2:      8      2      1     40   FLAT      # WHITEF
+      3:      7      8      1     40   FLAT      # WHITEF
+      4:      9      3      2     51   FLAT      # DWHITEF
+      5:      8      9      2     51   FLAT      # DWHITEF
+      6:     10      4      3     40   FLAT      # WHITEF
+      7:      9     10      3     40   FLAT      # WHITEF
+      8:     11      5      4     51   FLAT      # DWHITEF
+      9:     10     11      4     51   FLAT      # DWHITEF
+     10:      6      0      5     40   FLAT      # WHITEF
+     11:     11      6      5     40   FLAT      # WHITEF

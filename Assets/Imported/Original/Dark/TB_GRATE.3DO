@@ -1,0 +1,43 @@
+3DO 1.2
+#
+# This file has been converted from 3d Studio file 'tb_grate.ASC'.
+# The scale factor used was: 1.000000
+#
+3DONAME tb_grate
+OBJECTS 00001
+VERTICES 00004
+POLYGONS 00002
+PALETTE l:\levels\palettes\testbase.pal
+
+#-------------------------------------------------------
+TEXTURES 1
+  TEXTURE: ICDELEV.BM           # 0
+
+
+
+#---------------------------------------------------------------------------
+OBJECT "grate"
+TEXTURE 0  # ICDELEV.BM
+VERTICES 4
+#    num:        x           y           z
+      0:      -6.000       0.000       6.000
+      1:       6.000       0.000       6.000
+      2:       6.000       0.000      -6.000
+      3:      -6.000       0.000      -6.000
+
+TRIANGLES 2
+#    num:    < a >  < b >  < c > <color> <shading> #<material>
+      0:      2      3      0      0   PLANE   # ELEVROOF
+      1:      1      2      0      0   PLANE   # ELEVROOF
+
+TEXTURE VERTICES 4
+      0:       0.000       0.000
+      1:       0.000       0.000
+      2:       0.000       0.000
+      3:       0.000       0.000
+
+TEXTURE TRIANGLES 2
+#   num:    < a >  < b >  < c >
+      0:      2      3      0
+      1:      1      2      0
+

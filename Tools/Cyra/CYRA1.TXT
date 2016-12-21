@@ -1,0 +1,91 @@
+                                                             CYRA CarGo 95
+
+                                                             Select   File
+                                                             Edit      Wax
+                                                             Edit Sequence
+                                                             Edit    Frame
+                                                             Delay    Show
+                                                             Show      Wax
+                                                             Show Sequence
+                                                             Show    Frame
+                                                             Show     Cell
+                                                             Save Wax File
+                                                             Cells to  Pac
+                                                             Config   Cyra
+                                                             Pac(s) to Wax
+
+
+    This is Cyras main menu, listing most of its functions for selection.
+   
+
+                                     
+                                     
+                                      Cyra
+    Cyra is a full wax editor that will let you edit a wax files wax positions,
+    sequence positions and frame positions. Cyra is basically a sequencer for
+    cells. A wax file structure is designed to let the Jedi engine know what
+    frames to play and in what order. Cyra will let you change the order of 
+    things at will.
+    
+    Cyra will let you view the cells order of play through "Show Wax" and
+    "Show Sequence" and "Show Frame". Show Cells will let you scroll through
+    each cell. You can alter some vars in the "Edit" sections and save as
+    a new wax if you wish.
+
+                                 Cyra Points
+    The "Edit" sections are an important feature( but not the only by far )of
+    Cyra. You can scroll through each individual wax or sequence or frame or
+    cell of any wax file and then use the "Show" features to see what you have
+    chosen. I employed a floating variable approach, ( not floating decimal )in
+    that whatever is selected in either the the edit or show sections, becomes
+    the current object. Yeah, that's it, object oriented. That means that if
+    wax 1 seq 1 frame 1 points to cell 15, cell 15 is the object. Don't worry
+    it's all psycho babble anyway. You will get the hang of it.
+    Those strange numbers that you can only select but not alter are file
+    pointers. Just enter on a pointer you want to change and scroll through
+    the valid choices.
+                              
+                              Cyra Knows Fmecad
+    Two important features that unlock the door to new wax making are the Cells                        
+    to Pac and the Pac to Wax sections. You will learn two new words, Waxpac
+    and Pacwax. To make a waxpac simply select a wax THEN select Cells to Pac.
+    You will be shown stats as to which cells will make Fmecad's cut. If this
+    feature sounds familiar then you can throw Waxoff away since Cyras Cells
+    to Pac does the job EXACTLY. I blew it the first time out.
+    That brings up a limitation of the whole CarGo 95 expedition, 99 x 99 and
+    you know what I mean. That means that some of the cells or all for that
+    matter, may not make the cut. Don't sweat it though, hear me out.
+   
+                                 Pac this!
+    Cloning is what a Pacwax is all about. A good solution to a nagging
+    problem. While something of the Kell dragons size will not make it into
+    Fmecad, you can still use its cell logic. Let me back up before moving
+    forward. A perfect Cloning would be the storm trooper. All of its cells
+    meet the 99 x 99 limit and two pac files are created. Run Fmecad and load
+    the first pac. Notice the order, from 1 to 32, in which the cells were
+    saved. Each cell represents an action of events. When drawing a new
+    creature, the relative action and position of what you draw should be
+    close to the original. If the cell you are drawing was originally walking,
+    then your new cell should mimic that action. If the cell you are drawing
+    was originally facing to the left then your new cell should mimic that
+    position. The size of the creature does not matter. Cyra will compute
+    new file positions. That is cloning defined by Cyra ( er.. me).
+    So, what if some frames don't make the cut or none of the frames make the
+    cut? The road is a little longer but the result will be the same. Make
+    some shorthand of actions and positions while viewing the wax and adjust
+    your pac files accordingly. Bangggg the logic has been cloned.
+
+                                Cyra in Motion
+    First, stuff Cyra along with a bemypal.pal file into a directory of
+    your choice. Run the program and you will be prompted to supply
+    path names for pacs, waxes, and the bemypal.pal. The path name MUST
+    end with a backslash AND there must be at least one pac and one wax in
+    their respective directorys. I set up this program as a GUI of sorts so
+    the program should be easy to learn. With that in mind... Have at it.
+                                  
+    P.S. I changed the program since I wrote this text and all cells 
+    regardless of their size, will be saved to Pac. That is at least a
+    99 x 99 portion.
+    
+    Carlos
+

@@ -1,0 +1,298 @@
+********************************************************************
+                     FMECAD by Carlos Gomez
+********************************************************************
+
+OVERVIEW
+
+  FMECAD is an object editing program for Dark Forces.  Objects in 
+  the FME (frame) format would include keys, batteries, energy, 
+  medkits, and other things that you can pick up during the game.  
+  FMEs are also used as scenery.  Such as chains, cups from Jabba's 
+  ship, the infamous ashtray, and several lights.  You can recognize 
+  an FME instantly, because it will always look the same no matter 
+  where you view it from.  There are two types of  FMEs.  Compressed 
+  and Uncompressed.  At this time, FMECAD can only load uncompressed 
+  FMEs.  I've included a list of the uncompressed FMEs below.  So 
+  if you are knowledgeable with DFuse you can extract an FME on this 
+  list from the SPRITES.GOB and move it to the directory where FMECAD 
+  lives.  If you don't have DFuse you will have to download an 
+  ungobbing utility.  You don't need to do this though.  You can 
+  start an FME from scratch!  
+
+  FMECAD will also allow you to animate up to 32 frames.  This could 
+  be very useful when a .WAX editor is available.  It will also allow 
+  you to save your animations in .PAC format, which is explained in 
+  more detail below. 
+
+CREDITS     I would like to thank all of the following people for all 
+            of their help.
+
+            Beta Testers
+                 ALtrek
+                 Bill MANKE
+                 Clawe
+                 Cmdr Krud
+                 DSielke
+                 GdofThndr
+                 Keemosabi
+                 MDensm8167
+                 MPerry6633
+                 Neuroglea
+                 PNem
+                 Psycho66
+                 TOM1LIN2
+            
+      Special Kudos to Keemo and Krud. 
+      Krud actually has his own lawyer. Can you say "Retainer".
+      Keemo is actually crazy enough to run tech on FMECAD. Perhaps 
+      Gerrr-ronn-nehh-moee, would be a better name. Keemo also penned most
+      of this text. Thanks Dude-lys
+       
+ 
+             
+
+SYSTEM REQUIREMENTS
+  If you are playing DF, then you have plenty of horsepower. Or..386x25 w 1meg
+  XMS and SVGA compatible w/512k vid mem will fire it up. Oh yeah, better have a mouse.
+  Can't even quit without it. Besides, who draws with the keyboard. Uh..
+  anymore.
+
+
+LIST OF FUNCTIONS
+
+All commands are activated by using the left mouse button unless 
+otherwise specified.  Colors can be changed by using the left mouse 
+button on the palette in the lower right corner of the screen.
+
+                            DRAWING AREA
+   Left mouse but = Color Block with current color
+   Right mbut     = Color Block with color zero > Erase
+                            
+                            MENU ITEMS
+   New = starts a new file
+   Load = load an existing file 
+   Save = save file
+   Filename = Can use up to 17 characters to describe a pack of 32 frames
+              Activation - left mouse button
+              Deactivate - enter or escape
+
+   File Num  = Will scroll for saved packs of 32 frames
+             Activation - left and right mouse button
+
+   Eras = Erase currently selected frame with confirmation prompt
+
+   FClr = Find Color - "What color is that" left mbut to activate/ put cursor 
+          on block you want to identify in the Drawing Area- left mbut again 
+          sets current color to color in Block 
+   
+   Grid = Toggle grid on and off
+
+   Prev = View selected frame in 320x200 mode ( closest to DF )
+
+   AnPr = Animate Preview in 320x200 mode
+             Uses Animate selected numbers to run
+
+   PAL = Load a different palette from the FMECAD directory. Must be 768 byte
+         file with .PAL extention.
+ 
+   Quit = No save with confirmation prompt - must manually save stuff before 
+          quitting. I'm sweating already.
+
+   Frame = Frame Advance  
+              Activation - left and right mouse buttons
+
+   Insert = Insert Advance - Choose where to stamp copy of currently 
+            selected frame
+              Activation - left and right mouse buttons
+
+   Insert Frame  = Insert a frame with confirmation prompt
+   
+   Animate  = Action button for animation
+
+       1      to     32
+    AniLwr          AniUpr
+
+   AniLwr   = Animate Lower Bound / which frame to start with for 
+              animation
+            Activation - left and right mouse buttons
+
+   AniUpr   = Animate Upper Bound / which frame to end with for animation
+            If AniUpr is a smaller number then AniLwr, the animation 
+            will happen in reverse.
+            Activation - left and right mouse buttons
+
+   Delay = How long to delay in between frames. The animation is 
+            pretty fast and you probably will not see anything happen 
+            if the delay is on 0.
+            Activation - left and right mouse buttons
+
+   Loop     = how many times to view animation
+             Activation - left and right mouse buttons
+
+   Extract to .FME = Will save your file as an .FME.  With confirmation 
+                    and file name prompt.
+   
+   Load FME to Frame = Provide the name of the fme, must be in FMECAD dir,
+                       to be loaded to the current frame. Will erase current
+                       frame before loading.
+   
+   FLIP = Flips ( mirrors ) current frame
+          LSM =  upper left to lower right mirror line
+          RSM =  upper right to lower left mirror line
+          UDM = up/down mirror line
+          RLM = right/left mirror line
+          CCW =  rotates frame 90 degrees counter clock wise
+          CW = rotates frame 90 degrees clock wise
+          D = mirrors frame diagonally
+
+                 ''''''''''''''Special Note'''''''''''''''' 
+     I wrote this puppy with convience in mind. With that in mind, I tryed to
+  make FMECAD as intuitive as possible. Still, we all have pressed the wrong
+  button at some point and saw hard work disappear. At first, I wrote it so
+  that the frame advance button would be the only button that would "SAVE"
+  the frame to memory. Not very friendly indeed. 
+     A complier book fell on my head and in my unconciousness, I dreamed of the
+  perfect program. One that would operate flawlessly and take out the trash.
+  One that could perform what was in my minds eye and one that would mow the
+  yard. Obviously, there was some damage, but the point is that I kept those
+  ideas as platforms and have plenty of confirmation prompts. Just in case.
+     While the program won't take out the trash or mow the yard, it does
+  have a small secret function. Just ask yomama to help you out. 
+  
+
+    
+
+
+                         FMECAD PAC Format  
+
+     Files will be saved as 1.pac, 2.pac etc.. up to 100.pac that 
+  gives you up to 3200 frames to save. As WAX format files become 
+  apparent and known to hackers, the PAC format needs to be understood 
+  to those who would like to make conversion programs. Once the WAXes 
+  are known and converted, FMECAD will gladly accommodate up to 99x by 
+  99y by 32 frames. Essentially, make your own WAXes. At the time of 
+  this writing, FMECAD only understands uncompressed FMEs in their 
+  own format, but conversion add-ons should appeal to hackers alike.
+
+  Here is my header:
+      TYPE header1
+         PACNAME AS STRING * 17 = Name of PAC file
+         TOTPAC AS INTEGER      = How many PACs in directory
+         PAL AS STRING * 768    = Palette stored in PAC
+         TOTFRAMES AS INTEGER   = Total frames stored in PAC
+      END TYPE
+      TYPE header2
+         COMPLFT AS INTEGER     - The COMPress names are used at save time
+         COMPRHT AS INTEGER     - to mark the correct location in the Drawing
+         COMPTOP AS INTEGER     - Area. Essentially, the x1,x2,y1,y2 coordinates
+         COMPBOT AS INTEGER     - in a 99 by 99 grid. 0x,0y is LFT-TOP
+         FRAMEFILELEN AS LONG   = The byte length of the frame
+         FRAMETAKEN AS INTEGER  = Will be 1 through 32
+      END TYPE
+      DIM HEAD1 AS header1
+      DIM HEAD2(1 TO 32) AS header2
+
+      A final note on the COMPress vars: FMECAD only saves a square of what
+      was actually drawn and not the whole 99 by 99 grid. The COMPress
+      function finds the x1,x2,y1,y2 coordinates and only saves that amount.
+      Frame files can be large 627,746 bytes alone for 32  99 by 99 frames.
+      So watch your drive space!                     
+                           
+                              PAC byte by byte
+
+  PACNAME   = Bytes 1 through 17
+  TOTFRAMES = Bytes 18 and 19. This number gives you the "how many times" to
+                               read in your load loop.
+         
+                  Now the PAC can be read in a LOOP
+  FRAMENUM     =  2 BYTES
+  COMPTOP      =  2 BYTES
+  COMPBOT      =  2 BYTES
+  COMPLFT      =  2 BYTES
+  COMPRHT      =  2 BYTES
+  FRAMEFILELEN =  4 BYTES
+                
+        Once those are read, an array of integers can be dimensioned to
+  FRAMEFILELEN size or a string of FRAMEFILELEN * 2.
+
+  If the array is dimensioned as integers, then the first two bytes are the
+  SIZEX and the next two are the SIZEY of the frame. The remaining is raster
+  data stored in SIZEX rows. If the array is a string, then byte 1 will be
+  SIZEX and byte 3 will be SIZEY.
+
+  Finally, the palette is stored as the last 768 bytes.
+
+  Here is the load sequence in Basic:
+     
+      OPEN LTRIM$(STR$(FILENUM)) + ".PAC" FOR BINARY AS #1
+         GET #1, 1, HEAD1.PACNAME
+         GET #1, 18, HEAD1.TOTFRAMES
+         DRWSTRING 1, 255, 254, HEAD1.PACNAME, MSEL(0, 3), MSEL(1, 3)
+         GET #1, LOF(1) - 767, HEAD1.PAL
+         TEMPPAL = MID$(HEAD1.PAL, 763, 6)
+         MID$(HEAD1.PAL, 763, 6) = CHR$(31) + CHR$(31) + CHR$(32) + CHR$(0) + CHR$(63) + CHR$(63)
+         PALSET HEAD1.PAL, 0, 255
+         PAC& = 20
+         IF HEAD1.TOTFRAMES > 0 THEN
+            FOR LOADIT = 1 TO HEAD1.TOTFRAMES
+               GET #1, PAC&, FRAMENUM: PAC& = PAC& + 2
+               HEAD2(FRAMENUM).FRAMETAKEN = 1
+               GET #1, PAC&, HEAD2(FRAMENUM).COMPTOP: PAC& = PAC& + 2
+               GET #1, PAC&, HEAD2(FRAMENUM).COMPBOT: PAC& = PAC& + 2
+               GET #1, PAC&, HEAD2(FRAMENUM).COMPLFT: PAC& = PAC& + 2
+               GET #1, PAC&, HEAD2(FRAMENUM).COMPRHT: PAC& = PAC& + 2
+               GET #1, PAC&, HEAD2(FRAMENUM).FRAMEFILELEN: PAC& = PAC& + 4
+               REDIM TEMPARRAY(0 TO HEAD2(FRAMENUM).FRAMEFILELEN) AS INTEGER
+               LOADBUFF$ = SPACE$((HEAD2(FRAMENUM).FRAMEFILELEN * 2) + 2)
+               GET #1, PAC&, LOADBUFF$
+               Z = 1
+               FOR X = 0 TO HEAD2(FRAMENUM).FRAMEFILELEN
+                  TEMPARRAY(X) = CVI(MID$(LOADBUFF$, Z, 2))
+                  Z = Z + 2
+               NEXT X
+               PAC& = PAC& + LEN(LOADBUFF$)
+               BLKPUT 1, PICX + HEAD2(FRAMENUM).COMPLFT, PICY + HEAD2(FRAMENUM).COMPTOP, TEMPARRAY(0)
+               FOR Z = HEAD2(FRAMENUM).COMPLFT TO HEAD2(FRAMENUM).COMPRHT
+                  FOR Y = HEAD2(FRAMENUM).COMPTOP TO HEAD2(FRAMENUM).COMPBOT
+                     GCLR((Y * 99) + Z) = GETPOINT(PICX + Z, PICY + Y)
+                  NEXT Y
+               NEXT Z
+               GOSUB SAVEFRAME
+               REDIM GCLR(0 TO 9802) AS INTEGER
+               DRWFILLBOX 1, 0, PICX - 1, PICY - 1, PICX + COLS + 1, PICY + ROWS + 1
+               DRWSTRING 1, 255, 254, STR$(FRAMENUM) + " ", MSEL(2, 12), MSEL(1, 12)
+            NEXT LOADIT
+         END IF
+      CLOSE #1
+
+                                ERRORS
+    No xms, no worky. Program dump, rebooty. File no found, you dummy, but still
+    worky. Hard drive full when saving, big dump. 
+    
+  XMS issues: A memory manager MUST be installed.      
+              If and when it dumps, reboot to reclaim xms.
+    
+  LIST OF UNCOMPRESSED FMES
+
+      BULLET.FME       IGOGGLES.FME      IPOWER.FME
+      CARDS.FME        IKEYB.FME         ISHELL.FME
+      CHAIN.FME        IKEYR.FME         IST-GUNI.FME
+      CUP1.FME         IKEYY.FME         IST-GUNU.FME
+      DEDMOUSE.FME     IMEDKIT.FME       LANDMINE.FME
+      DET_CODE.FME     IMINE.FME         LIT4.FME
+      IBATTERY.FME     IMINES.FME        SMALITE1.FME
+      IDATA.FME        IMSLS.FME         SMALITE2.FME
+      IDET.FME         IOBCAP6.FME       WDET.FME
+      IENERGY.FME      IOBPIP4.FME       WLMINE.FME
+      IFUSION.FME      IPHRIK.FME        WMINE.FME
+                       IPLAZMA.FME   
+
+  This program is FREE and I am not responsible for anything at any time.
+   
+  
+  Carlos Gomez - CarGo 95
+
+
+
+
+

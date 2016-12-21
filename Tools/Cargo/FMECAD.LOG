@@ -1,0 +1,23 @@
+Sam
+S
+
+
+û 80586 CPU detected
+û VESA compatible SuperVGA detected
+û 2048 kB video mem detected
+û 320x200x256-640x480x256-800x600x256-1024x768x256-1280x1024x256-
+û MS comp 3 button PS/2 mouse version 8.5 detected
+û XMS manager installed
+û  16192000  bytes total xms
+û  15168000  bytes xms free
+û  49  xms handles available
+û  453260 bytes array space available
+û  1162 bytes stack space available
+û  39532 bytes next string block available
+Autoexec.bat is not in root directory or not on drive C:
+Config.sys is not in root directory or not on drive C:
+
+       440 Kb free conventional memory
+        63 Kb free upper memory in 1 blocks (largest UMB 63 Kb)
+     15168 Kb free extended memory
+     15168 Kb free expanded memory

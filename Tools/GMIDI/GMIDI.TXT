@@ -1,0 +1,66 @@
+
+                                GMIDI 0.5 BETA
+
+
+Differences from GMID 1.1:
+        - Filesize problem fixed.
+        - More accurate Tempo translation. (i hope)
+        - Looping not starting from beginning problem fixed.
+        - Added /d option to remove patches made for channel 10 (drums).
+
+
+   This is the new program to interconvert Dark Forces .GMD files (as well as
+LFD GMID resources) and standard MIDI files.
+
+The usage is pretty simple:
+
+Gmidi file.mid [file.gmd] [/l] [/d] or
+Gmidi file.gmd [file.mid] [/c]      or
+Gmidi makefile.txt /m
+
+Add /c switch to force generating a makefile (normally makefiles are generated
+only when needed - when GMD file contains more than one MIDI track).
+Add /m switch to force treating the first file as a text makefile. (must use)
+Add /l switch (experimental) to make the melody loop
+Add /d switch to remove channel 10 patches. (Usally sounds better)
+
+Normally, the program examines the file and does the appropriate conversion
+automatically.  It's a good idea to use default extensions (.gmd for GMD
+files, .mid for MIDI files and .txt for makefiles) anyway. MIDI formats 0 and 
+1 are supported.
+
+	A single GMD file can contain several MIDI tracks. If it does, the
+program treats the name of the second file you specify (or the first if you
+don't specify it) as a template, i.e.
+
+gmid star-thm.gmd
+
+will create 6 MIDI files - star-t00.mid to star-t05.mid. Also, it will also
+create a makefile star-thm.txt containing:
+
+GMD star-thm.GMD
+star-t00.mid
+star-t01.mid
+star-t02.mid
+star-t03.mid
+star-t04.mid
+star-t05.mid
+
+later you can use:
+
+gmid star-thm.txt /m
+
+to recreate the star-thm.gmd file.
+
+--------------------------------------------------------------------------
+Usual stuff:
+
+The program is free. The author is not responsible for any damage to
+hardware/software caused by this program.
+---------------------------------------------------------------------------
+
+Note. This program should be placed in itïs own subdirectory. It will
+ overwrite files without confirmation.
+
+Allan Turp
+seo346f@tninet.se

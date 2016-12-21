@@ -1,0 +1,5 @@
+GOL 1.0
+
+  GOAL: 0       TRIG:   0       # Find the ISO building
+  GOAL: 1       ITEM:   4       # retrive tapes
+  GOAL: 2       TRIG:   3       # Return to your ship for immediate evacuation.

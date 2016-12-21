@@ -1,0 +1,48 @@
+
+   
+                               CYRA CarGo 95
+                              Addendum 9/10/95
+
+
+   Fixed:
+         Troubling Pacwax build on some conversions
+         ( All waxes I tested, Cloned perfectly )
+
+   Added:Ability to extract a 99 x 99 portion of an oversized cell to Waxpac.
+         ( If a cell is too big, grab a 99 x 99 section from the center of
+         the cell and save as a max size frame to Fmecad. Trust me.. You will
+         like it )
+
+
+   Added:Ability to Clone a wax with fewer cells than original wax has. ( Has
+         lots of potential but I haven't tested it a lot )
+
+         Early on, I found that some DF waxes had holes in them. Pointers
+         pointing to nowhere are a nightmare. The holes are in the "Frame"
+         portion of the wax. Some frames were taken out of those waxes but
+         the file did not reflect the change. Hmmm...
+
+         I decided to trap the info by checking to see if the next pointer
+         pointed to zero. If it does, I exclude it's recognition from Cyra.
+         Aside from nice booby traps for programmers, a pointer that points
+         to nowhere is gruesome.
+
+         If an original wax has say.. 52 cells in it. Let's say Cyra 
+         recognizes 50 of them. Only 50 cells can be made into some Waxpacs 
+         and 50 cells will make the trip back. Cyra won't let you make a 
+         Pacwax until the cells amounts are the same. That is the long road to 
+         explaining why Cyra needed to be able to include and create a Pacwax 
+         with fewer than the exact amount.
+
+         So.. Cyra no longer requires you to have an exact match in numbers
+         cells to convert to a Pacwax. The number can be fewer but not greater
+         than the amount of cells reported in the wax being Cloned. 
+         
+         Enjoy...
+         I'll be making some Pacwaxes if you need me.
+
+         CYRA CarGo 95 is PostCardWare so send me one of your neck of the woods
+         CarGo 95
+         4407 Centennial Trail
+         Duluth GA 30136
+         

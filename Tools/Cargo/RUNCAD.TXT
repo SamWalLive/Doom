@@ -1,0 +1,17 @@
+                             RUNCAD CarGo 95
+
+  This is my stand-alone system detection program. I designed this version
+to create a file called FMECAD.LOG that will reflect your current setup.
+This file has important information like your computers current setup and 
+total system resources both free and available.
+  Another version of RUNCAD's detection has been incorporated into FMECAD's
+startup sequence. Again, an FMECAD.LOG file is created. This will serve as your
+current log of system resources at startup. Why?.............
+  Cause it looks cool... Actually, I ask all who try FMECAD to send me their
+log files. You see, not all computers are created equal and as much could be
+said for some who operate them. A definate Freudian puzzle. So in the
+interest of tranquility, The conflicts, if any, need to be solved.
+  I'll admit that I designed FMECAD for 800x600 resolution and required a
+minimum of 1meg free of XMS but hey, it looks cool. Oh yea, thayyyyyyy-kh-u
+
+Carlos

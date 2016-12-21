@@ -1,0 +1,10 @@
+                        BEMYPAL  CarGo 95
+
+        Not much to it here. Just load one from the command line and adjust.
+The palette file must exist and be 768 bytes or out you go. The saved file 
+will be BEMYPAL.PAL ready to be renamed. I loaded a default 256 color palette 
+and acid city! 
+  By the way, left mouse button to pick a color and left to adjust up and
+right to adjust down.
+
+  Carlos Gomez

@@ -1,0 +1,238 @@
+                       3DOSHOW - CarGo 95
+
+             To all who test : Keep file formats to DF format!
+
+  First, many thanks to Daniel Sill -n- Stephen Balkum for their outstanding
+library. Next, thanks to Don Sielke for info on DF stuff and Paul Nemesh for
+the 3d objects. Kudo thanks to my wife who knows me by the back of head.
+That is all she reports to have seen lately.
+
+  I am not sure how large of a 3d object you can construct but burn it up.
+
+                 USAGE - 3DOSHOW.EXE PATH\NAME -C -Rxxx -TEST
+                       -C      Use colors from file.>>LOOKS FOR BEMYPAL.PAL<<<
+                       -Rxxx   User resolution -R640 -R800 -R1024
+                       -TEST   Quick load and play
+
+3DOSHOW will now use the -c switch to load a palette with the name BEMYPAL.PAL
+        residing in the path directory.
+
+3DOSHOW will always play at the highest resolution possible as a default.
+
+KEYBOARD CONTROLS
+   Two keys control the positive and negative affects on every effect.
+
+                Automatic and Manual Modes
+      1 and Q = Angles of rotation
+      2 and W = Eye X
+      3 and E = Eye Y
+      4 and R = Eye Z
+      5 and T = Viewer placement
+      6 and Y = Theta angle
+      7 and U = Phi angle
+      9       = Switch to manual manipulation
+
+                 Manual Mode Only
+      A and Z = Rotate X axis
+      S and X = Rotate Y axis
+      D and C = Rotate Z axis
+      F and U = Set X axis rotation point
+      G and B = Set Y axis rotation point
+      H and N = Set Z axis rotation point
+      0       = Switch to automatic mode
+      [       = Points or lines
+      ]       = Sorta file debug - shows point numbers in array
+                If a created file is not quite what you expected, this could
+                help sort it all out.
+
+3doshow will play QUADS or TRIANGLES or QUADS and TRIANGLES at the same time.
+
+     Whoomp there it is in a nutshell.
+  
+     And for the inquisitivly inclined, try making your own 3do file. The
+format to adhere to is this..... CAUTION I am very wordy
+
+3DONAME MOUSE   < Name to be shown
+OBJECTS 00001   < Each Vertice group and quad or tri added
+VERTICES 00016  < Total of all vertices combined, must be exact
+POLYGONS 00011  < Total of combined Quads and Tris statements, must be exact
+
+
+VERTICES 16   < tot verts for this group > 3doshow searches for VERTICES and
+#     num:       <x>        <y>        <z> >converts the number found.
+        0:      0.523      0.001     -1.031>In other words: VERTICES 27 is
+        1:      0.523      0.001      1.052>good and vertices14 wont work
+        2:      0.382     -1.020      0.805>3doshow then searches for a pound
+        3:      0.382     -1.020     -0.783>sign(#) after the VERTICES and
+        4:     -0.498      0.001     -1.031>uses the next line as data
+        5:     -0.498      0.001      1.052>In other words:Make sure there is
+        6:     -0.358     -1.020      0.805> a pound sign AFTER the VERTICES
+        7:     -0.358     -1.020     -0.783>statement. The line AFTER the
+        8:      0.250     -2.044      0.367>pound sign will be the starting
+        9:      0.250     -2.044      0.408>point for data input
+        10:      0.209     -2.044      0.408
+        11:      0.209     -2.044      0.367
+        12:      0.250     -1.021      0.367
+        13:      0.250     -1.021      0.408
+        14:      0.209     -1.021      0.408
+        15:      0.209     -1.021      0.367
+
+  3doshow expects to find either a QUADS or TRIANGLES statment directly after
+the VERTICES data ends. It is best to separate the fields with an empty line.
+
+QUADS 11 <Once again 3doshow has found some data: stick to this format.
+#     num:     <a>      <b>      <c>      <d>   <color>    <fill>
+      0:        2        1        0        3       78      GOURAUD
+      1:        5        4        0        1       78      GOURAUD
+      2:        6        5        1        2       76      GOURAUD
+      3:        7        6        2        3       61      GOURAUD
+      4:        4        7        3        0       76      GOURAUD
+      5:        6        7        4        5       78      GOURAUD
+      6:       10        9        8       11       32      GOURAUD
+      7:       13       12        8        9       32      GOURAUD
+      8:       14       13        9       10       32      GOURAUD
+      9:       15       14       10       11       32      GOURAUD
+      10:       12       15       11        8       32      GOURAUD
+The key here is to play the connecta game.
+
+0:  2   1   0   3  < quad connecta nums
+
+The way this is set up is pretty straight forward. In english words, that line
+translates to: QUAD 0:   vertice 2 is connecta to vertice 1, vert 1 is connecta
+to vert 0, vert 0 is connecta to vert 3 and vert 3 is connecta to vert 2.
+Use the previous VERTICES group to make the connections.
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   When looking at the Quad or Tri, you MUST define the points in a clockwise
+order.  If you do it counterclockwise, then the polygon will only be seen
+when it is facing AWAY from the viewer.  (The 3D engine needs to calc the
+polygon's surface normal).
+                               Paul Nemesh
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+The <fill> data is not used. But if you were to patch your 3do into DF then
+it becomes necessary.
+                       
+                       The Sorta Debugger
+Ex: Say your file looks like this
+ 
+VERTICES 4 
+#
+   0:   1      2      3
+   1:   4      5      6
+   2:   7      8      9
+   3:   10     11     12
+QUADS 2
+# 
+   0:    0     2      3      1
+   1:    1     3      0      2
+VERTICES 4     
+#
+   0:    -1    -2     -3
+   1:    -4    -5     -6
+   2:    -7    -8     -9
+   3:    -10   -11    -12
+QUADS 2
+#
+   0:   0      1      2      3
+   1:   3      0      2      1
+ 
+  The debugger will show how the numbers are stored in the array for the
+connecta game. The vertices are stored accumutively, meaning the first four
+are 0 - 3. The second 0 - 3 are stored as 4 - 7. This point is important cause
+the quads and tris are stored the same way but are referenced to the verts.
+Well what does it all mean? Here is the problem. If the objects (quads or tris)
+are a reference to the preceeding vertices in playing the connecta game, how
+can you reference verts and objects when their total numbers don't match.
+ 
+  Simply, the first verts has 0 - 3 and the second verts has 0 - 3 but the
+total is 8 and not 0 - 3. The first object has 0 - 1 and the sec has 0 - 1 and
+the total is 4 and not 0 - 1. Clearly, referencing single verts and objects
+would be nice but not practical from a creative standpoint. That is why the
+objects are cut into chunks. A piece here and there make the whole picture,
+get the picture?
+
+  As a programmer, I would relish one long VERTICES statement that has the whole
+picture and not only a slice but then I would be living a pipe dream and it
+really is easier to design in chunks anyway. So if the two verts statements
+were combined and the two objects statements were combined it would look like
+this.
+
+
+VERTICES 8               FOR REFERENCE "<" = Used to be
+#                                            or usta (pronounced you-st-ah)
+   0:   1      2      3
+   1:   4      5      6
+   2:   7      8      9
+   3:   10     11     12
+   --------------------
+   4:< usta to be 0    -1    -2    -3 < verts stay the same
+   5:< anna 1          -4    -5    -6 <
+   6:< anna 2          -7    -8    -9 <
+   7:< anna 3          -10   -11   -12<
+
+QUADS 4
+#
+   0:   0     2      3      1
+   1:   1     3      0      2
+   ----------------------------
+   2:< 0    4< 0     5< 1     6< 2    7< 3
+   3:< 1    7< 3     4< 0     6< 2    5< 1
+ 
+  So, if we want to play the connecta game, we need to play the usta game also.                                                 
+Quad #2 usta be #0 while Quad #3 usta be #1. And to take the usta game to
+the advanced stages, the references for the connecta game also must play
+the usta game, it only takes a little more work. Since quad 2 usta be 0 and
+usta connect vert 0 to 1 and 1 to 2 etc., it must now be quad 2 that connects
+vert 4 to 5 and 5 to 6 etc. and that is what the debugger reports. It shows
+what is in the array in this new format.
+
+  If one were to print out his or her creation and then toggle the debugger
+four times(In this example, the total toggle times would be 4 times for 4
+objects. If you have 10 objects then you have 10 toggles), he or she would see
+the new order of things. The combination of your original file, in printed form
+in your hands and the debugger should help you in your creations. You will
+probably need to use the number 5 button to move the whole pic in closer and
+rotate it around a little to see points with numbers clearly.
+
+  I padded the array by seven and that means two things. First, 3DOSHOW will be
+a kinder, gentler 3do player by not dumping if the total verts and objects
+declared don't exactly match, and during the debug session, you will notice that
+once you toggle through all of the objects, a single 0 will appear seven toggle
+times.
+
+  I coulda, woulda, should have included a key to scroll both ways through the
+array,( let's see.. four lines of code) and a direct way to print out stuff,
+but unless there is any sort of demmand... As a final note on designing your
+own 3do, color selection is from 0 - 255. Keep in mind that a combination that
+looks good in DF may not be desirable or pleasing in 3DOSHOW.
+ 
+  For me, the 3doshow program was a natural starting point for creating a
+full DF editor. Since I subcontract for a living (Home Satellite Installation)
+my hours are pretty flexible and the time it took to create this was minimal
+in relative terms. Barely less than a week from seed to writing this text,
+and for the types who would argue, (some demmand) for a full DF editor, they
+should give some latitude to the reverse engineering guys like myself who do
+stuff like 3doshow or whatever, it takes time guys and gals....
+
+  Perhaps 3doshow will spark some other programmer type like myself to take
+it to the next level, maybe a 3do creator. I would, if demmand were high, but
+in the interim, I think that either the WAX files or possibly Papyrus's
+3do's will get my attention next.
+
+  And now for the legal stuff.. YOU MAY DISTRIBUTE 3DOSHOW-BETA TO WHOEVER
+AND WHENEVER. CARLOS M. GOMEZ IS NOT RESPONSIBLE FOR ANYTHING THAT MAY HAPPEN
+AS A RESULT OF USING 3DOSHOW-BETA AT ANY TIME, UNTIL THE WORLD ENDS AT WHICH
+POINT I AM NOT RESPONSIBLE FOR THE WORLD ENDING.
+
+  Rest assured though, I've tested it quite. If and when it doesn't work, 
+important info will be added to an error file on your drive. The file is called
+3DOSHOW.ERR and is perfect for attaching to me. By the way, I am open to 
+suggestions and comments and questions and have started answering some questions 
+in the PDV forum concerning some programming concepts.
+                         
+
+                         Mail me at CarGoCo@aol.com
+
+
+

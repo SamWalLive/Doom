@@ -1,0 +1,64 @@
+3DO 1.2
+#
+# This file has been converted from 3d Studio file 'gun.ASC'.
+# The scale factor used was: 10.000000
+#
+3DONAME gun
+OBJECTS 00001
+VERTICES 00016
+POLYGONS 00023
+PALETTE DEFAULT.PAL
+
+#-------------------------------------------------------
+TEXTURES 0
+
+
+
+#---------------------------------------------------------------------------
+OBJECT "turret1"
+TEXTURE -1  # 
+VERTICES 16
+#    num:        x           y           z
+      0:       0.329       0.184       4.764
+      1:      -0.310       0.184       4.764
+      2:       0.010       0.523       4.361
+      3:       0.010       0.523       0.891
+      4:      -0.310       0.184       1.170
+      5:       0.329       0.184       1.170
+      6:       0.602      -0.130      -0.946
+      7:       0.602      -0.130       1.429
+      8:       0.602       0.757       0.698
+      9:       0.602       0.402      -0.763
+     10:       0.602       0.402      -0.763
+     11:      -0.570      -0.130      -0.946
+     12:      -0.570      -0.130       1.429
+     13:      -0.570       0.757       0.698
+     14:      -0.570       0.402      -0.763
+     15:      -0.570       0.402      -0.763
+
+TRIANGLES 23
+#    num:    < a >  < b >  < c > <color> <shading> #<material>
+      0:      2      0      1     32   FLAT   # TURRET_BARREL
+      1:      1      3      2     32   FLAT   # TURRET_BARREL
+      2:      3      1      4     32   FLAT   # TURRET_BARREL
+      3:      0      4      1     32   FLAT   # TURRET_BARREL
+      4:      2      5      0     32   FLAT   # TURRET_BARREL
+      5:      3      5      2     32   FLAT   # TURRET_BARREL
+      6:      0      5      4     32   FLAT   # TURRET_BARREL
+      7:      4      5      3     32   FLAT   # TURRET_BARREL
+      8:      6      7      8     70   FLAT   # TURRET_BODY
+      9:      6      9     10     70   FLAT   # TURRET_BODY
+     10:     12      7      6     70   FLAT   # TURRET_BODY
+     11:     11     12      6     70   FLAT   # TURRET_BODY
+     12:     13      8      7     70   FLAT   # TURRET_BODY
+     13:     12     13      7     70   FLAT   # TURRET_BODY
+     14:     15     10      9     70   FLAT   # TURRET_BODY
+     15:     14     15      9     70   FLAT   # TURRET_BODY
+     16:     11      6     10     70   FLAT   # TURRET_BODY
+     17:     15     11     10     70   FLAT   # TURRET_BODY
+     18:     13     12     11     70   FLAT   # TURRET_BODY
+     19:      9      8     13     70   FLAT   # TURRET_BODY
+     20:     13     14      9     70   FLAT   # TURRET_BODY
+     21:      9      6      8     70   FLAT   # TURRET_BODY
+     22:     13     11     14     70   FLAT   # TURRET_BODY
+

@@ -1,0 +1,337 @@
+   //ÍÍÍÍÍÍÍSTARÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ\\
+ //           ÚÄÄÄÄÄÄÄÄÄ\    ÚÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄ\   ÚÄÄÄ¿ ÚÄÄÄ¿          \\
+ º            ³          \   ³       ³   ³         \ ³   ³ ³   ³           º
+ º            ³    ÚÄ¿    ³  ³   ³   ³   ³   ÚÄ¿   ³ ³   ³ ³   ³           º
+ º            ³    ³ ³    ³ /    º    \  ³   ³ ³   ³ ³   ³ ³   ³           º
+ º            ³    ³ ³    ³ ³   ÚÐ¿   ³  ³   ÀÄÙ   / ³   ÀÄÙ   /           º
+ º            ³    ³ ³    ³ ³   ³ ³   ³  ³         \ ³        <            º
+ º            ³    ³ ³    ³ ³   ÀÄÙ   ³  ³   ÚÄ¿   ³ ³   ÚÄ¿   \           º
+ º            ³    ÀÄÙ    ³/           \ ³   ³ ³   ³ ³   ³ ³   ³           º
+ º            ³          / ³    ÚÄ¿    ³ ³   ³ ³   ³ ³   ³ ³   ³           º
+ º            ÀÄÄÄÄÄÄÄÄÄ/  ÀÄÄÄÄÙ ÀÄÄÄÄÙ ÀÄÄÄÙ ÀÄÄÄÙ ÀÄÄÄÙ ÀÄÄÄÙ           º
+ º ÚÄÄÄÄÄÄÄÄÄ¿  /ÄÄÄÄÄÄÄÄÄ\ ÚÄÄÄÄÄÄÄ\    /ÄÄÄÄÄÄÄ\  ÚÄÄÄÄÄÄÄÄ¿  /ÄÄÄÄÄÄÄ\  º
+ º ³         ³ /           \³         \ /         \ ³        ³ /         \ º
+ º ³    ÚÄÄÄÄÙ ³    ÚÄ¿    ³³   ÚÄ¿   ³ ³   ÚÄ¿   ³ ³    ÚÄÄÄÙ ³   ÚÄ¿   ³ º
+ º ³    ÀÄÄÄÄ¿ ³    ³ ³    ³³   ³ ³   ³ ³   ³ ÀÄÄÄÙ ³    ÀÄÄÄ¿ ³   \ ÀÄÄÄÙ º
+ º ³         ³ ³    ³ ³    ³³   ÀÄÙ   / ³   ³       ³        ³ ³    ~~--\  º
+ º ³    ÚÄÄÄÄÙ ³    ³ ³    ³³         \ ³   ³ ÚÄÄÄ¿ ³    ÚÄÄÄÙ  \--__    ³ º
+ º ³    ³      ³    ³ ³    ³³   ÚÄ¿   ³ ³   ³ ³   ³ ³    ³     ÚÄÄÄ¿ \   ³ º
+ º ³    ³      ³    ÀÄÙ    ³³   ³ ³   ³ ³   ÀÄÙ   ³ ³    ÀÄÄÄ¿ ³   ÀÄÙ   ³ º
+ º ³    ³      \           /³   ³ ³   ³ \         / ³        ³ \         / º
+ \\ÀÄÄÄÄÙ       \ÄÄÄÄÄÄÄÄÄ/ ÀÄÄÄÙ ÀÄÄÄÙ  \ÄÄÄÄÄÄÄ/  ÀÄÄÄÄÄÄÄÄÙ  \ÄÄÄÄÄÄÄ/ //
+   \\ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍWARSÍÍÍÍÍÍÍÍÍÍ// tm
+
+                 DFONT - THE DARK FORCES FNT FILES OPERATOR
+ ---------------------------------------------------------------------------
+                          (C) Peter Klassen,1997
+                                Version 1.0
+
+
+
+1. What is DFONT?
+-----------------
+Some of you will ask themself, what this proggie is for. I mean, there is qui-
+te nothing in the Dark Forces game that is still unexplored thanks to many
+dedicated persons to whom I am very grateful. But I felt somehow that one
+aspect has been walked around- the FNT files. I mean the fonts which are
+contained in DARK.GOB (not the FON resources from MENU.LFD & STANDARD.LFD).
+They are used to display ammo, shields, screen messages, map levels etc.
+And I could bet someone already played with the thought to create an own
+font for DF to use it for screen messages, or update the old one so different
+colors can be used (like to make a dialog between Katarn and someone else).
+Or someone is really hot to make an internationalisation for the DF to be able
+to display Cyrillic, Chinese or whatever characters. Well, if you are one
+of such people, this program is the right one for you.
+
+OK, if you just want to make a different font, you can use the SWFONT1.FNT
+(also in DARK.GOB). It makes the text messages in a blueish color and is a bit
+better to read.
+
+This program works much like Alex Novikov's BMPDF or GMID (ingenuine programs,
+every DF level creator should have 'em!). It decompiles the valid DF font
+(the validation is checked) to single PCX files, where the filename is the
+decimal code of the character. So, the letter 'A' is found under '065.PCX',
+'B'-'066.PCX' etc. The font doesn't need to be complete (you needn't declare
+unneeded characters- see AMONUM.FNT or similar), but there may be NO gaps.
+That means, if you have an idea to make a font from #33 to #126 and then
+the German Umlauts, you have to fill the gaps between the letters(the accent
+letters) by PCX pictures, too. Therefore, you just need to make a 256 color
+1x1 PCX with the only coloring 0, save it and copy to the proper file names.
+Just a little bit of work.
+
+But that's not all. With the switch "/V" the program is able to show the
+font on display without decompiling it. And the "/P:palfile.pal" switch
+will use another DF-standard-palette instead of the default one when
+displaying/decompiling fonts.
+
+The (re)compilation is performed by a makefile (see below).
+
+
+2. To what will the DFONT decompile the FNT exactly?
+----------------------------------------------------
+OK, the FNT font will be decompiled to a set of PCX files (v 5). If
+you specify a specific palette, the decompiled PCXs will have this palette,
+too. The PCX filenames are ranged from 000.PCX to 255.PCX. If the font is
+not complete (the DF ones are all incomplete), only the existing characters
+will be decompiled.
+Then, a text makefile with the name of the font is created. It contains some
+general font properties, and the list of files. See below in chapter "The
+makefile". So, if you decompile the font "AMONUM.FNT", the makefile is called
+"AMONUM.TXT".
+
+
+3. What may I do when changing the font?
+----------------------------------------
+Ok, after you've decompiled the stuff, you may edit it with a picture editor
+of your choice. I recommend one with zoom possibility and direct palette
+access. So you're sure that the color you chose really will be of equal brigh-
+tness in all rooms and that the background is transparent and not opaque
+black.
+Yet one thing, the font can't exceed 100x100 size. But anyway, who will
+need such a font where you can hardly see 3 letters on the screen?
+
+And by the way, when editing internally-used fonts (like Amonum, Armnum,
+Superwep, Helnum, Map-nums .fnt) which are used to display ammo, health
+and layers on map (what I don't recommend), keep the character extensions
+like they were, or the picture on the display will be mixed up.
+
+
+4. How can I (re)compile the font?
+----------------------------------
+
+Well, the only way to recompile 't is thru the makefile. It has to have the
+extension "TXT" or it won't be recognized. The file is analysed, the listed
+files will be read, and the font will be recompiled to a brandnew one.
+The height is read from all the pictures and the largest is chosen, so don't
+worry about it. Yet, there are some settings in the makefile to be set,
+so read the chapter "The makefile".
+When the font is ready, test it first by copying into your Dark directory
+and renaming by the name of the font you want to replace. Then test it.
+When everything is right (what I hope), put it into your level project.
+
+
+
+5. The usage:
+-------------
+There are some of the command switches which are shown if DFONT is started
+without parameters or with "/?" switch. These are:
+
+To display:
+DFONT FONTNAME.FNT /V [/P:palfile.pal]
+   where
+     FONTNAME.FNT   is a valid DF font,
+     /V             means "Display Font",
+     /P:palfile.pal uses external DF-compatible palette to display.
+
+To decompile:
+DFONT FONTNAME.FNT [/P:palfile.pal]
+   where
+     FONTNAME.FNT   is a valid DF font,
+     /P:palfile.pal uses external DF-compatible palette to be used.
+
+To compile:
+DFONT MAKEFILE.TXT
+   where
+     MAKEFILE.TXT    is a valid makefile.
+
+
+
+6. The makefile.
+----------------
+I made good experience with Alex's makefile technique and therefore, use
+a similar one. You may use both upper and lower cases, and spaces.
+If some file specified in the makefile can't be found, the program will
+terminate.
+
+The syntax:
+
+***
+REMARKS:         <not required>
+
+usage:  # xxxxxxxxx
+
+ where # is the at the beginning of the line. The text after it won't be
+ interpreted.
+
+Example:
+# This letter has been changed.
+
+***
+INDIR=           <not required>
+
+ INDIR is used to find the PCX files. The program presumes that they are
+ placed in the path specified. There is no check if this directory exists.
+
+usage: INDIR=path\
+ where "path\" is a valid DOS path with a closing backslash.
+
+Example:
+INDIR:=C:\MYDATA\PCX\
+
+***
+OUTDIR=          <not required>
+
+ OUTDIR is used to estimate where the compiled font will be placed. There
+ is no check if this path exists.
+
+usage: OUTDIR=path\
+ where "path\" is a valid DOS path with a closing backslash.
+
+Example:
+OUTDIR:=C:\MYDATA\FONT\
+
+***
+FILE=            <required>
+
+ The FILE variable is used to estimate a filename of the font. The font
+ will be created under the name OUTDIR+FILE. You also could specify the
+ complete destination path under FILE, but avoid doing this in combinati-
+ on with the OUTDIR variable.
+
+usage: FILE=XXX.FNT
+ where XXX.FNT is the dest font filename. You also need to type in the
+ extension.
+
+Example:
+FILE=GLOWING.FNT
+
+***
+SPACE=          <not required>
+
+ SPACE specifies the space between single letters in pixel. For example, the
+ space between chars of GLOWING.FNT is 0, the one of SWFONT1.FNT is 1.
+
+usage: SPACE=X
+ where X is a decimal number. If invalid values are specified, the default
+ space of 1 is used.
+
+Example:
+SPACE=1
+
+***
+XXX=           <at least one required>
+
+ specifies a specific PCX picture to the ASCII code XXX. The items need not
+ to be sorted.
+
+usage: XXX=YYY.PCX
+
+ where XXX is a decimal number from 0 to 255 and YYY is the filename of the
+ PCX.
+
+Example:
+033=033.PCX
+
+
+
+
+The example makefile for ARMNUM.TXT looks like this:
+
+#  DFONT makefile
+# SPACE means space between characters
+# INDIR & OUTDIR paths must end with a backslash, like: C:\FONTS\
+INDIR=
+OUTDIR=
+FILE=ARMNUM.FNT
+SPACE=1
+048=048.PCX
+049=049.PCX
+050=050.PCX
+051=051.PCX
+052=052.PCX
+053=053.PCX
+054=054.PCX
+055=055.PCX
+056=056.PCX
+057=057.PCX
+058=058.PCX
+
+7. The package
+--------------
+
+This package consists of the following files:
+ DFONT.EXE   - The program itself
+ DFONT.TXT   - This file
+ GLOW_RU.FNT - Example custom font: cyrillic version of GLOWING.FNT. The
+               characters #128-#175 and #224-#239 are cyrillic.
+
+8. About this program.
+----------------------
+This program is created by me, Peter Klassen, in Borland Pascal 7.0. I made
+it in ca. 3 days and am pretty proud of it. Of course, it is freeware, for
+I do not feel it is SO necessary to be paid for. But if you used it for your
+level, give me credits.
+This program does not use extended or expanded memory, it's pure DOS.
+As this program is FREEWARE, I can't be held responsible for any harm it
+caused on your machine, inclusive data losses, virus attacks, head crashes :-)
+No, earnest, it has been tested often enough to be sure.
+At the same cause (=FREEWARE) you may distribute it among other DF level cre-
+ators (I don't see why somebody other should have interest for it), of
+course if you deliver this text, too.
+
+
+9. About me
+-----------
+Well, well, what can I say about myself? I am a 19 year old Pascal & VB coder
+and am studying Delphi by now. This program I created to learn some file ope-
+rations and because I was wondering, if I manage it to the end. As you see,
+I did. Cool. :-) Maybe now I will release some new fonts for DF: the Briefing
+font, some others, the Glowing with different color or so. Maybe. If I have
+time.
+I am since almost 2 years a DF fan and have created quite a bit to be proud
+of:
+BESP.3DO   A 3DO of a Cloud Car. I planned to make a Bespin level, but as
+           there already were one, I let it be. But the 3DO is there. All
+           manual work, only a text editor and a paper sheet!
+DFBV       Dark Forces Briefing Viewer. From the era of pre-WDFUSE-times,
+           as there was no possibility to make own briefings in LFD. 'T is
+           a small program which simulates the briefing screen and gets
+           a text specified. Really old, obsolete stuff.
+DFFONT 1.5 the DF briefing font for Windows. Excellent for creating own
+           briefings. Western & Cyrillic version.
+YAVIN and
+YAV_CUT    My first level: Back To Yavin. The Editor's Choice of the Crow's
+           Nest. The assistant of Jan Dodonna has been forgotten at the
+           former Rebel base on 4th moon of Yavin. Yet worse, he had the only
+           copy of the data tapes with locations of the whole Rebel fleet!..
+           If you didn't play it - GET IT! With optional cutscenes
+           as YAV_CUT.
+OPTDF      A small tool which compresses DF text resources by removing
+           multiple spaces and unneeded comments. The WDFUSE LEV files
+           are only ca. 80% of their origiginal size after compressing,
+           3DOs can get to 50% of their original size!
+BOUNTY and
+BOU_CUT    My second DF level. Also got an Editor's Choice at The Crow's
+           Nest. Kyle gets a chance to make peace with Jabba if he captures
+           Han Solo who has been trapped on a smuggler base... but there are
+           also other bounty-hunters... and the Empire searching for Rebel
+           traces... and yet you do little know the truth...
+           With optional cutscenes as BOU_CUT.
+           *Remark* Bounty has some problems(=crashes) on loading when being
+           started on MED or HARD. EASY works. As soon as I get out what's
+           wrong, I'll release a patch to correct the thing.
+INFTIPZ 1.0 The tutorial how to create INF things in DF: stuff from original
+           DF levels as well as cool inventions from the addons. With a good
+           example GOB.
+
+
+10. Credits
+-----------
+
+Thanks to:
+
+Yves Borckmans: Author of WDFUSE & DF_SPECS
+Jereth Kok: Co-Author of WDFUSE, co-author of DF_SPECS
+Alex Novikov: Co-Author of WDFUSE, author of BMPDF & GMID
+Admiral Ackbar alias David Lovejoy: Co-author of WDFUSE, and used to have
+                                    the coolest DF sites in the galaxy.
+                                    Farewell Ackbar!
+Frank Krueger: 3D genius, co-author of WDFUSE
+All DF level & component creators for hard work.
+The DF team for such great a game.
+
+Special Thanks:
+George Lucas (who else?)
+
+                                                          Peter Klassen,
+                                                               03/31/97

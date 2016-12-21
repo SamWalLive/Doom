@@ -1,0 +1,7 @@
+GOL 1.0
+# GOAL: <goal number>  <type>: <number for type>
+  GOAL: 0       TRIG:   4       # INFILTRATE FACILITY
+  GOAL: 1       TRIG:   0       # charge 1
+  GOAL: 2       TRIG:   1       # charge 2
+  GOAL: 3       TRIG:   2       # charge 3
+  GOAL: 4       TRIG:   3       # escape to ship 

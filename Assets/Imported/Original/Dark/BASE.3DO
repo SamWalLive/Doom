@@ -1,0 +1,75 @@
+3DO 1.2
+#
+# This file has been converted from 3d Studio file 'base.ASC'.
+# The scale factor used was: 10.000000
+#
+3DONAME base
+OBJECTS 00001
+VERTICES 00022
+POLYGONS 00028
+PALETTE DEFAULT.PAL
+
+#-------------------------------------------------------
+TEXTURES 0
+
+
+
+#---------------------------------------------------------------------------
+OBJECT "base"
+TEXTURE -1  # 
+VERTICES 22
+#    num:        x           y           z
+      0:       1.037       0.119      -0.733
+      1:       1.037       0.119       0.741
+      2:       0.742       0.119       1.036
+      3:      -0.731       0.119       1.036
+      4:      -1.026       0.119       0.741
+      5:      -1.026       0.119      -0.733
+      6:      -0.731       0.119      -1.027
+      7:       0.742       0.119      -1.027
+      8:       2.244       0.005      -1.595
+      9:       2.244       0.005       1.603
+     10:       1.605       0.005       2.243
+     11:      -1.593       0.005       2.243
+     12:      -2.233       0.005       1.603
+     13:      -2.233       0.005      -1.595
+     14:      -1.593       0.005      -2.234
+     15:       1.605       0.005      -2.234
+     16:      -0.233       0.817       0.096
+     17:      -0.001       0.817      -0.212
+     18:       0.230       0.817       0.096
+     19:      -0.233       0.107       0.096
+     20:      -0.001       0.107      -0.212
+     21:       0.230       0.107       0.096
+
+TRIANGLES 28
+#    num:    < a >  < b >  < c > <color> <shading> #<material>
+      0:      6      7      0     40   FLAT      # TURRET_BASE
+      1:      6      0      1     40   FLAT      # TURRET_BASE
+      2:      5      6      1     40   FLAT      # TURRET_BASE
+      3:      4      5      1     40   FLAT      # TURRET_BASE
+      4:      3      4      1     40   FLAT      # TURRET_BASE
+      5:      2      3      1     40   FLAT      # TURRET_BASE
+      6:      9      1      0     40   FLAT      # TURRET_BASE
+      7:      8      9      0     40   FLAT      # TURRET_BASE
+      8:     10      2      1     40   FLAT      # TURRET_BASE
+      9:      9     10      1     40   FLAT      # TURRET_BASE
+     10:     11      3      2     40   FLAT      # TURRET_BASE
+     11:     10     11      2     40   FLAT      # TURRET_BASE
+     12:     12      4      3     40   FLAT      # TURRET_BASE
+     13:     11     12      3     40   FLAT      # TURRET_BASE
+     14:     13      5      4     40   FLAT      # TURRET_BASE
+     15:     12     13      4     40   FLAT      # TURRET_BASE
+     16:     14      6      5     40   FLAT      # TURRET_BASE
+     17:     13     14      5     40   FLAT      # TURRET_BASE
+     18:     15      7      6     40   FLAT      # TURRET_BASE
+     19:     14     15      6     40   FLAT      # TURRET_BASE
+     20:      8      0      7     40   FLAT      # TURRET_BASE
+     21:     15      8      7     40   FLAT      # TURRET_BASE
+     22:     20     17     16     40   FLAT      # TURRET_BASE
+     23:     19     20     16     40   FLAT      # TURRET_BASE
+     24:     21     18     17     40   FLAT      # TURRET_BASE
+     25:     20     21     17     40   FLAT      # TURRET_BASE
+     26:     19     16     18     40   FLAT      # TURRET_BASE
+     27:     21     19     18     40   FLAT      # TURRET_BASE
+
