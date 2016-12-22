@@ -79,13 +79,16 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 38
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: GamorreanGuard_N_Walking_0
+    - serializedVersion: 2
+      name: GamorreanGuard_N_Walking_0
       rect:
         serializedVersion: 2
         x: 0
@@ -95,16 +98,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15.5, y: 74}
-        - {x: -35.5, y: 74}
-        - {x: -35.5, y: 59}
-        - {x: -34.5, y: 57}
-        - {x: -3.5, y: 0}
-        - {x: 35.5, y: 0}
-        - {x: 35.5, y: 55}
-        - {x: 17.5, y: 69}
-    - name: GamorreanGuard_N_Walking_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_N_Walking_1
       rect:
         serializedVersion: 2
         x: 72
@@ -114,15 +111,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23.5, y: 75}
-        - {x: -36.5, y: 75}
-        - {x: -36.5, y: 51}
-        - {x: -2.5, y: 0}
-        - {x: 26.5, y: 0}
-        - {x: 36.5, y: 19}
-        - {x: 36.5, y: 64}
-    - name: GamorreanGuard_N_Walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_N_Walking_2
       rect:
         serializedVersion: 2
         x: 146
@@ -132,14 +124,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -38, y: 67}
-        - {x: -38, y: 48}
-        - {x: -10, y: 0}
-        - {x: 38, y: 0}
-        - {x: 38, y: 63}
-        - {x: 36, y: 67}
-    - name: GamorreanGuard_N_Walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_N_Walking_3
       rect:
         serializedVersion: 2
         x: 223
@@ -149,15 +137,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -36.5, y: 73}
-        - {x: -36.5, y: 48}
-        - {x: -31.5, y: 21}
-        - {x: -5.5, y: 0}
-        - {x: 36.5, y: 0}
-        - {x: 36.5, y: 60}
-        - {x: 15.5, y: 73}
-    - name: GamorreanGuard_NE_Walking_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_NE_Walking_0
       rect:
         serializedVersion: 2
         x: 297
@@ -167,15 +150,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -33.5, y: 70}
-        - {x: -33.5, y: 47}
-        - {x: -1.5, y: 0}
-        - {x: 32.5, y: 0}
-        - {x: 33.5, y: 4}
-        - {x: 33.5, y: 60}
-        - {x: 14.5, y: 70}
-    - name: GamorreanGuard_NE_Walking_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_NE_Walking_1
       rect:
         serializedVersion: 2
         x: 365
@@ -185,16 +163,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 13.5, y: 71}
-        - {x: -32.5, y: 71}
-        - {x: -32.5, y: 52}
-        - {x: 0.5, y: 0}
-        - {x: 22.5, y: 0}
-        - {x: 23.5, y: 1}
-        - {x: 32.5, y: 21}
-        - {x: 32.5, y: 59}
-    - name: GamorreanGuard_NE_Walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_NE_Walking_2
       rect:
         serializedVersion: 2
         x: 431
@@ -204,14 +176,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -35, y: 64}
-        - {x: -35, y: 30}
-        - {x: -20, y: 0}
-        - {x: 35, y: 0}
-        - {x: 35, y: 57}
-        - {x: 29, y: 64}
-    - name: GamorreanGuard_NE_Walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_NE_Walking_3
       rect:
         serializedVersion: 2
         x: 502
@@ -221,15 +189,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32.5, y: 69}
-        - {x: -32.5, y: 45}
-        - {x: -10.5, y: 0}
-        - {x: 26.5, y: 0}
-        - {x: 32.5, y: 3}
-        - {x: 32.5, y: 64}
-        - {x: 26.5, y: 69}
-    - name: GamorreanGuard_E_Walking_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_E_Walking_0
       rect:
         serializedVersion: 2
         x: 568
@@ -239,22 +202,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 3, y: 0}
-        - {x: 24, y: 0}
-        - {x: 24, y: 32}
-        - {x: 18, y: 67}
-        - {x: -22, y: 67}
-        - {x: -24, y: 65}
-        - {x: -24, y: 39}
-        - {x: -23, y: 32}
-        - {x: -24, y: 17}
-        - {x: -24, y: 0}
-        - {x: 0, y: 0}
-        - {x: 1, y: 1}
-        - {x: 0, y: 6}
-        - {x: 1, y: 2}
-    - name: GamorreanGuard_E_Walking_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_E_Walking_1
       rect:
         serializedVersion: 2
         x: 617
@@ -264,14 +215,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 68}
-        - {x: -20, y: 0}
-        - {x: 18, y: 0}
-        - {x: 20, y: 3}
-        - {x: 20, y: 55}
-        - {x: 6, y: 68}
-    - name: GamorreanGuard_E_Walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_E_Walking_2
       rect:
         serializedVersion: 2
         x: 658
@@ -281,15 +228,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -25.5, y: 0}
-        - {x: 25.5, y: 0}
-        - {x: 25.5, y: 12}
-        - {x: 13.5, y: 59}
-        - {x: 2.5, y: 62}
-        - {x: -24.5, y: 62}
-        - {x: -25.5, y: 59}
-    - name: GamorreanGuard_E_Walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_E_Walking_3
       rect:
         serializedVersion: 2
         x: 710
@@ -299,15 +241,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6.5, y: 66}
-        - {x: -21.5, y: 66}
-        - {x: -21.5, y: 0}
-        - {x: 20.5, y: 0}
-        - {x: 21.5, y: 1}
-        - {x: 21.5, y: 51}
-        - {x: 18.5, y: 61}
-    - name: GamorreanGuard_SE_Walking_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_SE_Walking_0
       rect:
         serializedVersion: 2
         x: 0
@@ -317,14 +254,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 67}
-        - {x: -24, y: 60}
-        - {x: -24, y: 0}
-        - {x: 24, y: 0}
-        - {x: 24, y: 54}
-        - {x: 18, y: 67}
-    - name: GamorreanGuard_SE_Walking_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_SE_Walking_1
       rect:
         serializedVersion: 2
         x: 49
@@ -334,15 +267,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10.5, y: 68}
-        - {x: -23.5, y: 57}
-        - {x: -23.5, y: 0}
-        - {x: 14.5, y: 0}
-        - {x: 16.5, y: 1}
-        - {x: 23.5, y: 4}
-        - {x: 23.5, y: 68}
-    - name: GamorreanGuard_SE_Walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_SE_Walking_2
       rect:
         serializedVersion: 2
         x: 97
@@ -352,16 +280,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 63}
-        - {x: -23, y: 40}
-        - {x: -23, y: 22}
-        - {x: -10, y: 3}
-        - {x: -5, y: 0}
-        - {x: 23, y: 0}
-        - {x: 23, y: 62}
-        - {x: 22, y: 63}
-    - name: GamorreanGuard_SE_Walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_SE_Walking_3
       rect:
         serializedVersion: 2
         x: 144
@@ -371,17 +293,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9.5, y: 66}
-        - {x: -23.5, y: 42}
-        - {x: -23.5, y: 24}
-        - {x: -21.5, y: 23}
-        - {x: -6.5, y: 0}
-        - {x: 14.5, y: 0}
-        - {x: 20.5, y: 4}
-        - {x: 23.5, y: 16}
-        - {x: 23.5, y: 66}
-    - name: GamorreanGuard_S_Walking_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_S_Walking_0
       rect:
         serializedVersion: 2
         x: 192
@@ -391,20 +306,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 26, y: 63}
-        - {x: 28, y: 63}
-        - {x: 32, y: 68}
-        - {x: 32, y: 69}
-        - {x: -14, y: 69}
-        - {x: -32, y: 61}
-        - {x: -32, y: 10}
-        - {x: -21, y: 0}
-        - {x: 8, y: 0}
-        - {x: 13, y: 25}
-        - {x: 32, y: 54}
-        - {x: 32, y: 64}
-    - name: GamorreanGuard_S_Walking_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_S_Walking_1
       rect:
         serializedVersion: 2
         x: 257
@@ -414,15 +319,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -26, y: 70}
-        - {x: -33, y: 63}
-        - {x: -33, y: 16}
-        - {x: -29, y: 0}
-        - {x: 6, y: 0}
-        - {x: 33, y: 56}
-        - {x: 33, y: 70}
-    - name: GamorreanGuard_S_Walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_S_Walking_2
       rect:
         serializedVersion: 2
         x: 324
@@ -432,15 +332,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -25, y: 63}
-        - {x: -34, y: 59}
-        - {x: -34, y: 14}
-        - {x: -25, y: 0}
-        - {x: 13, y: 0}
-        - {x: 34, y: 23}
-        - {x: 34, y: 63}
-    - name: GamorreanGuard_S_Walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_S_Walking_3
       rect:
         serializedVersion: 2
         x: 393
@@ -450,15 +345,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24, y: 69}
-        - {x: -33, y: 62}
-        - {x: -33, y: 18}
-        - {x: -27, y: 0}
-        - {x: 12, y: 0}
-        - {x: 33, y: 41}
-        - {x: 33, y: 69}
-    - name: GamorreanGuard_Attack_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Attack_0
       rect:
         serializedVersion: 2
         x: 460
@@ -468,15 +358,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 88}
-        - {x: -21.5, y: 14}
-        - {x: -19.5, y: 0}
-        - {x: 14.5, y: 0}
-        - {x: 21.5, y: 33}
-        - {x: 21.5, y: 61}
-        - {x: -7.5, y: 88}
-    - name: GamorreanGuard_Attack_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Attack_1
       rect:
         serializedVersion: 2
         x: 504
@@ -486,14 +371,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11.5, y: 61}
-        - {x: -21.5, y: 52}
-        - {x: -21.5, y: 0}
-        - {x: 21.5, y: 0}
-        - {x: 21.5, y: 56}
-        - {x: 9.5, y: 61}
-    - name: GamorreanGuard_Attacked_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Attacked_0
       rect:
         serializedVersion: 2
         x: 548
@@ -503,16 +384,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16.5, y: 98}
-        - {x: -26.5, y: 69}
-        - {x: -26.5, y: 28}
-        - {x: -18.5, y: 0}
-        - {x: 20.5, y: 0}
-        - {x: 26.5, y: 30}
-        - {x: 26.5, y: 50}
-        - {x: -0.5, y: 98}
-    - name: GamorreanGuard_Death_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Death_0
       rect:
         serializedVersion: 2
         x: 1
@@ -522,16 +397,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -33.5, y: 86}
-        - {x: -33.5, y: 81}
-        - {x: -23.5, y: 73}
-        - {x: -25.5, y: 38}
-        - {x: -10.5, y: 11}
-        - {x: -4.5, y: 0}
-        - {x: 33.5, y: 0}
-        - {x: 33.5, y: 86}
-    - name: GamorreanGuard_Death_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Death_1
       rect:
         serializedVersion: 2
         x: 69
@@ -541,17 +410,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5.5, y: 85}
-        - {x: -20.5, y: 93}
-        - {x: -26.5, y: 93}
-        - {x: -26.5, y: 14}
-        - {x: -17.5, y: 0}
-        - {x: 16.5, y: 0}
-        - {x: 25.5, y: 8}
-        - {x: 26.5, y: 18}
-        - {x: 26.5, y: 58}
-    - name: GamorreanGuard_Death_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Death_3
       rect:
         serializedVersion: 2
         x: 179
@@ -561,15 +423,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -34, y: 9}
-        - {x: -24, y: 0}
-        - {x: 29, y: 0}
-        - {x: 34, y: 2}
-        - {x: 34, y: 88}
-        - {x: 11, y: 88}
-        - {x: -34, y: 51}
-    - name: GamorreanGuard_N_Idle_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_N_Idle_0
       rect:
         serializedVersion: 2
         x: 486
@@ -579,15 +436,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -35.5, y: 80}
-        - {x: -35.5, y: 52}
-        - {x: -22.5, y: 0}
-        - {x: 33.5, y: 0}
-        - {x: 35.5, y: 10}
-        - {x: 35.5, y: 64}
-        - {x: 19.5, y: 80}
-    - name: GamorreanGuard_NE_Idle_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_NE_Idle_0
       rect:
         serializedVersion: 2
         x: 558
@@ -597,15 +449,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 77}
-        - {x: -32, y: 58}
-        - {x: -29, y: 52}
-        - {x: -5, y: 0}
-        - {x: 32, y: 0}
-        - {x: 32, y: 73}
-        - {x: 26, y: 77}
-    - name: GamorreanGuard_E_Idle_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_E_Idle_0
       rect:
         serializedVersion: 2
         x: 623
@@ -615,15 +462,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1, y: 72}
-        - {x: -18, y: 72}
-        - {x: -18, y: 18}
-        - {x: -8, y: 0}
-        - {x: 18, y: 0}
-        - {x: 18, y: 61}
-        - {x: 5, y: 70}
-    - name: GamorreanGuard_SE_Idle_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_SE_Idle_0
       rect:
         serializedVersion: 2
         x: 660
@@ -633,15 +475,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11.5, y: 71}
-        - {x: -22.5, y: 59}
-        - {x: -22.5, y: 3}
-        - {x: -21.5, y: 0}
-        - {x: 22.5, y: 0}
-        - {x: 22.5, y: 69}
-        - {x: 21.5, y: 71}
-    - name: GamorreanGuard_S_Idle_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_S_Idle_0
       rect:
         serializedVersion: 2
         x: 706
@@ -651,18 +488,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6.5, y: 73}
-        - {x: 6.5, y: 69}
-        - {x: -1.5, y: 73}
-        - {x: -5.5, y: 73}
-        - {x: -30.5, y: 63}
-        - {x: -30.5, y: 22}
-        - {x: -21.5, y: 0}
-        - {x: 10.5, y: 0}
-        - {x: 30.5, y: 55}
-        - {x: 30.5, y: 73}
-    - name: GamorreanGuard_Death_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Death_2
       rect:
         serializedVersion: 2
         x: 123
@@ -672,22 +501,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12.5, y: 56}
-        - {x: -21.5, y: 37}
-        - {x: -27.5, y: 22}
-        - {x: -27.5, y: 0}
-        - {x: 14.5, y: 0}
-        - {x: 27.5, y: 10}
-        - {x: 27.5, y: 56}
-      - - {x: 4.5, y: 90}
-        - {x: 4.5, y: 74}
-        - {x: 12.5, y: 57}
-        - {x: 16.5, y: 57}
-        - {x: 19.5, y: 59}
-        - {x: 19.5, y: 67}
-        - {x: 10.5, y: 90}
-    - name: GamorreanGuard_Death_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Death_4
       rect:
         serializedVersion: 2
         x: 248
@@ -697,16 +514,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -29.5, y: 37}
-        - {x: -39.5, y: 28}
-        - {x: -39.5, y: 2}
-        - {x: -38.5, y: 1}
-        - {x: -27.5, y: 0}
-        - {x: 35.5, y: 0}
-        - {x: 39.5, y: 2}
-        - {x: 39.5, y: 37}
-    - name: GamorreanGuard_Death_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Death_5
       rect:
         serializedVersion: 2
         x: 328
@@ -717,7 +528,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: GamorreanGuard_Death_6
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GamorreanGuard_Death_6
       rect:
         serializedVersion: 2
         x: 407
@@ -728,6 +541,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

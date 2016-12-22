@@ -45,7 +45,12 @@ public class EnemyMovement : MonoBehaviour {
         {
             ang = 360 - ang;
         }
-        anim.SetFloat("LookRotation", ang / 360);
+        anim.SetFloat("LookRotation", ang);
+        if (gameObject.name == "Stormtrooper")
+        {
+            Debug.Log(gameObject.name + " " + ang.ToString());
+        }
+        
     }
 
     void SetAngleIdle()
@@ -56,6 +61,10 @@ public class EnemyMovement : MonoBehaviour {
         {
             ang = 360 - ang;
         }
-        anim.SetFloat("LookRotation", ang / 360);
+        anim.SetFloat("LookRotation", ang);
+        if (gameObject.name == "Stormtrooper")
+        {
+            Debug.Log(gameObject.name + " " + ang.ToString());
+        }
     }
 }

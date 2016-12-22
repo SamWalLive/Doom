@@ -92,13 +92,16 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 36
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Stormtrooper_Forward_Walking_0
+    - serializedVersion: 2
+      name: Stormtrooper_Forward_Walking_0
       rect:
         serializedVersion: 2
         x: 0
@@ -109,7 +112,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Forward_Walking_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Forward_Walking_1
       rect:
         serializedVersion: 2
         x: 30
@@ -120,7 +125,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Forward_Walking_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Forward_Walking_2
       rect:
         serializedVersion: 2
         x: 60
@@ -131,7 +138,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Forward_Walking_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Forward_Walking_3
       rect:
         serializedVersion: 2
         x: 89
@@ -142,7 +151,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Forward_Walking_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Forward_Walking_4
       rect:
         serializedVersion: 2
         x: 119
@@ -153,7 +164,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Forward_Walking_5
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Forward_Walking_5
       rect:
         serializedVersion: 2
         x: 150
@@ -164,7 +177,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_ForwardSide_Walking_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ForwardSide_Walking_0
       rect:
         serializedVersion: 2
         x: 181
@@ -174,16 +189,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 67}
-        - {x: -21, y: 50}
-        - {x: -21, y: 29}
-        - {x: -1, y: 0}
-        - {x: 20, y: 0}
-        - {x: 21, y: 1}
-        - {x: 21, y: 56}
-        - {x: 19, y: 67}
-    - name: Stormtrooper_ForwardSide_Walking_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ForwardSide_Walking_1
       rect:
         serializedVersion: 2
         x: 224
@@ -193,14 +202,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -5, y: 67}
-        - {x: -20, y: 48}
-        - {x: -20, y: 27}
-        - {x: -8, y: 0}
-        - {x: 20, y: 0}
-        - {x: 20, y: 67}
-    - name: Stormtrooper_ForwardSide_Walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ForwardSide_Walking_2
       rect:
         serializedVersion: 2
         x: 265
@@ -210,19 +215,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 20.5, y: 7}
-        - {x: 20.5, y: 57}
-        - {x: 14.5, y: 67}
-        - {x: -6.5, y: 67}
-        - {x: -20.5, y: 59}
-        - {x: -20.5, y: 27}
-        - {x: -8.5, y: 0}
-        - {x: 8.5, y: 0}
-        - {x: 9.5, y: 1}
-        - {x: 9.5, y: 3}
-        - {x: 16.5, y: 0}
-    - name: Stormtrooper_ForwardSide_Walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ForwardSide_Walking_3
       rect:
         serializedVersion: 2
         x: 307
@@ -232,14 +228,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 32}
-        - {x: 1, y: 0}
-        - {x: 20, y: 0}
-        - {x: 20, y: 67}
-        - {x: -6, y: 67}
-        - {x: -20, y: 60}
-    - name: Stormtrooper_ForwardSide_Walking_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ForwardSide_Walking_4
       rect:
         serializedVersion: 2
         x: 348
@@ -249,16 +241,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0.5, y: 67}
-        - {x: -4.5, y: 66}
-        - {x: -22.5, y: 50}
-        - {x: -22.5, y: 18}
-        - {x: -20.5, y: 0}
-        - {x: 22.5, y: 0}
-        - {x: 22.5, y: 55}
-        - {x: 9.5, y: 67}
-    - name: Stormtrooper_ForwardSide_Walking_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ForwardSide_Walking_5
       rect:
         serializedVersion: 2
         x: 394
@@ -268,15 +254,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -19.5, y: 67}
-        - {x: -23.5, y: 63}
-        - {x: -23.5, y: 21}
-        - {x: -15.5, y: 0}
-        - {x: 23.5, y: 0}
-        - {x: 23.5, y: 61}
-        - {x: 13.5, y: 67}
-    - name: Stormtrooper_Back_Walking_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Back_Walking_0
       rect:
         serializedVersion: 2
         x: 0
@@ -287,7 +268,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Back_Walking_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Back_Walking_1
       rect:
         serializedVersion: 2
         x: 29
@@ -298,7 +281,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Back_Walking_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Back_Walking_2
       rect:
         serializedVersion: 2
         x: 58
@@ -309,7 +294,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Back_Walking_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Back_Walking_3
       rect:
         serializedVersion: 2
         x: 87
@@ -320,7 +307,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Back_Walking_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Back_Walking_4
       rect:
         serializedVersion: 2
         x: 116
@@ -331,7 +320,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Back_Walking_5
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Back_Walking_5
       rect:
         serializedVersion: 2
         x: 146
@@ -342,7 +333,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Shooting_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Shooting_0
       rect:
         serializedVersion: 2
         x: 175
@@ -353,7 +346,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Shooting_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Shooting_1
       rect:
         serializedVersion: 2
         x: 206
@@ -364,7 +359,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_ShotDeath_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ShotDeath_0
       rect:
         serializedVersion: 2
         x: 237
@@ -375,7 +372,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_ShotDeath_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ShotDeath_1
       rect:
         serializedVersion: 2
         x: 269
@@ -385,14 +384,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 5, y: 64}
-        - {x: -21, y: 64}
-        - {x: -21, y: 0}
-        - {x: 21, y: 0}
-        - {x: 21, y: 20}
-        - {x: 12, y: 46}
-    - name: Stormtrooper_ShotDeath_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ShotDeath_2
       rect:
         serializedVersion: 2
         x: 312
@@ -402,22 +397,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 5, y: 57}
-        - {x: 1, y: 57}
-        - {x: -2, y: 56}
-        - {x: -9, y: 48}
-        - {x: -13, y: 44}
-        - {x: -11, y: 48}
-        - {x: -11, y: 49}
-        - {x: -15, y: 55}
-        - {x: -22, y: 52}
-        - {x: -22, y: 1}
-        - {x: -19, y: 0}
-        - {x: 22, y: 0}
-        - {x: 22, y: 17}
-        - {x: 13, y: 49}
-    - name: Stormtrooper_ShotDeath_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ShotDeath_3
       rect:
         serializedVersion: 2
         x: 357
@@ -427,17 +410,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 42}
-        - {x: -21, y: 42}
-        - {x: -22, y: 40}
-        - {x: -22, y: 9}
-        - {x: -4, y: 0}
-        - {x: 20, y: 0}
-        - {x: 22, y: 2}
-        - {x: 22, y: 10}
-        - {x: 13, y: 37}
-    - name: Stormtrooper_ShotDeath_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_ShotDeath_4
       rect:
         serializedVersion: 2
         x: 402
@@ -447,16 +423,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 22}
-        - {x: -22, y: 19}
-        - {x: -22, y: 1}
-        - {x: -17, y: 0}
-        - {x: 20, y: 0}
-        - {x: 22, y: 1}
-        - {x: 22, y: 10}
-        - {x: 6, y: 22}
-    - name: Stormtrooper_Side_Walking_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Side_Walking_0
       rect:
         serializedVersion: 2
         x: 0
@@ -466,15 +436,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9.5, y: 67}
-        - {x: -19.5, y: 50}
-        - {x: -19.5, y: 32}
-        - {x: 3.5, y: 0}
-        - {x: 19.5, y: 0}
-        - {x: 19.5, y: 51}
-        - {x: 17.5, y: 67}
-    - name: Stormtrooper_Side_Walking_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Side_Walking_1
       rect:
         serializedVersion: 2
         x: 40
@@ -484,19 +449,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 25, y: 1}
-        - {x: 25, y: 28}
-        - {x: 14, y: 67}
-        - {x: -15, y: 67}
-        - {x: -25, y: 57}
-        - {x: -25, y: 15}
-        - {x: -21, y: 0}
-        - {x: -1, y: 0}
-        - {x: 2, y: 12}
-        - {x: 9, y: 0}
-        - {x: 24, y: 0}
-    - name: Stormtrooper_Side_Walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Side_Walking_2
       rect:
         serializedVersion: 2
         x: 91
@@ -506,17 +462,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 6.5, y: 67}
-        - {x: -15.5, y: 67}
-        - {x: -24.5, y: 54}
-        - {x: -24.5, y: 30}
-        - {x: -21.5, y: 0}
-        - {x: 18.5, y: 0}
-        - {x: 24.5, y: 1}
-        - {x: 24.5, y: 25}
-        - {x: 15.5, y: 52}
-    - name: Stormtrooper_Side_Walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Side_Walking_3
       rect:
         serializedVersion: 2
         x: 141
@@ -526,16 +475,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 67}
-        - {x: -18, y: 61}
-        - {x: -18, y: 28}
-        - {x: -5, y: 0}
-        - {x: 16, y: 0}
-        - {x: 18, y: 4}
-        - {x: 18, y: 55}
-        - {x: 14, y: 67}
-    - name: Stormtrooper_Side_Walking_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Side_Walking_4
       rect:
         serializedVersion: 2
         x: 178
@@ -545,16 +488,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 47}
-        - {x: -21.5, y: 0}
-        - {x: 21.5, y: 0}
-        - {x: 21.5, y: 20}
-        - {x: 18.5, y: 52}
-        - {x: 8.5, y: 67}
-        - {x: -4.5, y: 67}
-        - {x: -14.5, y: 61}
-    - name: Stormtrooper_Side_Walking_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Side_Walking_5
       rect:
         serializedVersion: 2
         x: 222
@@ -564,16 +501,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 9, y: 67}
-        - {x: -15, y: 67}
-        - {x: -23, y: 57}
-        - {x: -23, y: 3}
-        - {x: -20, y: 0}
-        - {x: 23, y: 0}
-        - {x: 23, y: 35}
-        - {x: 10, y: 66}
-    - name: Stormtrooper_BackSide_Walking_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_BackSide_Walking_0
       rect:
         serializedVersion: 2
         x: 269
@@ -584,7 +515,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_BackSide_Walking_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_BackSide_Walking_1
       rect:
         serializedVersion: 2
         x: 297
@@ -594,15 +527,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 66}
-        - {x: -18, y: 66}
-        - {x: -19, y: 56}
-        - {x: -19, y: 0}
-        - {x: 19, y: 0}
-        - {x: 19, y: 31}
-        - {x: 16, y: 54}
-    - name: Stormtrooper_BackSide_Walking_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_BackSide_Walking_2
       rect:
         serializedVersion: 2
         x: 336
@@ -612,17 +540,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2, y: 66}
-        - {x: 1, y: 67}
-        - {x: -10, y: 67}
-        - {x: -17, y: 56}
-        - {x: -19, y: 44}
-        - {x: -19, y: 0}
-        - {x: 19, y: 0}
-        - {x: 19, y: 29}
-        - {x: 13, y: 50}
-    - name: Stormtrooper_BackSide_Walking_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_BackSide_Walking_3
       rect:
         serializedVersion: 2
         x: 375
@@ -633,7 +554,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_BackSide_Walking_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_BackSide_Walking_4
       rect:
         serializedVersion: 2
         x: 402
@@ -644,7 +567,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_BackSide_Walking_5
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_BackSide_Walking_5
       rect:
         serializedVersion: 2
         x: 428
@@ -655,7 +580,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_OtherDeath_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_OtherDeath_0
       rect:
         serializedVersion: 2
         x: 0
@@ -665,15 +592,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12.5, y: 62}
-        - {x: -16.5, y: 59}
-        - {x: -16.5, y: 17}
-        - {x: -13.5, y: 0}
-        - {x: 16.5, y: 0}
-        - {x: 16.5, y: 46}
-        - {x: 3.5, y: 62}
-    - name: Stormtrooper_OtherDeath_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_OtherDeath_1
       rect:
         serializedVersion: 2
         x: 34
@@ -683,13 +605,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18, y: 61}
-        - {x: -18, y: 0}
-        - {x: 18, y: 0}
-        - {x: 18, y: 43}
-        - {x: -1, y: 61}
-    - name: Stormtrooper_OtherDeath_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_OtherDeath_2
       rect:
         serializedVersion: 2
         x: 71
@@ -699,15 +618,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15.5, y: 57}
-        - {x: -19.5, y: 55}
-        - {x: -19.5, y: 16}
-        - {x: -16.5, y: 0}
-        - {x: 19.5, y: 0}
-        - {x: 19.5, y: 37}
-        - {x: -0.5, y: 57}
-    - name: Stormtrooper_OtherDeath_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_OtherDeath_3
       rect:
         serializedVersion: 2
         x: 111
@@ -717,14 +631,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21, y: 52}
-        - {x: -21, y: 10}
-        - {x: -19, y: 0}
-        - {x: 21, y: 0}
-        - {x: 21, y: 40}
-        - {x: 14, y: 52}
-    - name: Stormtrooper_OtherDeath_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_OtherDeath_4
       rect:
         serializedVersion: 2
         x: 154
@@ -734,16 +644,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18.5, y: 41}
-        - {x: -22.5, y: 36}
-        - {x: -22.5, y: 4}
-        - {x: -20.5, y: 0}
-        - {x: 22.5, y: 0}
-        - {x: 22.5, y: 23}
-        - {x: 21.5, y: 25}
-        - {x: -5.5, y: 41}
-    - name: Stormtrooper_OtherDeath_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_OtherDeath_5
       rect:
         serializedVersion: 2
         x: 200
@@ -753,16 +657,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 22}
-        - {x: -22, y: 19}
-        - {x: -22, y: 1}
-        - {x: -17, y: 0}
-        - {x: 20, y: 0}
-        - {x: 22, y: 1}
-        - {x: 22, y: 10}
-        - {x: 6, y: 22}
-    - name: Stormtrooper_Front_Idle_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Front_Idle_0
       rect:
         serializedVersion: 2
         x: 245
@@ -772,14 +670,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 67}
-        - {x: -16, y: 55}
-        - {x: -16, y: 19}
-        - {x: -10, y: 0}
-        - {x: 16, y: 0}
-        - {x: 16, y: 67}
-    - name: Stormtrooper_FrontSide_Idle_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_FrontSide_Idle_0
       rect:
         serializedVersion: 2
         x: 278
@@ -789,14 +683,10 @@ TextureImporter:
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6.5, y: 67}
-        - {x: -17.5, y: 62}
-        - {x: -17.5, y: 17}
-        - {x: -11.5, y: 0}
-        - {x: 17.5, y: 0}
-        - {x: 17.5, y: 67}
-    - name: Stormtrooper_Side_Idle_0
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Side_Idle_0
       rect:
         serializedVersion: 2
         x: 314
@@ -807,7 +697,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_BackSide_Idle_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_BackSide_Idle_0
       rect:
         serializedVersion: 2
         x: 341
@@ -818,7 +710,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Stormtrooper_Back_Idle_0
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Stormtrooper_Back_Idle_0
       rect:
         serializedVersion: 2
         x: 367
@@ -829,6 +723,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 
