@@ -11,7 +11,7 @@ public class MouseLock : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetButtonDown("Cancel"))
+        if (Input.GetButtonDown("Menu"))
         {
             Change();
         }
@@ -19,7 +19,7 @@ public class MouseLock : MonoBehaviour {
 
     void Change()
     {
-        if (Input.GetButtonDown("Cancel"))
+        if (Input.GetButtonDown("Menu"))
         {
             Cursor.visible = !Cursor.visible;
             if (Cursor.visible)
