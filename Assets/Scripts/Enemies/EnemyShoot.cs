@@ -9,7 +9,7 @@ public class EnemyShoot : MonoBehaviour {
     public GameObject laser;
     public Transform shootTransform;
 
-    private NavMeshAgent nav;
+    private UnityEngine.AI.NavMeshAgent nav;
     private Animator anim;
     private float reactionTimer;
     private float reloadTimer;
@@ -18,7 +18,7 @@ public class EnemyShoot : MonoBehaviour {
 	void Start ()
     {
         GetComponent<SphereCollider>().radius = range;
-        nav = transform.parent.GetComponent<NavMeshAgent>();
+        nav = transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>();
         anim = transform.parent.GetComponent<Animator>();
         audioControl = transform.parent.GetComponent<EnemyAudio>();
 	}

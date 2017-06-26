@@ -6,13 +6,13 @@ public class EnemyMovement : MonoBehaviour {
     public GameObject player;
     public Vector3 target;
 
-    private NavMeshAgent navMesh;
+    private UnityEngine.AI.NavMeshAgent navMesh;
     private Animator anim;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        navMesh = GetComponent<NavMeshAgent>();
+        navMesh = GetComponent<UnityEngine.AI.NavMeshAgent>();
         navMesh.destination = target;
         if (player == null)
         {

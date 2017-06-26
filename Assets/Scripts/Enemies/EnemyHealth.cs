@@ -34,7 +34,7 @@ public class EnemyHealth : MonoBehaviour {
             anim.SetTrigger("ShotDeath");
         }
         anim.SetBool("IsDead", true);
-        GetComponent<NavMeshAgent>().enabled = false;
+        GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
         Destroy(GetComponent<CapsuleCollider>());
     }
 
